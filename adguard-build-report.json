@@ -1,8 +1,8 @@
 {
-  "candidates": 1730,
+  "candidates": 2332,
   "skipped": {
     "conditional": 780,
-    "other_syntax": 78,
+    "other_syntax": 82,
     "ip_exclusion_not_applicable": 8
   },
   "safeguard_domains": 750,
@@ -10,6 +10,11 @@
   "removed_for_safety": {
     "adfox.ru": [
       "adfox.ru"
+    ],
+    "adjust.com": [
+      "adjust.com",
+      "app.adjust.com",
+      "go.adjust.com"
     ],
     "advertising.com": [
       "guce.advertising.com"
@@ -29,6 +34,12 @@
     "at.adtech.redventures.io": [
       "redventures.io"
     ],
+    "baichuan-sdk.alicdn.com": [
+      "alicdn.com"
+    ],
+    "bdad.123pan.cn": [
+      "bdad.123pan.cn"
+    ],
     "conde.digital": [
       "puzzles-games-api.gp-prod.conde.digital"
     ],
@@ -41,6 +52,9 @@
     "dotomi.com": [
       "cj.dotomi.com"
     ],
+    "ef-dongfeng.tanx.com": [
+      "tanx.com"
+    ],
     "gcdn.2mdn.net": [
       "2mdn.net"
     ],
@@ -50,11 +64,17 @@
     "i.skimresources.com": [
       "skimresources.com"
     ],
+    "ifs.tanx.com": [
+      "tanx.com"
+    ],
     "imrworldwide.com": [
       "imrworldwide.com"
     ],
     "kqzyfj.com": [
       "kqzyfj.com"
+    ],
+    "log.popin.cc": [
+      "popin.cc"
     ],
     "p.tanx.com": [
       "tanx.com"
@@ -65,8 +85,14 @@
     "r0.mradx.net": [
       "mradx.net"
     ],
+    "rlog.popin.cc": [
+      "popin.cc"
+    ],
     "scorecardresearch.com": [
       "scorecardresearch.com"
+    ],
+    "sf16-static.i18n-pglstatp.com": [
+      "i18n-pglstatp.com"
     ],
     "shareasale.com": [
       "shareasale.com"
@@ -81,7 +107,7 @@
       "veta.naver.com"
     ]
   },
-  "output_domains": 1697,
+  "output_domains": 2179,
   "provenance": {
     "002777.xyz": [
       "chinese.txt:132"
@@ -94,6 +120,15 @@
     ],
     "1200555.com": [
       "chinese.txt:135"
+    ],
+    "1500020991.vodplayer.wxamedia.com": [
+      "awavenue/ads.txt:12"
+    ],
+    "1500022744.vodplayer.wxamedia.com": [
+      "awavenue/ads.txt:13"
+    ],
+    "1500026601.vodplayer.wxamedia.com": [
+      "awavenue/ads.txt:14"
     ],
     "152media.cloud": [
       "base.txt:1447"
@@ -112,6 +147,9 @@
     ],
     "1oqib8z2vxqmtwtczzg.cfd": [
       "base.txt:94"
+    ],
+    "1rtb.com": [
+      "awavenue/ads.txt:655"
     ],
     "247realmedia.com": [
       "mobile.txt:746"
@@ -149,6 +187,9 @@
     "883.engine.mobileapptracking.com": [
       "mobile.txt:675"
     ],
+    "8le8le.com": [
+      "awavenue/ads.txt:15"
+    ],
     "9867.org": [
       "chinese.txt:46"
     ],
@@ -167,11 +208,17 @@
     "a.line.me": [
       "mobile.txt:50"
     ],
+    "a.market.xiaomi.com": [
+      "awavenue/ads.txt:656"
+    ],
     "a.pur.agency": [
       "base.txt:197"
     ],
     "a.tyncar.com": [
       "chinese.txt:200"
+    ],
+    "a0.app.xiaomi.com": [
+      "awavenue/ads.txt:16"
     ],
     "aacycjgsifojcw.com": [
       "base.txt:562"
@@ -231,6 +278,9 @@
     "acvraulxhsvkr.com": [
       "base.txt:572"
     ],
+    "ad-api.4pyun.com": [
+      "awavenue/ads.txt:17"
+    ],
     "ad-api.ehawk.com": [
       "mobile.txt:68"
     ],
@@ -246,29 +296,61 @@
     "ad-brix.com": [
       "mobile.txt:751"
     ],
+    "ad-cdn.qingting.fm": [
+      "awavenue/ads.txt:18"
+    ],
     "ad-channel.wikawika.xyz": [
       "mobile.txt:530"
+    ],
+    "ad-cmp.hismarttv.com": [
+      "awavenue/ads.txt:19"
     ],
     "ad-creatives-public.commondatastorage.googleapis.com": [
       "mobile.txt:743"
     ],
+    "ad-download.hismarttv.com": [
+      "awavenue/ads.txt:20"
+    ],
     "ad-ettoday.cdn.hinet.net": [
       "mobile.txt:635"
     ],
+    "ad-files.4pyun.com": [
+      "awavenue/ads.txt:21"
+    ],
     "ad-files.classting.com": [
       "mobile.txt:350"
+    ],
+    "ad-scope.com": [
+      "awavenue/ads.txt:22"
+    ],
+    "ad-scope.com.cn": [
+      "awavenue/ads.txt:23"
+    ],
+    "ad-sdk-config.youdao.com": [
+      "awavenue/ads.txt:24"
     ],
     "ad-specs.guoshipartners.com": [
       "base.txt:1134"
     ],
     "ad-splash-tracking.hktvmall.com": [
-      "mobile.txt:22"
+      "mobile.txt:22",
+      "awavenue/ads.txt:25"
     ],
     "ad-splash.hktvmall.com": [
-      "mobile.txt:23"
+      "mobile.txt:23",
+      "awavenue/ads.txt:26"
     ],
     "ad-x.co.uk": [
       "mobile.txt:752"
+    ],
+    "ad.12306.cn": [
+      "awavenue/ads.txt:27"
+    ],
+    "ad.51wnl.com": [
+      "awavenue/ads.txt:28"
+    ],
+    "ad.api.3g.youku.com": [
+      "awavenue/ads.txt:29"
     ],
     "ad.apps.fm": [
       "mobile.txt:753"
@@ -282,11 +364,23 @@
     "ad.bluepartner.eu": [
       "base.txt:830"
     ],
+    "ad.bn.netease.com": [
+      "awavenue/ads.txt:30"
+    ],
     "ad.buzzvil.com": [
       "mobile.txt:119"
     ],
+    "ad.bwton.com": [
+      "awavenue/ads.txt:31"
+    ],
     "ad.cauly.co.kr": [
       "mobile.txt:739"
+    ],
+    "ad.cctv.com": [
+      "awavenue/ads.txt:32"
+    ],
+    "ad.cyapi.cn": [
+      "awavenue/ads.txt:33"
     ],
     "ad.daum.net": [
       "mobile.txt:676"
@@ -294,8 +388,14 @@
     "ad.deepthought.industries": [
       "mobile.txt:324"
     ],
+    "ad.doubleclick.net": [
+      "awavenue/ads.txt:34"
+    ],
     "ad.duapps.com": [
       "mobile.txt:136"
+    ],
+    "ad.duoduo.link": [
+      "awavenue/ads.txt:35"
     ],
     "ad.flipboard.com": [
       "mobile.txt:89"
@@ -303,14 +403,27 @@
     "ad.foxnetworks.com": [
       "base.txt:866"
     ],
+    "ad.gameley.com": [
+      "awavenue/ads.txt:36",
+      "awavenue/ads.txt:657"
+    ],
+    "ad.hpplay.cn": [
+      "awavenue/ads.txt:37"
+    ],
     "ad.inston.ltd": [
       "mobile.txt:323"
     ],
     "ad.intools.dev": [
       "mobile.txt:265"
     ],
+    "ad.iot.360.cn": [
+      "awavenue/ads.txt:38"
+    ],
     "ad.iwhop.cn": [
       "mobile.txt:343"
+    ],
+    "ad.jia.360.cn": [
+      "awavenue/ads.txt:39"
     ],
     "ad.jorte.com": [
       "mobile.txt:755"
@@ -321,11 +434,17 @@
     "ad.leap.app": [
       "mobile.txt:538"
     ],
+    "ad.life.360.cn": [
+      "awavenue/ads.txt:40"
+    ],
     "ad.line-scdn.net": [
       "mobile.txt:348"
     ],
     "ad.lomadee.com": [
       "base.txt:864"
+    ],
+    "ad.maoyan.com": [
+      "awavenue/ads.txt:41"
     ],
     "ad.mediamixer.co.kr": [
       "mobile.txt:378"
@@ -345,8 +464,29 @@
     "ad.particlenews.com": [
       "mobile.txt:545"
     ],
+    "ad.partner.gifshow.com": [
+      "awavenue/ads.txt:42"
+    ],
     "ad.period-calendar.com": [
       "mobile.txt:689"
+    ],
+    "ad.player.baidu.com": [
+      "awavenue/ads.txt:43"
+    ],
+    "ad.qingting.fm": [
+      "awavenue/ads.txt:44"
+    ],
+    "ad.qq.com": [
+      "awavenue/ads.txt:45"
+    ],
+    "ad.richmob.cn": [
+      "awavenue/ads.txt:46"
+    ],
+    "ad.shenshiads.com": [
+      "awavenue/ads.txt:47"
+    ],
+    "ad.shunchangzhixing.com": [
+      "awavenue/ads.txt:48"
     ],
     "ad.simpledesign.ltd": [
       "mobile.txt:417"
@@ -364,7 +504,14 @@
       "mobile.txt:470"
     ],
     "ad.tencentmusic.com": [
-      "mobile.txt:518"
+      "mobile.txt:518",
+      "awavenue/ads.txt:49"
+    ],
+    "ad.toutiao.com": [
+      "awavenue/ads.txt:50"
+    ],
+    "ad.v3mh.com": [
+      "awavenue/ads.txt:51"
     ],
     "ad.vrvm.com": [
       "mobile.txt:759"
@@ -375,8 +522,17 @@
     "ad.weplayer.cc": [
       "mobile.txt:81"
     ],
+    "ad.winrar.com.cn": [
+      "awavenue/ads.txt:52"
+    ],
     "ad.wynk.in": [
       "mobile.txt:546"
+    ],
+    "ad.ximalaya.com": [
+      "awavenue/ads.txt:53"
+    ],
+    "ad.xunkids.com": [
+      "awavenue/ads.txt:54"
     ],
     "ad.youku.com": [
       "mobile.txt:14"
@@ -385,7 +541,8 @@
       "mobile.txt:204"
     ],
     "ad.zijieapi.com": [
-      "mobile.txt:381"
+      "mobile.txt:381",
+      "awavenue/ads.txt:55"
     ],
     "ad.zui.com": [
       "chinese.txt:133"
@@ -402,6 +559,9 @@
     "ad3.udn.com": [
       "base.txt:1140"
     ],
+    "ad4.sina.com.cn": [
+      "awavenue/ads.txt:56"
+    ],
     "ad4.udn.com": [
       "base.txt:1141"
     ],
@@ -416,6 +576,12 @@
     ],
     "adadvisor.net": [
       "mobile.txt:761"
+    ],
+    "adapi.izuiyou.com": [
+      "awavenue/ads.txt:57"
+    ],
+    "adapi.yynetwk.com": [
+      "awavenue/ads.txt:58"
     ],
     "adballoon.sooplive.com": [
       "mobile.txt:147"
@@ -435,8 +601,23 @@
     "adbot.tw": [
       "chinese.txt:163"
     ],
+    "adbox.sina.com.cn": [
+      "awavenue/ads.txt:59"
+    ],
+    "adc.hpplay.cn": [
+      "awavenue/ads.txt:60"
+    ],
     "adcamp.ru": [
       "mobile.txt:763"
+    ],
+    "adcanvas.com": [
+      "awavenue/ads.txt:61"
+    ],
+    "adcdn.hpplay.cn": [
+      "awavenue/ads.txt:62"
+    ],
+    "adcdn.tencentmusic.com": [
+      "awavenue/ads.txt:63"
     ],
     "adcel.co": [
       "mobile.txt:523"
@@ -444,8 +625,15 @@
     "adcel.vrvm.com": [
       "mobile.txt:764"
     ],
+    "adclick.g.doubleclick.net": [
+      "awavenue/ads.txt:64"
+    ],
+    "adclick.tencentmusic.com": [
+      "awavenue/ads.txt:65"
+    ],
     "adcolony.com": [
-      "mobile.txt:765"
+      "mobile.txt:765",
+      "awavenue/ads.txt:66"
     ],
     "adcs.myappsget.com": [
       "mobile.txt:413"
@@ -456,14 +644,26 @@
     "addapptr.com": [
       "mobile.txt:766"
     ],
+    "addata.jd.com": [
+      "awavenue/ads.txt:67"
+    ],
     "addata.mediacategory.com": [
       "mobile.txt:560"
     ],
     "adeeply.ru": [
       "mobile.txt:238"
     ],
+    "adeng.hpplay.cn": [
+      "awavenue/ads.txt:68"
+    ],
     "adentifi.com": [
       "mobile.txt:557"
+    ],
+    "adexp.chinaliftoff.io": [
+      "awavenue/ads.txt:69"
+    ],
+    "adexpo.tencentmusic.com": [
+      "awavenue/ads.txt:71"
     ],
     "adflake.com": [
       "mobile.txt:741"
@@ -492,6 +692,9 @@
     "adgrx.com": [
       "mobile.txt:771"
     ],
+    "adguanggao.eee114.com": [
+      "awavenue/ads.txt:72"
+    ],
     "adhitzads.com": [
       "mobile.txt:772"
     ],
@@ -504,14 +707,26 @@
     "adhunter.media": [
       "base.txt:1484"
     ],
+    "adimg.uve.weibo.com": [
+      "awavenue/ads.txt:73"
+    ],
     "adinfo.tango.me": [
       "mobile.txt:774"
+    ],
+    "adintl.cn": [
+      "awavenue/ads.txt:658"
     ],
     "adition.com": [
       "mobile.txt:775"
     ],
+    "adjust.cn": [
+      "awavenue/ads.txt:74"
+    ],
     "adkmob.com": [
       "mobile.txt:776"
+    ],
+    "adks.hpplay.cn": [
+      "awavenue/ads.txt:76"
     ],
     "adkwai.com": [
       "mobile.txt:392"
@@ -522,11 +737,21 @@
     "adlibr.com": [
       "mobile.txt:778"
     ],
+    "adlink-api.huan.tv": [
+      "awavenue/ads.txt:77"
+    ],
+    "adlog.vivo.com.cn": [
+      "awavenue/ads.txt:78"
+    ],
+    "adm.funshion.com": [
+      "awavenue/ads.txt:79"
+    ],
     "adman.gr": [
       "mobile.txt:779"
     ],
     "admarketing.yahoo.net": [
-      "mobile.txt:780"
+      "mobile.txt:780",
+      "awavenue/ads.txt:81"
     ],
     "admarvel.com": [
       "mobile.txt:729"
@@ -545,6 +770,9 @@
     ],
     "admixer.co.kr": [
       "mobile.txt:785"
+    ],
+    "admobile.top": [
+      "awavenue/ads.txt:82"
     ],
     "admozartxml.com": [
       "base.txt:1470"
@@ -597,14 +825,23 @@
     "adquota.com": [
       "mobile.txt:792"
     ],
+    "adreq.vivo.com.cn": [
+      "awavenue/ads.txt:83"
+    ],
     "adright.com": [
       "base.txt:1473"
     ],
     "ads-ap-venues.yinzcam.com": [
       "mobile.txt:320"
     ],
+    "ads-api-o.api.leiniao.com": [
+      "awavenue/ads.txt:84"
+    ],
     "ads-api.kidsnote.com": [
       "mobile.txt:397"
+    ],
+    "ads-api.twitter.com": [
+      "awavenue/ads.txt:85"
     ],
     "ads-bidder-api.twitter.com": [
       "mobile.txt:651"
@@ -636,6 +873,15 @@
     "ads-gdl.imovideo.ru": [
       "mobile.txt:462"
     ],
+    "ads-img-al.xhscdn.com": [
+      "awavenue/ads.txt:86"
+    ],
+    "ads-img-bak.xhscdn.com": [
+      "awavenue/ads.txt:87"
+    ],
+    "ads-img-qc.xhscdn.com": [
+      "awavenue/ads.txt:88"
+    ],
     "ads-interfaces.sc-cdn.net": [
       "mobile.txt:466"
     ],
@@ -645,6 +891,9 @@
     "ads-m.rustore.ru": [
       "mobile.txt:172"
     ],
+    "ads-marketing-vivofs.vivo.com.cn": [
+      "awavenue/ads.txt:89"
+    ],
     "ads-proxy-aka.prod.bo.canal.canalplustech.pro": [
       "mobile.txt:162"
     ],
@@ -653,6 +902,9 @@
     ],
     "ads-router-noneu.truecaller.com": [
       "mobile.txt:338"
+    ],
+    "ads-sdk-api.ranfenghd.com": [
+      "awavenue/ads.txt:90"
     ],
     "ads-sdk.mattel163.com": [
       "mobile.txt:418"
@@ -666,17 +918,35 @@
     "ads-server.mxplay.com": [
       "mobile.txt:430"
     ],
+    "ads-shopping.shouqianba.com": [
+      "awavenue/ads.txt:91"
+    ],
     "ads-static.phonepe.com": [
       "mobile.txt:214"
     ],
+    "ads-video-al.xhscdn.com": [
+      "awavenue/ads.txt:92"
+    ],
+    "ads-video-qc.xhscdn.com": [
+      "awavenue/ads.txt:93"
+    ],
+    "ads-vp5.xhscdn.com": [
+      "awavenue/ads.txt:94"
+    ],
     "ads.123net.jp": [
       "base.txt:960"
+    ],
+    "ads.95516.com": [
+      "awavenue/ads.txt:95"
     ],
     "ads.ad2iction.com": [
       "mobile.txt:793"
     ],
     "ads.adadapted.com": [
       "mobile.txt:406"
+    ],
+    "ads.adfunlink.com": [
+      "awavenue/ads.txt:96"
     ],
     "ads.adinmotech.com": [
       "mobile.txt:318"
@@ -693,11 +963,17 @@
     "ads.appsgeyser.com": [
       "mobile.txt:563"
     ],
+    "ads.auctions.yahoo.com": [
+      "awavenue/ads.txt:97"
+    ],
     "ads.bulldogcpi.com": [
       "mobile.txt:601"
     ],
     "ads.cocomobi.com": [
       "mobile.txt:325"
+    ],
+    "ads.cup.com.cn": [
+      "awavenue/ads.txt:98"
     ],
     "ads.dzeko11.st": [
       "base.txt:188"
@@ -708,8 +984,23 @@
     "ads.feelingtouch.com": [
       "mobile.txt:517"
     ],
+    "ads.finance.yahoo.com": [
+      "awavenue/ads.txt:99"
+    ],
+    "ads.google.cn": [
+      "awavenue/ads.txt:100"
+    ],
     "ads.heytapmobi.com": [
       "mobile.txt:176"
+    ],
+    "ads.huan.tv": [
+      "awavenue/ads.txt:101"
+    ],
+    "ads.huantest.com": [
+      "awavenue/ads.txt:102"
+    ],
+    "ads.icloseli.cn": [
+      "awavenue/ads.txt:103"
     ],
     "ads.imbc.com": [
       "mobile.txt:424"
@@ -718,13 +1009,20 @@
       "mobile.txt:463"
     ],
     "ads.inmobi.com": [
-      "mobile.txt:919"
+      "mobile.txt:919",
+      "awavenue/ads.txt:104"
     ],
     "ads.iosappsworld.com": [
       "mobile.txt:519"
     ],
+    "ads.ishansong.com": [
+      "awavenue/ads.txt:105"
+    ],
     "ads.jianchiapp.com": [
       "mobile.txt:653"
+    ],
+    "ads.linkedin.com": [
+      "awavenue/ads.txt:106"
     ],
     "ads.mobilityware.com": [
       "mobile.txt:795"
@@ -747,11 +1045,23 @@
     "ads.pinger.com": [
       "mobile.txt:799"
     ],
+    "ads.pinterest.com": [
+      "awavenue/ads.txt:107"
+    ],
     "ads.playground.xyz": [
       "base.txt:825"
     ],
+    "ads.pubmatic.com": [
+      "awavenue/ads.txt:108"
+    ],
+    "ads.raidrive.com": [
+      "awavenue/ads.txt:109"
+    ],
     "ads.rmbl.ws": [
       "mobile.txt:357"
+    ],
+    "ads.service.kugou.com": [
+      "awavenue/ads.txt:111"
     ],
     "ads.smrtbid.com": [
       "mobile.txt:310"
@@ -762,14 +1072,45 @@
     "ads.topsex.cc": [
       "base.txt:896"
     ],
+    "ads.v3mh.com": [
+      "awavenue/ads.txt:112"
+    ],
     "ads.xlxtra.com": [
       "mobile.txt:801"
     ],
     "ads.youtube.com": [
-      "mobile.txt:802"
+      "mobile.txt:802",
+      "awavenue/ads.txt:113"
+    ],
+    "ads.zhinengxiyifang.cn": [
+      "awavenue/ads.txt:114"
     ],
     "ads01.pages.dev": [
       "base.txt:598"
+    ],
+    "ads3-normal-hl.zijieapi.com": [
+      "awavenue/ads.txt:115"
+    ],
+    "ads3-normal-lf.zijieapi.com": [
+      "awavenue/ads.txt:116"
+    ],
+    "ads3-normal-lq.zijieapi.com": [
+      "awavenue/ads.txt:117"
+    ],
+    "ads3-normal.zijieapi.com": [
+      "awavenue/ads.txt:118"
+    ],
+    "ads5-normal-hl.zijieapi.com": [
+      "awavenue/ads.txt:119"
+    ],
+    "ads5-normal-lf.zijieapi.com": [
+      "awavenue/ads.txt:120"
+    ],
+    "ads5-normal-lq.zijieapi.com": [
+      "awavenue/ads.txt:121"
+    ],
+    "ads5-normal.zijieapi.com": [
+      "awavenue/ads.txt:122"
     ],
     "adsapi.manhuaren.com": [
       "mobile.txt:632"
@@ -789,11 +1130,32 @@
     "adsbynimbus.com": [
       "mobile.txt:464"
     ],
+    "adscdn.baidu.com": [
+      "awavenue/ads.txt:123"
+    ],
+    "adsdk.vivo.com.cn": [
+      "awavenue/ads.txt:124"
+    ],
     "adsdk.vrvm.com": [
       "mobile.txt:706"
     ],
+    "adse.test.ximalaya.com": [
+      "awavenue/ads.txt:125"
+    ],
+    "adse.wsa.ximalaya.com": [
+      "awavenue/ads.txt:126"
+    ],
+    "adse.ximalaya.com": [
+      "awavenue/ads.txt:127"
+    ],
+    "adsebs.ximalaya.com": [
+      "awavenue/ads.txt:128"
+    ],
     "adsee.jp": [
       "mobile.txt:803"
+    ],
+    "adsense.google.cn": [
+      "awavenue/ads.txt:129"
     ],
     "adserver.goforandroid.com": [
       "mobile.txt:804"
@@ -810,17 +1172,43 @@
     "adserver.yahoo.com": [
       "base.txt:1032"
     ],
+    "adservice.google.com": [
+      "awavenue/ads.txt:131"
+    ],
+    "adservice.sigmob.cn": [
+      "awavenue/ads.txt:132"
+    ],
     "adservice.tohsoft.com": [
       "mobile.txt:542"
+    ],
+    "adserviceretry.kugou.com": [
+      "awavenue/ads.txt:133"
     ],
     "adserwer.xwords.pl": [
       "base.txt:1109"
     ],
+    "adsfile.bssdlbig.kugou.com": [
+      "awavenue/ads.txt:134"
+    ],
+    "adsfile.qq.com": [
+      "awavenue/ads.txt:135"
+    ],
+    "adsfilebssdlbig.ali.kugou.com": [
+      "awavenue/ads.txt:136"
+    ],
+    "adsfileretry.service.kugou.com": [
+      "awavenue/ads.txt:137"
+    ],
+    "adsfs-sdkconfig.heytapimage.com": [
+      "awavenue/ads.txt:138"
+    ],
     "adsfs.heytapimage.com": [
-      "mobile.txt:177"
+      "mobile.txt:177",
+      "awavenue/ads.txt:139"
     ],
     "adsfs.oppomobile.com": [
-      "mobile.txt:421"
+      "mobile.txt:421",
+      "awavenue/ads.txt:140"
     ],
     "adsgard.aprod.scopely.io": [
       "mobile.txt:465"
@@ -837,6 +1225,21 @@
     "adslot.uc.cn": [
       "mobile.txt:709"
     ],
+    "adslvfile.qq.com": [
+      "awavenue/ads.txt:141"
+    ],
+    "adsmart.konka.com": [
+      "awavenue/ads.txt:142"
+    ],
+    "adsmartget.datads.cn": [
+      "awavenue/ads.txt:143"
+    ],
+    "adsmind.gdtimg.com": [
+      "awavenue/ads.txt:144"
+    ],
+    "adsmind.ugdtimg.com": [
+      "awavenue/ads.txt:145"
+    ],
     "adsmo.ru": [
       "mobile.txt:808"
     ],
@@ -847,7 +1250,9 @@
       "mobile.txt:659"
     ],
     "adsmoloco.com": [
-      "mobile.txt:809"
+      "mobile.txt:809",
+      "awavenue/ads.txt:146",
+      "awavenue/ads.txt:659"
     ],
     "adsmrapi.imbc.com": [
       "mobile.txt:423"
@@ -858,6 +1263,9 @@
     "adsolut.in": [
       "base.txt:1430"
     ],
+    "adsp.xunlei.com": [
+      "awavenue/ads.txt:147"
+    ],
     "adspot.tfgapps.com": [
       "mobile.txt:532"
     ],
@@ -867,11 +1275,29 @@
     "adsrvr.org": [
       "mobile.txt:811"
     ],
+    "adstat.izuiyou.com": [
+      "awavenue/ads.txt:148"
+    ],
+    "adstats.tencentmusic.com": [
+      "awavenue/ads.txt:149"
+    ],
     "adsterratech.com": [
       "base.txt:88"
     ],
-    "adstrategy.biz.weibo.com": [
-      "mobile.txt:121"
+    "adstextview.qq.com": [
+      "awavenue/ads.txt:150"
+    ],
+    "adstore-1252524079.file.myqcloud.com": [
+      "awavenue/ads.txt:151"
+    ],
+    "adstore-index-1252524079.file.myqcloud.com": [
+      "awavenue/ads.txt:152"
+    ],
+    "adstudio-assets.scdn.co": [
+      "awavenue/ads.txt:154"
+    ],
+    "adtago.s3.amazonaws.com": [
+      "awavenue/ads.txt:155"
     ],
     "adtech.de": [
       "mobile.txt:812"
@@ -891,14 +1317,26 @@
     "adtrack.king.com": [
       "mobile.txt:814"
     ],
+    "adtrack.quark.cn": [
+      "awavenue/ads.txt:156"
+    ],
+    "adtracker.adfunlink.com": [
+      "awavenue/ads.txt:157"
+    ],
     "adtscriptshark.com": [
       "base.txt:575"
     ],
     "adtube.media": [
       "base.txt:1449"
     ],
+    "adui.tg.meitu.com": [
+      "awavenue/ads.txt:159"
+    ],
     "adultadworld.com": [
       "mobile.txt:815"
+    ],
+    "adv-api.shenshiads.com": [
+      "awavenue/ads.txt:160"
     ],
     "adv-ettoday.cdn.hinet.net": [
       "mobile.txt:636"
@@ -916,7 +1354,11 @@
       "mobile.txt:816"
     ],
     "adv.sec.intl.miui.com": [
-      "mobile.txt:615"
+      "mobile.txt:615",
+      "awavenue/ads.txt:161"
+    ],
+    "adv.sec.miui.com": [
+      "awavenue/ads.txt:162"
     ],
     "adversal.com": [
       "mobile.txt:817"
@@ -933,6 +1375,12 @@
     "advertur.ru": [
       "mobile.txt:821"
     ],
+    "advice-ads.s3.amazonaws.com": [
+      "awavenue/ads.txt:163"
+    ],
+    "adview.cn": [
+      "awavenue/ads.txt:164"
+    ],
     "advil.waze.com": [
       "mobile.txt:25"
     ],
@@ -948,23 +1396,64 @@
     "advombat.ru": [
       "mobile.txt:822"
     ],
+    "adx-ad.smart-tv.cn": [
+      "awavenue/ads.txt:165"
+    ],
+    "adx-api.jinmo.tech": [
+      "awavenue/ads.txt:166"
+    ],
+    "adx-drcn.op.dbankcloud.cn": [
+      "awavenue/ads.txt:170"
+    ],
     "adx-dre.op.hicloud.com": [
       "mobile.txt:468"
     ],
     "adx-open-service.youku.com": [
-      "mobile.txt:13"
+      "mobile.txt:13",
+      "awavenue/ads.txt:171"
     ],
     "adx-os.bridgeoos.com": [
-      "mobile.txt:300"
+      "mobile.txt:300",
+      "awavenue/ads.txt:173"
+    ],
+    "adx-saas.advlion.com": [
+      "awavenue/ads.txt:174"
     ],
     "adx-sg-req.bridgeoos.com": [
       "mobile.txt:299"
+    ],
+    "adx-strategy-api-cn.statisticslinks.com": [
+      "awavenue/ads.txt:175"
+    ],
+    "adx.adwangmai.com": [
+      "awavenue/ads.txt:660"
+    ],
+    "adx.appsdk.com.cn": [
+      "awavenue/ads.txt:179"
+    ],
+    "adx.sogaha.cn": [
+      "awavenue/ads.txt:180"
+    ],
+    "adx.tuia.cn": [
+      "awavenue/ads.txt:181"
     ],
     "adxcorp.kr": [
       "mobile.txt:586"
     ],
     "adxfactory.com": [
       "base.txt:1469"
+    ],
+    "adxlog-adnet.vivo.com.cn": [
+      "awavenue/ads.txt:182"
+    ],
+    "adxlog.vivo.com.cn": [
+      "awavenue/ads.txt:183"
+    ],
+    "adxserver.ad.cmvideo.cn": [
+      "awavenue/ads.txt:184"
+    ],
+    "adxstatic.vivo.com.cn": [
+      "awavenue/ads.txt:185"
     ],
     "adz.mobi": [
       "mobile.txt:823"
@@ -980,6 +1469,9 @@
     ],
     "adzmobi.com": [
       "mobile.txt:825"
+    ],
+    "aem.dentsuchina.cn": [
+      "awavenue/ads.txt:186"
     ],
     "afafb.com": [
       "mobile.txt:266"
@@ -1000,7 +1492,8 @@
       "base.txt:571"
     ],
     "afs.googlesyndication.com": [
-      "mobile.txt:205"
+      "mobile.txt:205",
+      "awavenue/ads.txt:187"
     ],
     "agent.tamedia.com.tw": [
       "mobile.txt:655"
@@ -1017,6 +1510,9 @@
     "agl010.pro": [
       "base.txt:490"
     ],
+    "agn.aty.sohu.com": [
+      "awavenue/ads.txt:188"
+    ],
     "ahoy-internal-ads-hv.b-cdn.net": [
       "mobile.txt:341"
     ],
@@ -1025,6 +1521,9 @@
     ],
     "aikhiwnpdff.com": [
       "base.txt:427"
+    ],
+    "aiseet.aa.atianqi.com": [
+      "awavenue/ads.txt:189"
     ],
     "aixmqgygvui.com": [
       "base.txt:526"
@@ -1045,7 +1544,17 @@
       "base.txt:1029"
     ],
     "ali-ad.a.yximgs.com": [
-      "mobile.txt:387"
+      "mobile.txt:387",
+      "awavenue/ads.txt:190"
+    ],
+    "alicoccdncnc-xn.inter.71edge.com": [
+      "awavenue/ads.txt:191"
+    ],
+    "alicoccdnct-xn.inter.71edge.com": [
+      "awavenue/ads.txt:192"
+    ],
+    "als.baidu.com": [
+      "awavenue/ads.txt:193"
     ],
     "alt-ad.mail.ru": [
       "mobile.txt:475"
@@ -1075,10 +1584,17 @@
       "mobile.txt:826"
     ],
     "an.facebook.com": [
-      "mobile.txt:498"
+      "mobile.txt:498",
+      "awavenue/ads.txt:194"
+    ],
+    "analytics.oceanengine.com": [
+      "awavenue/ads.txt:196"
     ],
     "analytics.scalemonk.com": [
       "mobile.txt:533"
+    ],
+    "analytics.tiktok.com": [
+      "awavenue/ads.txt:198"
     ],
     "analyticsq.com": [
       "base.txt:1064"
@@ -1088,6 +1604,9 @@
     ],
     "androidtvwatsonfe-pa.googleapis.com": [
       "base.txt:832"
+    ],
+    "andrqd.play.aiseet.atianqi.com": [
+      "awavenue/ads.txt:199"
     ],
     "antiadblockcore.com": [
       "base.txt:177"
@@ -1101,11 +1620,35 @@
     "aoqenxgnxtnnc.club": [
       "base.txt:628"
     ],
+    "ap.dongdianqiu.com": [
+      "awavenue/ads.txt:200"
+    ],
+    "ap.dongqiudi.com": [
+      "awavenue/ads.txt:201"
+    ],
     "ap.smardroid.com": [
       "mobile.txt:663"
     ],
     "apbjukta.com": [
       "base.txt:520"
+    ],
+    "api-access.pangolin-sdk-toutiao.com": [
+      "awavenue/ads.txt:203"
+    ],
+    "api-access.pangolin-sdk-toutiao1.com": [
+      "awavenue/ads.txt:204"
+    ],
+    "api-access.pangolin-sdk-toutiao2.com": [
+      "awavenue/ads.txt:205"
+    ],
+    "api-access.pangolin-sdk-toutiao3.com": [
+      "awavenue/ads.txt:206"
+    ],
+    "api-access.pangolin-sdk-toutiao4.com": [
+      "awavenue/ads.txt:207"
+    ],
+    "api-access.pangolin-sdk-toutiao5.com": [
+      "awavenue/ads.txt:208"
     ],
     "api-ad-adapter.wps.com": [
       "mobile.txt:438"
@@ -1113,11 +1656,29 @@
     "api-ad-callback.falconnet.app": [
       "mobile.txt:336"
     ],
+    "api-ad-data.kajicam.com": [
+      "awavenue/ads.txt:209"
+    ],
+    "api-ad-product.huxiu.com": [
+      "awavenue/ads.txt:210"
+    ],
+    "api-ad.kajicam.com": [
+      "awavenue/ads.txt:211"
+    ],
+    "api-adservices.apple.com": [
+      "awavenue/ads.txt:212"
+    ],
+    "api-gd.hiaiabc.com": [
+      "awavenue/ads.txt:213"
+    ],
     "api-v2.shareitgames.com": [
       "mobile.txt:199"
     ],
     "api.ad-locus.com": [
       "mobile.txt:683"
+    ],
+    "api.ad.xiaomi.com": [
+      "awavenue/ads.txt:215"
     ],
     "api.adaether.com": [
       "mobile.txt:274"
@@ -1143,11 +1704,23 @@
     "api.clickaine.com": [
       "base.txt:840"
     ],
+    "api.e.kuaishou.com": [
+      "awavenue/ads.txt:218"
+    ],
     "api.fusepowered.com": [
       "mobile.txt:827"
     ],
+    "api.hzsanjiaomao.com": [
+      "awavenue/ads.txt:221"
+    ],
+    "api.installer.xiaomi.com": [
+      "awavenue/ads.txt:222"
+    ],
     "api.itpub.cloud": [
       "mobile.txt:471"
+    ],
+    "api.jietuhb.com": [
+      "awavenue/ads.txt:223"
     ],
     "api.kickoffo.site": [
       "mobile.txt:301"
@@ -1174,13 +1747,17 @@
       "base.txt:835"
     ],
     "api.shanghailingye.cn": [
-      "chinese.txt:33"
+      "chinese.txt:33",
+      "awavenue/ads.txt:224"
     ],
     "api.smartnews-ads.com": [
       "base.txt:1231"
     ],
     "api.sve.cc": [
       "mobile.txt:298"
+    ],
+    "api.touch-moblie.com": [
+      "awavenue/ads.txt:226"
     ],
     "api.usebutton.com": [
       "mobile.txt:828"
@@ -1191,11 +1768,17 @@
     "api2.wshareit.com": [
       "mobile.txt:197"
     ],
+    "api5-normal-quic-lf.ixigua.com": [
+      "awavenue/ads.txt:228"
+    ],
     "apis.appnxt.net": [
       "mobile.txt:41"
     ],
     "apishow.babybus.com": [
       "mobile.txt:282"
+    ],
+    "apiyd.my91app.com": [
+      "awavenue/ads.txt:229"
     ],
     "app-ads-services.com": [
       "mobile.txt:246"
@@ -1231,7 +1814,8 @@
       "mobile.txt:830"
     ],
     "applovin.com": [
-      "mobile.txt:832"
+      "mobile.txt:832",
+      "awavenue/ads.txt:230"
     ],
     "applzr.com": [
       "base.txt:375"
@@ -1271,6 +1855,9 @@
     ],
     "aqi.wd.amberweather.com": [
       "mobile.txt:552"
+    ],
+    "aqyad.com": [
+      "awavenue/ads.txt:231"
     ],
     "araplhn.org": [
       "base.txt:117"
@@ -1341,6 +1928,9 @@
     "baggyrepackingrocky.com": [
       "base.txt:420"
     ],
+    "baichuan-sdk.taobao.com": [
+      "awavenue/ads.txt:235"
+    ],
     "banner.bet365partners.com": [
       "mobile.txt:166"
     ],
@@ -1381,10 +1971,12 @@
       "mobile.txt:848"
     ],
     "bdapi-ads.realmemobile.com": [
-      "mobile.txt:419"
+      "mobile.txt:419",
+      "awavenue/ads.txt:237"
     ],
     "bdapi-in-ads.realmemobile.com": [
-      "mobile.txt:426"
+      "mobile.txt:426",
+      "awavenue/ads.txt:238"
     ],
     "begun.ru": [
       "mobile.txt:849"
@@ -1402,7 +1994,8 @@
       "base.txt:539"
     ],
     "beizi.biz": [
-      "chinese.txt:37"
+      "chinese.txt:37",
+      "awavenue/ads.txt:240"
     ],
     "bellnewyork.org": [
       "base.txt:38"
@@ -1431,11 +2024,20 @@
     "bevfpfekwskzg.world": [
       "base.txt:645"
     ],
+    "bgg.baidu.com": [
+      "awavenue/ads.txt:241"
+    ],
     "bi.yeshen.com": [
       "mobile.txt:62"
     ],
+    "bianxian.com": [
+      "awavenue/ads.txt:242"
+    ],
     "bid-algorix.com": [
       "base.txt:589"
+    ],
+    "bid.shanghailingye.cn": [
+      "awavenue/ads.txt:243"
     ],
     "bidder.a11.vega.aurion11.io": [
       "mobile.txt:189"
@@ -1468,6 +2070,15 @@
       "base.txt:24",
       "base.txt:91"
     ],
+    "biz.weibo.com": [
+      "awavenue/ads.txt:244"
+    ],
+    "bj-td-menta-01-callback.advlion.com": [
+      "awavenue/ads.txt:245"
+    ],
+    "bj.ad.track.66mobi.com": [
+      "awavenue/ads.txt:246"
+    ],
     "bjads.bejbej.ca": [
       "mobile.txt:427"
     ],
@@ -1498,8 +2109,14 @@
     "bojegoju.top": [
       "base.txt:394"
     ],
+    "boost-cmp.hismarttv.com": [
+      "awavenue/ads.txt:247"
+    ],
     "boostads.net": [
       "mobile.txt:856"
+    ],
+    "bootpreload.uve.weibo.com": [
+      "awavenue/ads.txt:248"
     ],
     "botanyreadersettlement.com": [
       "base.txt:407"
@@ -1509,6 +2126,9 @@
     ],
     "boutomeeshaul.com": [
       "base.txt:502"
+    ],
+    "brandadsstatic.vivo.com.cn": [
+      "awavenue/ads.txt:249"
     ],
     "brealtime.com": [
       "mobile.txt:857"
@@ -1524,6 +2144,9 @@
     ],
     "brunettemattersrefused.com": [
       "base.txt:863"
+    ],
+    "bsrv.qq.com": [
+      "awavenue/ads.txt:250"
     ],
     "bstgms4y.com": [
       "mobile.txt:229"
@@ -1546,6 +2169,9 @@
     "burstnet.com": [
       "mobile.txt:860"
     ],
+    "business-api.tiktok.com": [
+      "awavenue/ads.txt:251"
+    ],
     "buysellads.com": [
       "mobile.txt:608"
     ],
@@ -1564,11 +2190,30 @@
     "byracucosopenu.com": [
       "base.txt:192"
     ],
+    "c.bidtoolads.com": [
+      "awavenue/ads.txt:252"
+    ],
     "c.etoolads.cn": [
-      "chinese.txt:36"
+      "chinese.txt:36",
+      "awavenue/ads.txt:253"
+    ],
+    "c.evidon.com": [
+      "awavenue/ads.txt:254"
+    ],
+    "c.gj.qq.com": [
+      "awavenue/ads.txt:255"
+    ],
+    "c.kuaiduizuoye.com": [
+      "awavenue/ads.txt:256"
+    ],
+    "c.sayhi.360.cn": [
+      "awavenue/ads.txt:257"
     ],
     "c.vrvm.com": [
       "mobile.txt:695"
+    ],
+    "c2.gdt.qq.com": [
+      "awavenue/ads.txt:258"
     ],
     "c2i.startappnetwork.com": [
       "mobile.txt:733"
@@ -1600,6 +2245,9 @@
     "camsbanner.wtfgroup.co": [
       "base.txt:804"
     ],
+    "canvas-cdn.gdt.qq.com": [
+      "awavenue/ads.txt:259"
+    ],
     "cashprom.ru": [
       "mobile.txt:864"
     ],
@@ -1609,12 +2257,21 @@
     "caspervisiveogor.cyou": [
       "base.txt:92"
     ],
+    "catalog.fjwhcbsh.com": [
+      "awavenue/ads.txt:260"
+    ],
     "catapultx.com": [
       "base.txt:1428"
     ],
     "catsonictp.com": [
       "base.txt:402",
       "mobile.txt:200"
+    ],
+    "cbjs.baidu.com": [
+      "awavenue/ads.txt:261"
+    ],
+    "ccc-x.jd.com": [
+      "awavenue/ads.txt:262"
     ],
     "ccnsad.com": [
       "base.txt:216"
@@ -1626,7 +2283,11 @@
       "base.txt:339"
     ],
     "cdn-ad.wtzw.com": [
-      "mobile.txt:346"
+      "mobile.txt:346",
+      "awavenue/ads.txt:263"
+    ],
+    "cdn-ads.oss-cn-shanghai.aliyuncs.com": [
+      "awavenue/ads.txt:264"
     ],
     "cdn-api.admost.com": [
       "mobile.txt:724"
@@ -1652,6 +2313,9 @@
     "cdn.ads-flipp.com": [
       "base.txt:720"
     ],
+    "cdn.aiclk.com": [
+      "awavenue/ads.txt:266"
+    ],
     "cdn.appnext.com": [
       "mobile.txt:39"
     ],
@@ -1661,8 +2325,17 @@
     "cdn.batmobi.net": [
       "mobile.txt:668"
     ],
+    "cdn.chinaliftoff-creatives.io": [
+      "awavenue/ads.txt:267"
+    ],
     "cdn.fedsy.xyz": [
       "base.txt:844"
+    ],
+    "cdn.hpplay.com.cn": [
+      "awavenue/ads.txt:268"
+    ],
+    "cdn.iads.unitychina.cn": [
+      "awavenue/ads.txt:269"
     ],
     "cdn.jampp.com": [
       "mobile.txt:479"
@@ -1724,6 +2397,9 @@
     "cheeseoverlordsaline.com": [
       "base.txt:14"
     ],
+    "chiq-cloud.com": [
+      "awavenue/ads.txt:271"
+    ],
     "cl-ad.x-flow.app": [
       "mobile.txt:539"
     ],
@@ -1733,8 +2409,14 @@
     "cleartag.run": [
       "base.txt:547"
     ],
+    "click.chinaliftoff.io": [
+      "awavenue/ads.txt:273"
+    ],
     "click.hooligapps.com": [
       "base.txt:924"
+    ],
+    "click4.chinaliftoff.io": [
+      "awavenue/ads.txt:275"
     ],
     "clickgate07.biz": [
       "base.txt:849"
@@ -1759,6 +2441,9 @@
     ],
     "clk.taptica.com": [
       "mobile.txt:870"
+    ],
+    "cloooud.com": [
+      "awavenue/ads.txt:276"
     ],
     "cloudfrant.net": [
       "base.txt:111"
@@ -1790,17 +2475,27 @@
     "combatbaskstationery.com": [
       "base.txt:54"
     ],
+    "commercial.shouji.360.cn": [
+      "awavenue/ads.txt:281"
+    ],
     "common.duapps.com": [
       "mobile.txt:133"
     ],
     "comscore.com": [
       "mobile.txt:871"
     ],
+    "conf.hpplay.cn": [
+      "awavenue/ads.txt:282"
+    ],
+    "config.chsmarttv.com": [
+      "awavenue/ads.txt:283"
+    ],
     "config.htplayground.com": [
       "base.txt:566"
     ],
     "config.inmobi.com": [
-      "mobile.txt:920"
+      "mobile.txt:920",
+      "awavenue/ads.txt:284"
     ],
     "config.tremorhub.com": [
       "mobile.txt:872"
@@ -1844,8 +2539,14 @@
     "cpactions.com": [
       "mobile.txt:690"
     ],
+    "cpc-service-square.aiclk.com": [
+      "awavenue/ads.txt:286"
+    ],
     "cpmstar.com": [
       "mobile.txt:874"
+    ],
+    "cpro.baidustatic.com": [
+      "awavenue/ads.txt:287"
     ],
     "craniolgozzan.com": [
       "base.txt:657"
@@ -1913,6 +2614,9 @@
     "d.6xw.com": [
       "chinese.txt:214"
     ],
+    "d.applvn.com": [
+      "awavenue/ads.txt:289"
+    ],
     "d.kugou.com": [
       "mobile.txt:306"
     ],
@@ -1955,6 +2659,9 @@
     "da.flvcdn.net": [
       "mobile.txt:160"
     ],
+    "da.statisticslinks.com": [
+      "awavenue/ads.txt:291"
+    ],
     "dacfhprtw.com": [
       "base.txt:79"
     ],
@@ -1973,6 +2680,9 @@
     "data2.doodlemobile.com": [
       "mobile.txt:617"
     ],
+    "datacollection.uve.weibo.com": [
+      "awavenue/ads.txt:293"
+    ],
     "datacygnal.io": [
       "base.txt:1475"
     ],
@@ -1984,6 +2694,9 @@
     ],
     "datk.bridgeoos.com": [
       "mobile.txt:293"
+    ],
+    "dc.sigmob.cn": [
+      "awavenue/ads.txt:294"
     ],
     "dclsrv.com": [
       "base.txt:324"
@@ -2039,6 +2752,9 @@
     "dhkqqe.top": [
       "chinese.txt:97"
     ],
+    "diagnosis.ad.xiaomi.com": [
+      "awavenue/ads.txt:296"
+    ],
     "diciestchokybuffi.cyou": [
       "base.txt:143"
     ],
@@ -2088,6 +2804,9 @@
     "doorknockset.com": [
       "base.txt:416"
     ],
+    "doubleclick-cn.net": [
+      "awavenue/ads.txt:297"
+    ],
     "doubletag.run": [
       "base.txt:535"
     ],
@@ -2117,6 +2836,15 @@
     ],
     "druxxo.com": [
       "base.txt:303"
+    ],
+    "dsp-x.jd.com": [
+      "awavenue/ads.txt:298"
+    ],
+    "dsp.fcbox.com": [
+      "awavenue/ads.txt:299"
+    ],
+    "dsplog-adnet.vivo.com.cn": [
+      "awavenue/ads.txt:300"
     ],
     "dspunion.com": [
       "mobile.txt:483"
@@ -2160,6 +2888,9 @@
     "dwyeuy.com": [
       "chinese.txt:83"
     ],
+    "dxp.baidu.com": [
+      "awavenue/ads.txt:301"
+    ],
     "dyf08yha87tii.cloudfront.net": [
       "base.txt:96"
     ],
@@ -2172,6 +2903,9 @@
     "e-volution.ai": [
       "base.txt:1429"
     ],
+    "e.ad.xiaomi.com": [
+      "awavenue/ads.txt:302"
+    ],
     "e.apsalar.com": [
       "mobile.txt:885"
     ],
@@ -2183,6 +2917,12 @@
     ],
     "ecdwm.com": [
       "base.txt:342"
+    ],
+    "eclick.baidu.com": [
+      "awavenue/ads.txt:303"
+    ],
+    "edge.ads.twitch.tv": [
+      "awavenue/ads.txt:304"
     ],
     "edhmnn.com": [
       "base.txt:603"
@@ -2211,11 +2951,17 @@
     "engine.camconnections.live": [
       "base.txt:119"
     ],
+    "engine.dcad01.com": [
+      "awavenue/ads.txt:306"
+    ],
     "engine.trialhd.com": [
       "base.txt:681"
     ],
     "engine.vaxcams.com": [
       "base.txt:357"
+    ],
+    "entry.baidu.com": [
+      "awavenue/ads.txt:307"
     ],
     "ep.umobile.pl": [
       "base.txt:807"
@@ -2234,6 +2980,9 @@
     ],
     "et-code.ru": [
       "mobile.txt:680"
+    ],
+    "et-eus.w.inmobi.com": [
+      "awavenue/ads.txt:308"
     ],
     "etargetnet.com": [
       "mobile.txt:890"
@@ -2284,7 +3033,8 @@
       "base.txt:124"
     ],
     "fancyapi.com": [
-      "chinese.txt:29"
+      "chinese.txt:29",
+      "awavenue/ads.txt:310"
     ],
     "fancydsp.com": [
       "chinese.txt:30"
@@ -2298,11 +3048,17 @@
     "fast-down.ru": [
       "base.txt:604"
     ],
+    "fclog.baidu.com": [
+      "awavenue/ads.txt:311"
+    ],
     "fdluoxnn.com": [
       "chinese.txt:17"
     ],
     "featured.perfectionholic.com": [
       "mobile.txt:620"
+    ],
+    "feed-image.baidu.com": [
+      "awavenue/ads.txt:312"
     ],
     "festivehorse.com": [
       "base.txt:45"
@@ -2315,6 +3071,9 @@
     ],
     "fiksu.com": [
       "mobile.txt:892"
+    ],
+    "file.daihuo.qq.com": [
+      "awavenue/ads.txt:313"
     ],
     "files.xtpag.top": [
       "chinese.txt:108"
@@ -2391,6 +3150,9 @@
     "friendlyduck.com": [
       "mobile.txt:898"
     ],
+    "frontend-perf-service.e.kuaishou.com": [
+      "awavenue/ads.txt:314"
+    ],
     "frontier100-toutiao-lf.fqnovel.com": [
       "mobile.txt:333"
     ],
@@ -2406,11 +3168,29 @@
     "funny-tooth.com": [
       "base.txt:271"
     ],
+    "fxgate.baidu.com": [
+      "awavenue/ads.txt:315"
+    ],
     "fxlcvd.icu": [
       "mobile.txt:252"
     ],
     "fyber.com": [
       "mobile.txt:899"
+    ],
+    "g-adnet.hiaiabc.com": [
+      "awavenue/ads.txt:316"
+    ],
+    "g-staic.ganjingworld.com": [
+      "awavenue/ads.txt:317"
+    ],
+    "g.cn.miaozhen.com": [
+      "awavenue/ads.txt:318"
+    ],
+    "g.dtv.cn.miaozhen.com": [
+      "awavenue/ads.txt:319"
+    ],
+    "g2.ganjing.world": [
+      "awavenue/ads.txt:321"
     ],
     "gadsme.com": [
       "mobile.txt:279"
@@ -2448,6 +3228,9 @@
     "geegad.com": [
       "mobile.txt:202"
     ],
+    "gemini.yahoo.com": [
+      "awavenue/ads.txt:322"
+    ],
     "geoloc.yospace.com": [
       "mobile.txt:123"
     ],
@@ -2456,6 +3239,15 @@
     ],
     "gggpppht.com": [
       "base.txt:410"
+    ],
+    "ggx.cmvideo.cn": [
+      "awavenue/ads.txt:323"
+    ],
+    "ggx01.miguvideo.com": [
+      "awavenue/ads.txt:324"
+    ],
+    "ggx03.miguvideo.com": [
+      "awavenue/ads.txt:325"
     ],
     "giqepofa.com": [
       "base.txt:1148"
@@ -2471,6 +3263,9 @@
     ],
     "global.appnext.com": [
       "mobile.txt:38"
+    ],
+    "globalapi.ad.xiaomi.com": [
+      "awavenue/ads.txt:326"
     ],
     "globlemath.com": [
       "base.txt:1424"
@@ -2496,6 +3291,18 @@
     "google-analyticals.com": [
       "base.txt:1419"
     ],
+    "googleads.g.doubleclick.net": [
+      "awavenue/ads.txt:328"
+    ],
+    "googleadservices-cn.com": [
+      "awavenue/ads.txt:329"
+    ],
+    "googletagservices-cn.com": [
+      "awavenue/ads.txt:331"
+    ],
+    "gorgon.youdao.com": [
+      "awavenue/ads.txt:332"
+    ],
     "goshare-fleet-ads.s3.ap-southeast-1.amazonaws.com": [
       "mobile.txt:522"
     ],
@@ -2514,6 +3321,9 @@
     "grindsteeplesprung.com": [
       "base.txt:183"
     ],
+    "gromore.pangolin-sdk-toutiao.com": [
+      "awavenue/ads.txt:333"
+    ],
     "groovinews.com": [
       "base.txt:1387"
     ],
@@ -2523,6 +3333,9 @@
     "gs6ye5zj.ac1n.net": [
       "base.txt:311"
     ],
+    "gslb.hpplay.cn": [
+      "awavenue/ads.txt:334"
+    ],
     "gts-ads.twistbox.com": [
       "mobile.txt:903"
     ],
@@ -2531,6 +3344,9 @@
     ],
     "gusoclji.com": [
       "base.txt:643"
+    ],
+    "gvideo.qpic.cn": [
+      "awavenue/ads.txt:335"
     ],
     "gwrtdp-tn690bfadt.tclclouds.com": [
       "mobile.txt:69"
@@ -2556,8 +3372,20 @@
     "handskeeping.com": [
       "base.txt:179"
     ],
+    "hanlanad.com": [
+      "awavenue/ads.txt:336"
+    ],
     "hb.headbidder.net": [
       "base.txt:1059"
+    ],
+    "hc-ssp.sm.cn": [
+      "awavenue/ads.txt:337"
+    ],
+    "heads-ak.spotify.com.edgesuite.net": [
+      "awavenue/ads.txt:338"
+    ],
+    "heads-fa.spotify.com": [
+      "awavenue/ads.txt:339"
     ],
     "hellay.net": [
       "mobile.txt:428"
@@ -2613,8 +3441,14 @@
     "houseads.ttpsdk.info": [
       "mobile.txt:908"
     ],
+    "houyi.kkmh.com": [
+      "awavenue/ads.txt:340"
+    ],
     "hpfkvr.icu": [
       "mobile.txt:250"
+    ],
+    "hpplay.cdn.cibn.cc": [
+      "awavenue/ads.txt:341"
     ],
     "hs.178yc.com": [
       "chinese.txt:39"
@@ -2634,6 +3468,12 @@
     "hubcloud.com.cn": [
       "chinese.txt:34"
     ],
+    "huichuan-mc.sm.cn": [
+      "awavenue/ads.txt:342"
+    ],
+    "huichuan.sm.cn": [
+      "awavenue/ads.txt:343"
+    ],
     "huldeeforgoer.com": [
       "base.txt:419"
     ],
@@ -2646,14 +3486,33 @@
     "huntmad.com": [
       "mobile.txt:910"
     ],
+    "huodong.ios.shouji.360.cn": [
+      "awavenue/ads.txt:344"
+    ],
+    "huodong.weibo.cn": [
+      "awavenue/ads.txt:345"
+    ],
     "hw-ot-ad.a.yximgs.com": [
-      "mobile.txt:391"
+      "mobile.txt:391",
+      "awavenue/ads.txt:346"
+    ],
+    "hwpub-s01-drcn.cloud.dbankcloud.cn": [
+      "awavenue/ads.txt:347"
     ],
     "hybrid.ai": [
       "mobile.txt:125"
     ],
+    "hybrid.miniapp.taobao.com": [
+      "awavenue/ads.txt:348"
+    ],
+    "hye.comp.360os.com": [
+      "awavenue/ads.txt:349"
+    ],
     "hyperadx.com": [
       "mobile.txt:728"
+    ],
+    "hyt.comp.360os.com": [
+      "awavenue/ads.txt:350"
     ],
     "i-reklama.sk": [
       "base.txt:883"
@@ -2676,11 +3535,30 @@
     "iad.appboy.com": [
       "mobile.txt:914"
     ],
+    "iad.apple.com": [
+      "awavenue/ads.txt:353"
+    ],
+    "iad.g.163.com": [
+      "awavenue/ads.txt:354"
+    ],
+    "iadcontent.apple.com": [
+      "awavenue/ads.txt:355"
+    ],
+    "iadctest.qwapi.com": [
+      "awavenue/ads.txt:356"
+    ],
+    "iadmoo.apple.com": [
+      "awavenue/ads.txt:357"
+    ],
+    "iadmusicmat.music.126.net": [
+      "awavenue/ads.txt:358"
+    ],
     "iads.unity3d.com": [
       "mobile.txt:359"
     ],
     "iadsdk.apple.com": [
-      "mobile.txt:916"
+      "mobile.txt:916",
+      "awavenue/ads.txt:359"
     ],
     "iam.datasavannah.com": [
       "mobile.txt:570"
@@ -2700,14 +3578,32 @@
     "ig67.vip": [
       "chinese.txt:102"
     ],
+    "ii.gdt.qq.com": [
+      "awavenue/ads.txt:361"
+    ],
     "iiageq.com": [
       "base.txt:663"
     ],
     "im.ov.yahoo.co.jp": [
       "mobile.txt:441"
     ],
+    "image-ad.sm.cn": [
+      "awavenue/ads.txt:362"
+    ],
+    "image.hpplay.cn": [
+      "awavenue/ads.txt:363"
+    ],
+    "images.outbrainimg.com": [
+      "awavenue/ads.txt:364"
+    ],
     "imapi-sg.isnssdk.com": [
       "mobile.txt:510"
+    ],
+    "img-c.heytapimage.com": [
+      "awavenue/ads.txt:365"
+    ],
+    "img-x.jd.com": [
+      "awavenue/ads.txt:366"
     ],
     "img.175532.com": [
       "chinese.txt:109"
@@ -2715,8 +3611,17 @@
     "img.911787.com": [
       "chinese.txt:110"
     ],
+    "img.adnyg.com.w.kunlungr.com": [
+      "awavenue/ads.txt:367"
+    ],
+    "img2.360buyimg.com": [
+      "awavenue/ads.txt:368"
+    ],
     "imgx.jampp.com": [
       "mobile.txt:480"
+    ],
+    "imp-cmp.hismarttv.com": [
+      "awavenue/ads.txt:369"
     ],
     "impassableretainerexplained.com": [
       "base.txt:290"
@@ -2726,6 +3631,12 @@
     ],
     "impdsp.meituan.com": [
       "chinese.txt:22"
+    ],
+    "impression-asia.chinaliftoff.io": [
+      "awavenue/ads.txt:370"
+    ],
+    "impression.appsflyer.com": [
+      "awavenue/ads.txt:372"
     ],
     "inapps.af-sdk.com": [
       "mobile.txt:158"
@@ -2766,6 +3677,9 @@
     "inner-active.mobi": [
       "mobile.txt:927"
     ],
+    "inner-hw.huazirc.com": [
+      "awavenue/ads.txt:374"
+    ],
     "innovid.com": [
       "mobile.txt:928"
     ],
@@ -2787,6 +3701,9 @@
     "investingchannel.com": [
       "mobile.txt:932"
     ],
+    "irc.qubiankeji.com": [
+      "awavenue/ads.txt:375"
+    ],
     "irregularglancedyielded.com": [
       "base.txt:479"
     ],
@@ -2801,6 +3718,9 @@
     ],
     "iyes.youku.com": [
       "mobile.txt:492"
+    ],
+    "iyfbodn.com": [
+      "awavenue/ads.txt:376"
     ],
     "jackknifemonuments.com": [
       "base.txt:380"
@@ -2865,6 +3785,12 @@
     "kcwcohcmsotlsyn.com": [
       "base.txt:472"
     ],
+    "kde.qq.com": [
+      "awavenue/ads.txt:378"
+    ],
+    "kepler.jd.com": [
+      "awavenue/ads.txt:379"
+    ],
     "ketchapp.org": [
       "mobile.txt:30"
     ],
@@ -2883,6 +3809,9 @@
     "kjetdxtcammhc.com": [
       "base.txt:80"
     ],
+    "kl.67it.com": [
+      "awavenue/ads.txt:380"
+    ],
     "kmqianneng66.com": [
       "chinese.txt:106"
     ],
@@ -2900,6 +3829,9 @@
     ],
     "krutilka.net": [
       "mobile.txt:938"
+    ],
+    "ks.ferlytc.com": [
+      "awavenue/ads.txt:381"
     ],
     "ksks2.sportsonline.top": [
       "base.txt:199"
@@ -2940,8 +3872,14 @@
     "lajeshuru.pro": [
       "base.txt:879"
     ],
+    "launcher.smart-tv.cn": [
+      "awavenue/ads.txt:383"
+    ],
     "launcher.us.yeshen.com": [
       "mobile.txt:63"
+    ],
+    "launcherimg.smart-tv.cn": [
+      "awavenue/ads.txt:384"
     ],
     "lb.usemaxserver.de": [
       "mobile.txt:941"
@@ -2958,6 +3896,9 @@
     "lepidpomps.com": [
       "base.txt:465"
     ],
+    "lf-event-manager.oceanengine.com": [
+      "awavenue/ads.txt:385"
+    ],
     "lf-static.tiktokpangle-cdn-us.com": [
       "mobile.txt:286"
     ],
@@ -2966,6 +3907,9 @@
     ],
     "lh1dki82.com": [
       "chinese.txt:77"
+    ],
+    "lh3.googleadsserving.cn": [
+      "awavenue/ads.txt:389"
     ],
     "lib-wp.dev": [
       "base.txt:340"
@@ -2985,17 +3929,50 @@
     "lightlypowerfulgourmet.com": [
       "base.txt:195"
     ],
+    "litchiads.com": [
+      "awavenue/ads.txt:390"
+    ],
+    "live-api.hktvmall.com": [
+      "awavenue/ads.txt:391"
+    ],
     "live.hyprmx.com": [
       "mobile.txt:499"
+    ],
+    "liveats-vod.video.ptqy.gitv.tv": [
+      "awavenue/ads.txt:392"
     ],
     "livestt.co": [
       "base.txt:624"
     ],
+    "lm10111.jtrincc.cn": [
+      "awavenue/ads.txt:393"
+    ],
     "lndpy.com": [
       "base.txt:493"
     ],
+    "loading-cmp.hismarttv.com": [
+      "awavenue/ads.txt:394"
+    ],
     "loadmypath.click": [
       "base.txt:551"
+    ],
+    "log-api.pangolin-sdk-toutiao.com": [
+      "awavenue/ads.txt:396"
+    ],
+    "log-verify.dutils.com": [
+      "awavenue/ads.txt:397"
+    ],
+    "log-verify.hiaiabc.com": [
+      "awavenue/ads.txt:398"
+    ],
+    "log.ad.xiaomi.com": [
+      "awavenue/ads.txt:399"
+    ],
+    "logrcv.aiclk.com": [
+      "awavenue/ads.txt:402"
+    ],
+    "logrcv.yunxish.com": [
+      "awavenue/ads.txt:403"
     ],
     "longansabortionrusin.com": [
       "base.txt:497"
@@ -3015,6 +3992,9 @@
     "luckyforworlds.com": [
       "mobile.txt:605"
     ],
+    "luimg.baidu.com": [
+      "awavenue/ads.txt:404"
+    ],
     "luugy.com": [
       "base.txt:211"
     ],
@@ -3023,6 +4003,21 @@
     ],
     "lzopmoas.in": [
       "base.txt:35"
+    ],
+    "m-adnet.hiaiabc.com": [
+      "awavenue/ads.txt:405"
+    ],
+    "m.ad.zhangyue.com": [
+      "awavenue/ads.txt:406"
+    ],
+    "m.atm.youku.com": [
+      "awavenue/ads.txt:407"
+    ],
+    "m.shenshiads.com": [
+      "awavenue/ads.txt:408"
+    ],
+    "m1.ad.10010.com": [
+      "awavenue/ads.txt:409"
     ],
     "mad.mobisky.pl": [
       "mobile.txt:945"
@@ -3039,11 +4034,17 @@
     "mantis-awx.com": [
       "base.txt:282"
     ],
+    "mapi.m.jd.com": [
+      "awavenue/ads.txt:410"
+    ],
     "marketing.mangacopy.com": [
       "mobile.txt:393"
     ],
     "masculine-employment.com": [
       "base.txt:176"
+    ],
+    "masdkv6.3g.qq.com": [
+      "awavenue/ads.txt:411"
     ],
     "maskmonopoly.com": [
       "base.txt:224"
@@ -3108,6 +4109,9 @@
     "medium-while.com": [
       "base.txt:202"
     ],
+    "medproad.com": [
+      "awavenue/ads.txt:412"
+    ],
     "meendocash.com": [
       "mobile.txt:951"
     ],
@@ -3139,7 +4143,11 @@
       "mobile.txt:953"
     ],
     "mi.gdt.qq.com": [
-      "mobile.txt:954"
+      "mobile.txt:954",
+      "awavenue/ads.txt:413"
+    ],
+    "micro-xdb.com": [
+      "awavenue/ads.txt:414"
     ],
     "midnightlotusgrove.com": [
       "base.txt:1357"
@@ -3147,11 +4155,17 @@
     "mimicromax.com": [
       "mobile.txt:60"
     ],
+    "mini-prog-drm.vodplayvideo.net": [
+      "awavenue/ads.txt:415"
+    ],
     "mintegral.com": [
       "mobile.txt:473"
     ],
     "minutelight-1.online": [
       "base.txt:1504"
+    ],
+    "mission-pub.smart-tv.cn": [
+      "awavenue/ads.txt:416"
     ],
     "miwxoqcbiswmx.com": [
       "base.txt:165"
@@ -3174,20 +4188,31 @@
     "mo.freeindoapp.com": [
       "mobile.txt:143"
     ],
+    "moatads.com": [
+      "awavenue/ads.txt:417"
+    ],
     "moatads.com.edgekey.net": [
       "mobile.txt:707"
     ],
     "moba8.net": [
       "mobile.txt:956"
     ],
+    "mobads-logs.baidu.com": [
+      "awavenue/ads.txt:418"
+    ],
     "mobads-logs.bcebos.com": [
       "mobile.txt:187"
     ],
     "mobads-pre-config.cdn.bcebos.com": [
-      "mobile.txt:186"
+      "mobile.txt:186",
+      "awavenue/ads.txt:419"
     ],
     "mobads.baidu.com": [
-      "mobile.txt:957"
+      "mobile.txt:957",
+      "awavenue/ads.txt:420"
+    ],
+    "mobaliyun.res.mgtv.com": [
+      "awavenue/ads.txt:421"
     ],
     "mobclix.com": [
       "mobile.txt:958"
@@ -3206,6 +4231,12 @@
     ],
     "mobile-campaigns.avast.com": [
       "mobile.txt:83"
+    ],
+    "mobile.da.mgtv.com": [
+      "awavenue/ads.txt:422"
+    ],
+    "mobilead.kuwo.cn": [
+      "awavenue/ads.txt:423"
     ],
     "mobileadvertiser.yanosik.pl": [
       "mobile.txt:489"
@@ -3237,8 +4268,14 @@
     "mofox.com": [
       "mobile.txt:963"
     ],
+    "monitor-ads-test.huan.tv": [
+      "awavenue/ads.txt:424"
+    ],
     "monitor.adcaffe.com": [
       "mobile.txt:66"
+    ],
+    "monitor.adxsenmeng.com": [
+      "awavenue/ads.txt:425"
     ],
     "montmena.top": [
       "base.txt:609"
@@ -3252,6 +4289,9 @@
     "mopub-win-us-east.bksn.se": [
       "mobile.txt:730"
     ],
+    "mores.toponad.com": [
+      "awavenue/ads.txt:426"
+    ],
     "mossfast.com": [
       "base.txt:545"
     ],
@@ -3261,6 +4301,18 @@
     ],
     "mossturbo.com": [
       "base.txt:399"
+    ],
+    "ms.applvn.com": [
+      "awavenue/ads.txt:429"
+    ],
+    "ms4.applvn.com": [
+      "awavenue/ads.txt:431"
+    ],
+    "msdk.voiceads.cn": [
+      "awavenue/ads.txt:432"
+    ],
+    "msg-cmp.hismarttv.com": [
+      "awavenue/ads.txt:433"
     ],
     "msg.ettoday.net": [
       "mobile.txt:634"
@@ -3312,6 +4364,9 @@
     ],
     "n6pwo7whs2.com": [
       "chinese.txt:18"
+    ],
+    "nadvideo2.baidu.com": [
+      "awavenue/ads.txt:434"
     ],
     "namebrain.org": [
       "base.txt:17"
@@ -3391,6 +4446,12 @@
     "newsnet.in.ua": [
       "mobile.txt:975"
     ],
+    "newvoice.chiq5.smart-tv.cn": [
+      "awavenue/ads.txt:435"
+    ],
+    "nex.163.com": [
+      "awavenue/ads.txt:436"
+    ],
     "nexac.com": [
       "mobile.txt:976"
     ],
@@ -3442,6 +4503,9 @@
     "nyhizyjybawozi.com": [
       "base.txt:152"
     ],
+    "o2o.api.xiaomi.com": [
+      "awavenue/ads.txt:438"
+    ],
     "o333o.com": [
       "base.txt:1223"
     ],
@@ -3464,13 +4528,15 @@
       "mobile.txt:524"
     ],
     "offerwall.yandex.net": [
-      "mobile.txt:422"
+      "mobile.txt:422",
+      "awavenue/ads.txt:439"
     ],
     "ofroztlmyo.in": [
       "base.txt:160"
     ],
     "ogads-pa.clients6.google.com": [
-      "mobile.txt:220"
+      "mobile.txt:220",
+      "awavenue/ads.txt:440"
     ],
     "ojfotraqjg.in": [
       "base.txt:447"
@@ -3499,20 +4565,30 @@
     "ookris.oferty-kredytowe.pl": [
       "base.txt:1009"
     ],
+    "open-set-api.shenshiads.com": [
+      "awavenue/ads.txt:441"
+    ],
     "open.e.kuaishou.cn": [
-      "mobile.txt:383"
+      "mobile.txt:383",
+      "awavenue/ads.txt:442"
     ],
     "open.e.kuaishou.com": [
-      "mobile.txt:384"
+      "mobile.txt:384",
+      "awavenue/ads.txt:443"
     ],
     "open.isnssdk.com": [
       "mobile.txt:511"
     ],
     "open.kuaishouzt.com": [
-      "mobile.txt:385"
+      "mobile.txt:385",
+      "awavenue/ads.txt:444"
     ],
     "open.kwaizt.com": [
-      "mobile.txt:386"
+      "mobile.txt:386",
+      "awavenue/ads.txt:445"
+    ],
+    "open.snssdk.com": [
+      "awavenue/ads.txt:446"
     ],
     "openads.aira.cz": [
       "base.txt:580"
@@ -3529,6 +4605,9 @@
     "opt8.co": [
       "mobile.txt:650"
     ],
+    "optimus-ads.amap.com": [
+      "awavenue/ads.txt:448"
+    ],
     "organic-package.com": [
       "base.txt:50"
     ],
@@ -3544,6 +4623,9 @@
     "ouiokaq.top": [
       "chinese.txt:99"
     ],
+    "outlookads.live.com": [
+      "awavenue/ads.txt:450"
+    ],
     "outpush.net": [
       "base.txt:1450"
     ],
@@ -3555,6 +4637,9 @@
     ],
     "p-behacdn.ksmobile.net": [
       "mobile.txt:78"
+    ],
+    "p.l.qq.com": [
+      "awavenue/ads.txt:451"
     ],
     "p.lbserver.xyz": [
       "base.txt:239"
@@ -3571,8 +4656,17 @@
     "p3-ad-sign.byteimg.com.queniusy.com": [
       "mobile.txt:182"
     ],
+    "p3-tt.byteimg.com": [
+      "awavenue/ads.txt:458"
+    ],
     "p7tycr5jcw42r2pflvo7.cfd": [
       "base.txt:360"
+    ],
+    "pagead2.googleadservices.com": [
+      "awavenue/ads.txt:463"
+    ],
+    "pagead2.googlesyndication.com": [
+      "awavenue/ads.txt:464"
     ],
     "pahtbt.tech": [
       "base.txt:463"
@@ -3601,6 +4695,9 @@
     "pangle.io": [
       "mobile.txt:536"
     ],
+    "pangolin-sdk-toutiao-b.com": [
+      "awavenue/ads.txt:465"
+    ],
     "pangolin16.isnssdk.com": [
       "mobile.txt:512"
     ],
@@ -3620,6 +4717,12 @@
     "pasta.esfile.duapps.com": [
       "mobile.txt:134"
     ],
+    "paster-cmp.hismarttv.com": [
+      "awavenue/ads.txt:466"
+    ],
+    "pay.sboot.cn": [
+      "awavenue/ads.txt:467"
+    ],
     "pecannerous.com": [
       "base.txt:225"
     ],
@@ -3636,10 +4739,15 @@
       "mobile.txt:984"
     ],
     "pgdt.gtimg.cn": [
-      "mobile.txt:371"
+      "mobile.txt:371",
+      "awavenue/ads.txt:468"
+    ],
+    "pgdt.ugdtimg.com": [
+      "awavenue/ads.txt:469"
     ],
     "pglstatp-toutiao.com": [
-      "mobile.txt:382"
+      "mobile.txt:382",
+      "awavenue/ads.txt:470"
     ],
     "phluant.com": [
       "mobile.txt:985"
@@ -3656,6 +4764,12 @@
     "pic-stash.com": [
       "mobile.txt:118"
     ],
+    "pica-a-display.diwodiwo.xyz": [
+      "awavenue/ads.txt:471"
+    ],
+    "pica-ad-api.diwodiwo.xyz": [
+      "awavenue/ads.txt:472"
+    ],
     "piousshiners.com": [
       "base.txt:156"
     ],
@@ -3667,6 +4781,9 @@
     ],
     "pixelpluses.com": [
       "base.txt:1459"
+    ],
+    "pixon.ads-pixiv.net": [
+      "awavenue/ads.txt:473"
     ],
     "pkoapbafhgaf.in": [
       "base.txt:366"
@@ -3688,6 +4805,9 @@
     ],
     "pm.poqwua.cn": [
       "chinese.txt:142"
+    ],
+    "pms.mb.qq.com": [
+      "awavenue/ads.txt:474"
     ],
     "pnzekbgdcsumd.com": [
       "base.txt:555"
@@ -3712,6 +4832,9 @@
     ],
     "portiasaigon.com": [
       "base.txt:161"
+    ],
+    "pos.baidu.com": [
+      "awavenue/ads.txt:475"
     ],
     "postmedia-ai.wehaacdn.com": [
       "base.txt:382"
@@ -3770,6 +4893,9 @@
     "prologguisedputid.qpon": [
       "base.txt:298"
     ],
+    "prom-sdkv2.jysper.net": [
+      "awavenue/ads.txt:477"
+    ],
     "promediaspace.my": [
       "base.txt:448"
     ],
@@ -3785,6 +4911,9 @@
     "promotion-en.xmeye.net": [
       "mobile.txt:270"
     ],
+    "promotion-partner.kuaishou.com": [
+      "awavenue/ads.txt:478"
+    ],
     "promotion-quicker.jftechsoft.com": [
       "mobile.txt:271"
     ],
@@ -3793,6 +4922,9 @@
     ],
     "promotionad.nvcam.net": [
       "mobile.txt:456"
+    ],
+    "proxy.advp.apple.com": [
+      "awavenue/ads.txt:479"
     ],
     "psonstrentie.info": [
       "base.txt:1045"
@@ -3827,6 +4959,9 @@
     "pubjelly.nxjmp.com": [
       "base.txt:508"
     ],
+    "public.gdtimg.com": [
+      "awavenue/ads.txt:480"
+    ],
     "pubnative.info": [
       "mobile.txt:537"
     ],
@@ -3854,6 +4989,9 @@
     "pzaawtgujvim.com": [
       "base.txt:484"
     ],
+    "q.i.gdt.qq.com": [
+      "awavenue/ads.txt:481"
+    ],
     "qbhsocu.com": [
       "chinese.txt:19"
     ],
@@ -3865,6 +5003,9 @@
     ],
     "qist.me": [
       "mobile.txt:461"
+    ],
+    "qmlog.baertt.com": [
+      "awavenue/ads.txt:483"
     ],
     "qortex.ai": [
       "base.txt:1465"
@@ -3891,7 +5032,8 @@
       "chinese.txt:115"
     ],
     "qzs.gdtimg.com": [
-      "chinese.txt:12"
+      "chinese.txt:12",
+      "awavenue/ads.txt:484"
     ],
     "r0.mail.ru": [
       "mobile.txt:303"
@@ -3926,6 +5068,12 @@
     "reachableads.com": [
       "base.txt:1458"
     ],
+    "recmd-cmp.hismarttv.com": [
+      "awavenue/ads.txt:485"
+    ],
+    "recommend-drcn.hms.dbankcloud.cn": [
+      "awavenue/ads.txt:486"
+    ],
     "recordedfuseexecuted.com": [
       "base.txt:522"
     ],
@@ -3956,6 +5104,9 @@
     "reqde.sooplive.com": [
       "mobile.txt:146"
     ],
+    "resource-cmp.hismarttv.com": [
+      "awavenue/ads.txt:492"
+    ],
     "resourcelow.com": [
       "base.txt:76"
     ],
@@ -3964,6 +5115,9 @@
     ],
     "resu8.hjfile.cn": [
       "base.txt:1079"
+    ],
+    "review.gdtimg.com": [
+      "awavenue/ads.txt:493"
     ],
     "reward-api.csjplatform.com": [
       "mobile.txt:231"
@@ -3993,6 +5147,9 @@
     "rodexchange.com": [
       "base.txt:73"
     ],
+    "roi.soulapp.cn": [
+      "awavenue/ads.txt:495"
+    ],
     "rollgosize.com": [
       "base.txt:180"
     ],
@@ -4011,14 +5168,23 @@
     "royalbluefireplace.com": [
       "base.txt:19"
     ],
+    "rpt.gdt.qq.com": [
+      "awavenue/ads.txt:496"
+    ],
     "rqmob.com": [
       "mobile.txt:429"
     ],
     "rsptkogqvascs.site": [
       "base.txt:316"
     ],
+    "rt.applvn.com": [
+      "awavenue/ads.txt:498"
+    ],
     "rtapi.abbi.io": [
       "mobile.txt:626"
+    ],
+    "rtb.adxsenmeng.com": [
+      "awavenue/ads.txt:499"
     ],
     "rtb.appbid.com": [
       "mobile.txt:625"
@@ -4031,6 +5197,9 @@
     ],
     "rtb.viewsense.ai": [
       "base.txt:122"
+    ],
+    "rtb.voiceads.cn": [
+      "awavenue/ads.txt:500"
     ],
     "rtbadzesto.com": [
       "base.txt:1501"
@@ -4080,11 +5249,20 @@
     "s.hisp.in": [
       "mobile.txt:411"
     ],
+    "s1.cdn-sg.advlion.com": [
+      "awavenue/ads.txt:502"
+    ],
     "s2.static.cfgr3.com": [
       "base.txt:654"
     ],
     "s3.ttpsdk.info": [
       "mobile.txt:568"
+    ],
+    "s8t.teads.tv": [
+      "awavenue/ads.txt:503"
+    ],
+    "saad.ms.zhangyue.net": [
+      "awavenue/ads.txt:504"
     ],
     "sableviolet.com": [
       "base.txt:229"
@@ -4097,6 +5275,9 @@
     ],
     "salungavine.com": [
       "base.txt:129"
+    ],
+    "samsungads.com": [
+      "awavenue/ads.txt:505"
     ],
     "samsungtvads.com": [
       "base.txt:1341"
@@ -4146,14 +5327,62 @@
     "sdk-api.kidoz.net": [
       "mobile.txt:278"
     ],
+    "sdk-cache.video.ptqy.gitv.tv": [
+      "awavenue/ads.txt:506"
+    ],
+    "sdk-track.66mobi.com": [
+      "awavenue/ads.txt:507"
+    ],
+    "sdk.1rtb.net": [
+      "awavenue/ads.txt:508"
+    ],
+    "sdk.ad.smaato.net": [
+      "awavenue/ads.txt:509"
+    ],
+    "sdk.adhuanxiao.com": [
+      "awavenue/ads.txt:510"
+    ],
     "sdk.adtiming.com": [
       "mobile.txt:658"
+    ],
+    "sdk.cferw.com": [
+      "awavenue/ads.txt:514"
+    ],
+    "sdk.hzsanjiaomao.com": [
+      "awavenue/ads.txt:516"
+    ],
+    "sdk.hzzfcm.com": [
+      "awavenue/ads.txt:517"
+    ],
+    "sdk.markmedia.com.cn": [
+      "awavenue/ads.txt:518"
+    ],
+    "sdk.mobads.adwangmai.com": [
+      "awavenue/ads.txt:519"
     ],
     "sdk.starbolt.io": [
       "mobile.txt:999"
     ],
+    "sdkapp.uve.weibo.com": [
+      "awavenue/ads.txt:522"
+    ],
+    "sdkauth.hpplay.cn": [
+      "awavenue/ads.txt:523"
+    ],
     "sdkc.vervegroupinc.net": [
       "mobile.txt:113"
+    ],
+    "sdkconfig.ad.intl.xiaomi.com": [
+      "awavenue/ads.txt:524"
+    ],
+    "sdkconfig.ad.xiaomi.com": [
+      "awavenue/ads.txt:525"
+    ],
+    "sdkconfig.play.aiseet.atianqi.com": [
+      "awavenue/ads.txt:526"
+    ],
+    "sdkconfig.video.qq.com": [
+      "awavenue/ads.txt:527"
     ],
     "sdkv2.imaginationunwired.com": [
       "mobile.txt:437"
@@ -4161,11 +5390,29 @@
     "sdnstatistic.com": [
       "base.txt:308"
     ],
+    "sdownload.stargame.com": [
+      "awavenue/ads.txt:531"
+    ],
     "se.rfvtgbyhn.com": [
       "mobile.txt:227"
     ],
     "search.adcaffe.com": [
       "mobile.txt:65"
+    ],
+    "search.ixigua.com": [
+      "awavenue/ads.txt:532"
+    ],
+    "search3-search.ixigua.com": [
+      "awavenue/ads.txt:533"
+    ],
+    "search5-search-hl.ixigua.com": [
+      "awavenue/ads.txt:534"
+    ],
+    "search5-search.ixigua.com": [
+      "awavenue/ads.txt:535"
+    ],
+    "securepubads.g.doubleclick.net": [
+      "awavenue/ads.txt:536"
     ],
     "seeksgironny.com": [
       "base.txt:184"
@@ -4187,6 +5434,9 @@
     ],
     "service-ad-image-ga.prd.pluto.tv": [
       "mobile.txt:290"
+    ],
+    "service.vmos.cn": [
+      "awavenue/ads.txt:537"
     ],
     "sessionm.com": [
       "mobile.txt:1001"
@@ -4228,6 +5478,9 @@
     "shypublishedeternity.com": [
       "base.txt:146"
     ],
+    "sigmob.com": [
+      "awavenue/ads.txt:540"
+    ],
     "sikncs.com": [
       "chinese.txt:92"
     ],
@@ -4249,6 +5502,9 @@
     "skadsdk.appsflyer.com": [
       "mobile.txt:474"
     ],
+    "skdisplay.jd.com": [
+      "awavenue/ads.txt:541"
+    ],
     "ski.leftnewsex.com": [
       "base.txt:284"
     ],
@@ -4258,14 +5514,23 @@
     "skypie.info": [
       "base.txt:625"
     ],
+    "sl.hpplay.cn": [
+      "awavenue/ads.txt:542"
+    ],
     "slc.cbssports.com": [
       "base.txt:554"
     ],
     "sm-cloud.yunsafe.top": [
       "chinese.txt:82"
     ],
+    "smad.ms.zhangyue.net": [
+      "awavenue/ads.txt:543"
+    ],
     "smallanywhere.com": [
       "base.txt:206"
+    ],
+    "smartad.10010.com": [
+      "awavenue/ads.txt:544"
     ],
     "smartytouch.co": [
       "base.txt:451"
@@ -4366,8 +5631,14 @@
     "stat.kika-backend.com": [
       "mobile.txt:1012"
     ],
+    "static-s.iqiyi.com": [
+      "awavenue/ads.txt:548"
+    ],
     "static.accesstrade.vn": [
       "base.txt:230"
+    ],
+    "static.ads-twitter.com": [
+      "awavenue/ads.txt:549"
     ],
     "static.hyprmx.com": [
       "mobile.txt:501"
@@ -4380,6 +5651,12 @@
     ],
     "static.timetreeads.com": [
       "mobile.txt:354"
+    ],
+    "statichf.shihuocdn.cn": [
+      "awavenue/ads.txt:550"
+    ],
+    "statics.woozooo.com": [
+      "awavenue/ads.txt:551"
     ],
     "stream.spongead.com": [
       "mobile.txt:399"
@@ -4415,6 +5692,9 @@
     "supersonicads.com": [
       "mobile.txt:1014"
     ],
+    "sv-video.play.aiseet.atianqi.com": [
+      "awavenue/ads.txt:554"
+    ],
     "swelen.com": [
       "mobile.txt:1015"
     ],
@@ -4423,6 +5703,12 @@
     ],
     "sx.fakjkwp.cn": [
       "chinese.txt:137"
+    ],
+    "syh-imp.cdnjtzy.com": [
+      "awavenue/ads.txt:555"
+    ],
+    "syh.zybang.com": [
+      "awavenue/ads.txt:556"
     ],
     "syncbm.com": [
       "base.txt:64"
@@ -4436,14 +5722,41 @@
     "szubtepzaka.com": [
       "base.txt:558"
     ],
+    "t-adx.52qumao.com": [
+      "awavenue/ads.txt:557"
+    ],
+    "t-dsp.pinduoduo.com": [
+      "awavenue/ads.txt:558"
+    ],
     "t.easywebland.my": [
       "base.txt:437"
+    ],
+    "t.l.qq.com": [
+      "awavenue/ads.txt:560"
+    ],
+    "t.teads.tv": [
+      "awavenue/ads.txt:561"
+    ],
+    "t.track.ad.xiaomi.com": [
+      "awavenue/ads.txt:562"
+    ],
+    "t002.ottcn.com": [
+      "awavenue/ads.txt:563"
+    ],
+    "t1.teads.tv": [
+      "awavenue/ads.txt:565"
+    ],
+    "t7z.cupid.ptqy.gitv.tv": [
+      "awavenue/ads.txt:569"
     ],
     "taboola-display.com": [
       "base.txt:40"
     ],
     "tag.winister.app": [
       "base.txt:803"
+    ],
+    "tagtic.cn": [
+      "awavenue/ads.txt:570"
     ],
     "tap-nexus.appspot.com": [
       "mobile.txt:1018"
@@ -4481,6 +5794,9 @@
     "targaubs.com": [
       "base.txt:1042"
     ],
+    "target.ads.jihuoniao.com": [
+      "awavenue/ads.txt:572"
+    ],
     "tbiwtech.com": [
       "mobile.txt:232"
     ],
@@ -4497,6 +5813,9 @@
     "tds.bid": [
       "base.txt:570"
     ],
+    "tdsdk.cpatrk.net": [
+      "awavenue/ads.txt:573"
+    ],
     "teachscape.vo.llnwd.net": [
       "mobile.txt:701"
     ],
@@ -4504,7 +5823,14 @@
       "base.txt:646"
     ],
     "telecome.cn": [
-      "chinese.txt:80"
+      "chinese.txt:80",
+      "awavenue/ads.txt:574"
+    ],
+    "tencent-dtv.m.cn.miaozhen.com": [
+      "awavenue/ads.txt:575"
+    ],
+    "test.ad.xiaomi.com": [
+      "awavenue/ads.txt:576"
     ],
     "textads.lv": [
       "base.txt:75"
@@ -4551,6 +5877,9 @@
     "tjskjndukyk.com": [
       "base.txt:573"
     ],
+    "tk.statisticslinks.com": [
+      "awavenue/ads.txt:579"
+    ],
     "tk0x1.com": [
       "mobile.txt:434"
     ],
@@ -4583,6 +5912,12 @@
     ],
     "tmadsrv.com": [
       "base.txt:309"
+    ],
+    "tmead.y.qq.com": [
+      "awavenue/ads.txt:580"
+    ],
+    "tmeadcomm.y.qq.com": [
+      "awavenue/ads.txt:581"
     ],
     "tmz.vo.llnwd.net": [
       "mobile.txt:702"
@@ -4620,6 +5955,12 @@
     "tpbid.com": [
       "mobile.txt:726"
     ],
+    "tpc.googlesyndication-cn.com": [
+      "awavenue/ads.txt:582"
+    ],
+    "tpc.googlesyndication.com": [
+      "awavenue/ads.txt:583"
+    ],
     "tpiwudolrna.in": [
       "base.txt:67"
     ],
@@ -4629,6 +5970,15 @@
     "tr.acobt.tech": [
       "mobile.txt:268"
     ],
+    "tracelog-debug.aiclk.com": [
+      "awavenue/ads.txt:586"
+    ],
+    "tracelog-debug.qquanquan.com": [
+      "awavenue/ads.txt:587"
+    ],
+    "tracelog-debug.yunxish.com": [
+      "awavenue/ads.txt:588"
+    ],
     "track.bcvc.mobi": [
       "base.txt:1210"
     ],
@@ -4637,6 +5987,9 @@
     ],
     "trackimpression.com": [
       "mobile.txt:1031"
+    ],
+    "tracking-adnet.vivo.com.cn": [
+      "awavenue/ads.txt:589"
     ],
     "tracking.applift.com": [
       "mobile.txt:1032"
@@ -4683,6 +6036,9 @@
     "tubexazimebeze.com": [
       "base.txt:241"
     ],
+    "tuiguang.meitu.com": [
+      "awavenue/ads.txt:590"
+    ],
     "turn.com": [
       "mobile.txt:1038"
     ],
@@ -4691,6 +6047,9 @@
     ],
     "turnstilesocially.com": [
       "base.txt:395"
+    ],
+    "tvapp.hpplay.cn": [
+      "awavenue/ads.txt:591"
     ],
     "tveta.naver.net": [
       "mobile.txt:629"
@@ -4708,7 +6067,8 @@
       "base.txt:285"
     ],
     "tx-ad.a.yximgs.com": [
-      "mobile.txt:389"
+      "mobile.txt:389",
+      "awavenue/ads.txt:592"
     ],
     "tx-kmpaudio.pull.yximgs.com": [
       "mobile.txt:390"
@@ -4719,6 +6079,9 @@
     "typicallyuncovernull.com": [
       "base.txt:467"
     ],
+    "tytx.m.cn.miaozhen.com": [
+      "awavenue/ads.txt:593"
+    ],
     "u-ad.info": [
       "mobile.txt:1039"
     ],
@@ -4727,6 +6090,9 @@
     ],
     "u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me": [
       "base.txt:813"
+    ],
+    "ubixioe.com": [
+      "awavenue/ads.txt:661"
     ],
     "ucads.ucweb.com": [
       "mobile.txt:207"
@@ -4765,7 +6131,9 @@
       "mobile.txt:1042"
     ],
     "unityads.unity3d.com": [
-      "mobile.txt:598"
+      "mobile.txt:598",
+      "awavenue/ads.txt:595",
+      "awavenue/ads.txt:662"
     ],
     "untilhmph.com": [
       "base.txt:71"
@@ -4785,8 +6153,14 @@
     "upbeatbut.com": [
       "base.txt:198"
     ],
+    "update0.aiclk.com": [
+      "awavenue/ads.txt:596"
+    ],
     "upsight.com": [
       "mobile.txt:1043"
+    ],
+    "us.l.qq.com": [
+      "awavenue/ads.txt:597"
     ],
     "usekahuna.com": [
       "mobile.txt:1044"
@@ -4800,17 +6174,47 @@
     "usp1.baidu.com": [
       "mobile.txt:140"
     ],
+    "usr-api.aiclk.com": [
+      "awavenue/ads.txt:598"
+    ],
     "usrpubtrck.com": [
       "base.txt:44"
     ],
     "uydeqs9.xyz": [
       "mobile.txt:194"
     ],
+    "v.110route.cn": [
+      "awavenue/ads.txt:599"
+    ],
     "v.kidoz.net": [
       "mobile.txt:277"
     ],
+    "v1-ad.video.yximgs.com": [
+      "awavenue/ads.txt:602"
+    ],
     "v16-ad.byteoversea.com": [
       "mobile.txt:351"
+    ],
+    "v2-ad.video.yximgs.com": [
+      "awavenue/ads.txt:603"
+    ],
+    "v2-api-channel-launcher.hismarttv.com": [
+      "awavenue/ads.txt:604"
+    ],
+    "v2.gdt.qq.com": [
+      "awavenue/ads.txt:605"
+    ],
+    "v2.reachmax.cn": [
+      "awavenue/ads.txt:606"
+    ],
+    "v2mi.gdt.qq.com": [
+      "awavenue/ads.txt:607"
+    ],
+    "v3-ad.video.yximgs.com": [
+      "awavenue/ads.txt:608"
+    ],
+    "v3.gdt.qq.com": [
+      "awavenue/ads.txt:609"
     ],
     "v8b9c0x1z2.sai7348.xyz": [
       "mobile.txt:287"
@@ -4821,14 +6225,32 @@
     "vampyrejibmen.com": [
       "base.txt:444"
     ],
+    "vd6.l.qq.com": [
+      "awavenue/ads.txt:610"
+    ],
     "velti.com": [
       "mobile.txt:1045"
     ],
     "vernaellac.com": [
       "chinese.txt:51"
     ],
+    "vi.l.qq.com": [
+      "awavenue/ads.txt:611"
+    ],
+    "video-ad.sm.cn": [
+      "awavenue/ads.txt:612"
+    ],
     "video-ads-module.ad-tech.nbcuni.com": [
       "base.txt:841"
+    ],
+    "video-dsp.pddpic.com": [
+      "awavenue/ads.txt:613"
+    ],
+    "video.dispatch.tc.qq.com": [
+      "awavenue/ads.txt:614"
+    ],
+    "video.market.xiaomi.com": [
+      "awavenue/ads.txt:615"
     ],
     "videoads-cloud.rovio.com": [
       "mobile.txt:490"
@@ -4845,8 +6267,20 @@
     "vipads.live": [
       "base.txt:1229"
     ],
+    "vipauth.hpplay.cn": [
+      "awavenue/ads.txt:616"
+    ],
+    "vipgslb.hpplay.cn": [
+      "awavenue/ads.txt:617"
+    ],
     "vivotzrigtry.com": [
       "base.txt:273"
+    ],
+    "vlion.cn": [
+      "awavenue/ads.txt:663"
+    ],
+    "vlive.qqvideo.tc.qq.com": [
+      "awavenue/ads.txt:618"
     ],
     "vm5apis.com": [
       "mobile.txt:788"
@@ -4870,13 +6304,17 @@
       "mobile.txt:1047"
     ],
     "vungle.com": [
-      "mobile.txt:1048"
+      "mobile.txt:1048",
+      "awavenue/ads.txt:620"
     ],
     "vuukle.net": [
       "base.txt:1496"
     ],
     "vxcholycr.com": [
       "base.txt:527"
+    ],
+    "w.l.qq.com": [
+      "awavenue/ads.txt:621"
     ],
     "waardex.com": [
       "base.txt:1444"
@@ -4900,13 +6338,17 @@
       "base.txt:114"
     ],
     "wcp.taobao.com": [
-      "mobile.txt:184"
+      "mobile.txt:184",
+      "awavenue/ads.txt:622"
     ],
     "wdig.vo.llnwd.net": [
       "mobile.txt:704"
     ],
     "wdziitkl.com": [
       "chinese.txt:14"
+    ],
+    "weather-community-drcn.weather.dbankcloud.cn": [
+      "awavenue/ads.txt:623"
     ],
     "webmedxml.com": [
       "base.txt:1462"
@@ -4932,11 +6374,17 @@
     "widespace.com": [
       "mobile.txt:1052"
     ],
+    "widgets.outbrain.com": [
+      "awavenue/ads.txt:625"
+    ],
     "wild-match.com": [
       "base.txt:388"
     ],
     "wildwist.com": [
       "chinese.txt:140"
+    ],
+    "win.gdt.qq.com": [
+      "awavenue/ads.txt:627"
     ],
     "wivowu.my": [
       "base.txt:62"
@@ -4946,6 +6394,9 @@
     ],
     "wl.uqwjdhgv.top": [
       "chinese.txt:117"
+    ],
+    "wn.x.jd.com": [
+      "awavenue/ads.txt:628"
     ],
     "wnwtfmpsmslwi.site": [
       "base.txt:187"
@@ -4959,17 +6410,50 @@
     "wrupqrdcwvjar.space": [
       "base.txt:320"
     ],
+    "ws.tapjoyads.com": [
+      "awavenue/ads.txt:629"
+    ],
     "wtraff.com": [
       "mobile.txt:1055"
+    ],
+    "wwads.cn": [
+      "awavenue/ads.txt:631"
     ],
     "www.adbert.com.tw": [
       "mobile.txt:656"
     ],
+    "wxa.wxs.qq.com": [
+      "awavenue/ads.txt:632"
+    ],
+    "wxaintpcos.wxqcloud.qq.com.cn": [
+      "awavenue/ads.txt:633"
+    ],
+    "wximg.wxs.qq.com": [
+      "awavenue/ads.txt:634"
+    ],
     "wxqdcakvuv.com": [
       "base.txt:368"
     ],
+    "wxsmw.wxs.qq.com": [
+      "awavenue/ads.txt:635"
+    ],
+    "wxsnsad.tc.qq.com": [
+      "awavenue/ads.txt:636"
+    ],
+    "wxsnsdy.tc.qq.com": [
+      "awavenue/ads.txt:637"
+    ],
+    "wxsnsdy.wxs.qq.com": [
+      "awavenue/ads.txt:638"
+    ],
+    "wxsnsdythumb.wxs.qq.com": [
+      "awavenue/ads.txt:639"
+    ],
     "x3m.biz": [
       "mobile.txt:211"
+    ],
+    "xadsmartget.adgain.cn": [
+      "awavenue/ads.txt:640"
     ],
     "xaprio.net": [
       "base.txt:1433"
@@ -4977,8 +6461,14 @@
     "xbarbppqv.com": [
       "base.txt:469"
     ],
+    "xc.gdt.qq.com": [
+      "awavenue/ads.txt:641"
+    ],
     "xcultur.com": [
       "chinese.txt:32"
+    ],
+    "xcx.dcad01.com": [
+      "awavenue/ads.txt:642"
     ],
     "xdowl0adxd0wnloadx.com": [
       "base.txt:868"
@@ -4991,6 +6481,9 @@
     ],
     "xhvideo.saawsedge.com": [
       "base.txt:83"
+    ],
+    "xiaomi-dtv.m.cn.miaozhen.com": [
+      "awavenue/ads.txt:643"
     ],
     "ximad.com": [
       "mobile.txt:1056"
@@ -5024,6 +6517,12 @@
     ],
     "xl-ads.com": [
       "base.txt:247"
+    ],
+    "xlviiirdr.com": [
+      "awavenue/ads.txt:644"
+    ],
+    "xlviirdr.com": [
+      "awavenue/ads.txt:645"
     ],
     "xml.pops.gg": [
       "base.txt:151"
@@ -5098,7 +6597,8 @@
       "base.txt:1150"
     ],
     "yfanads.com": [
-      "mobile.txt:185"
+      "mobile.txt:185",
+      "awavenue/ads.txt:664"
     ],
     "yieldkit.com": [
       "mobile.txt:1059"
@@ -5115,8 +6615,18 @@
     "yjibimcrcylrg.website": [
       "base.txt:245"
     ],
+    "yk-ssp-ad.cp31.ott.cibntv.net": [
+      "awavenue/ads.txt:646"
+    ],
+    "ykad-data.cp31.ott.cibntv.net": [
+      "awavenue/ads.txt:648"
+    ],
     "ykad-data.youku.com": [
-      "mobile.txt:15"
+      "mobile.txt:15",
+      "awavenue/ads.txt:649"
+    ],
+    "ykad-gateway.youku.com": [
+      "awavenue/ads.txt:650"
     ],
     "yllix.com": [
       "mobile.txt:1061"
@@ -5133,6 +6643,9 @@
     "yovoads.com": [
       "mobile.txt:571"
     ],
+    "ytx-file.110route.cn": [
+      "awavenue/ads.txt:651"
+    ],
     "zealousimage.com": [
       "base.txt:433"
     ],
@@ -5142,14 +6655,23 @@
     "zentrixads.com": [
       "base.txt:1488"
     ],
+    "zeus.ad.xiaomi.com": [
+      "awavenue/ads.txt:653"
+    ],
     "zgzxs.weathercn.com": [
       "mobile.txt:355"
+    ],
+    "zhangyuyidong.cn": [
+      "awavenue/ads.txt:665"
     ],
     "zipzirim.com": [
       "base.txt:18"
     ],
     "ziweuu.com": [
       "chinese.txt:84"
+    ],
+    "zjres-ad.kajicam.com": [
+      "awavenue/ads.txt:654"
     ],
     "zmqdez.ru": [
       "mobile.txt:267"
@@ -5185,6 +6707,499 @@
       "base.txt:281"
     ]
   },
+  "china_enhancement": {
+    "source": "AWAvenue Only.Ads",
+    "baseline_domains": 1697,
+    "merged_domains": 2179,
+    "new_output_domains": [
+      "1500020991.vodplayer.wxamedia.com",
+      "1500022744.vodplayer.wxamedia.com",
+      "1500026601.vodplayer.wxamedia.com",
+      "1rtb.com",
+      "8le8le.com",
+      "a.market.xiaomi.com",
+      "a0.app.xiaomi.com",
+      "ad-api.4pyun.com",
+      "ad-cdn.qingting.fm",
+      "ad-cmp.hismarttv.com",
+      "ad-download.hismarttv.com",
+      "ad-files.4pyun.com",
+      "ad-scope.com",
+      "ad-scope.com.cn",
+      "ad-sdk-config.youdao.com",
+      "ad.12306.cn",
+      "ad.51wnl.com",
+      "ad.api.3g.youku.com",
+      "ad.bn.netease.com",
+      "ad.bwton.com",
+      "ad.cctv.com",
+      "ad.cyapi.cn",
+      "ad.doubleclick.net",
+      "ad.duoduo.link",
+      "ad.gameley.com",
+      "ad.hpplay.cn",
+      "ad.iot.360.cn",
+      "ad.jia.360.cn",
+      "ad.life.360.cn",
+      "ad.maoyan.com",
+      "ad.partner.gifshow.com",
+      "ad.player.baidu.com",
+      "ad.qingting.fm",
+      "ad.qq.com",
+      "ad.richmob.cn",
+      "ad.shenshiads.com",
+      "ad.shunchangzhixing.com",
+      "ad.toutiao.com",
+      "ad.v3mh.com",
+      "ad.winrar.com.cn",
+      "ad.ximalaya.com",
+      "ad.xunkids.com",
+      "ad4.sina.com.cn",
+      "adapi.izuiyou.com",
+      "adapi.yynetwk.com",
+      "adbox.sina.com.cn",
+      "adc.hpplay.cn",
+      "adcanvas.com",
+      "adcdn.hpplay.cn",
+      "adcdn.tencentmusic.com",
+      "adclick.g.doubleclick.net",
+      "adclick.tencentmusic.com",
+      "addata.jd.com",
+      "adeng.hpplay.cn",
+      "adexp.chinaliftoff.io",
+      "adexpo.tencentmusic.com",
+      "adguanggao.eee114.com",
+      "adimg.uve.weibo.com",
+      "adintl.cn",
+      "adjust.cn",
+      "adks.hpplay.cn",
+      "adlink-api.huan.tv",
+      "adlog.vivo.com.cn",
+      "adm.funshion.com",
+      "admobile.top",
+      "adreq.vivo.com.cn",
+      "ads-api-o.api.leiniao.com",
+      "ads-api.twitter.com",
+      "ads-img-al.xhscdn.com",
+      "ads-img-bak.xhscdn.com",
+      "ads-img-qc.xhscdn.com",
+      "ads-marketing-vivofs.vivo.com.cn",
+      "ads-sdk-api.ranfenghd.com",
+      "ads-shopping.shouqianba.com",
+      "ads-video-al.xhscdn.com",
+      "ads-video-qc.xhscdn.com",
+      "ads-vp5.xhscdn.com",
+      "ads.95516.com",
+      "ads.adfunlink.com",
+      "ads.auctions.yahoo.com",
+      "ads.cup.com.cn",
+      "ads.finance.yahoo.com",
+      "ads.google.cn",
+      "ads.huan.tv",
+      "ads.huantest.com",
+      "ads.icloseli.cn",
+      "ads.ishansong.com",
+      "ads.linkedin.com",
+      "ads.pinterest.com",
+      "ads.pubmatic.com",
+      "ads.raidrive.com",
+      "ads.service.kugou.com",
+      "ads.v3mh.com",
+      "ads.zhinengxiyifang.cn",
+      "ads3-normal-hl.zijieapi.com",
+      "ads3-normal-lf.zijieapi.com",
+      "ads3-normal-lq.zijieapi.com",
+      "ads3-normal.zijieapi.com",
+      "ads5-normal-hl.zijieapi.com",
+      "ads5-normal-lf.zijieapi.com",
+      "ads5-normal-lq.zijieapi.com",
+      "ads5-normal.zijieapi.com",
+      "adscdn.baidu.com",
+      "adsdk.vivo.com.cn",
+      "adse.test.ximalaya.com",
+      "adse.wsa.ximalaya.com",
+      "adse.ximalaya.com",
+      "adsebs.ximalaya.com",
+      "adsense.google.cn",
+      "adservice.google.com",
+      "adservice.sigmob.cn",
+      "adserviceretry.kugou.com",
+      "adsfile.bssdlbig.kugou.com",
+      "adsfile.qq.com",
+      "adsfilebssdlbig.ali.kugou.com",
+      "adsfileretry.service.kugou.com",
+      "adsfs-sdkconfig.heytapimage.com",
+      "adslvfile.qq.com",
+      "adsmart.konka.com",
+      "adsmartget.datads.cn",
+      "adsmind.gdtimg.com",
+      "adsmind.ugdtimg.com",
+      "adsp.xunlei.com",
+      "adstat.izuiyou.com",
+      "adstats.tencentmusic.com",
+      "adstextview.qq.com",
+      "adstore-1252524079.file.myqcloud.com",
+      "adstore-index-1252524079.file.myqcloud.com",
+      "adstudio-assets.scdn.co",
+      "adtago.s3.amazonaws.com",
+      "adtrack.quark.cn",
+      "adtracker.adfunlink.com",
+      "adui.tg.meitu.com",
+      "adv-api.shenshiads.com",
+      "adv.sec.miui.com",
+      "advice-ads.s3.amazonaws.com",
+      "adview.cn",
+      "adx-ad.smart-tv.cn",
+      "adx-api.jinmo.tech",
+      "adx-drcn.op.dbankcloud.cn",
+      "adx-saas.advlion.com",
+      "adx-strategy-api-cn.statisticslinks.com",
+      "adx.adwangmai.com",
+      "adx.appsdk.com.cn",
+      "adx.sogaha.cn",
+      "adx.tuia.cn",
+      "adxlog-adnet.vivo.com.cn",
+      "adxlog.vivo.com.cn",
+      "adxserver.ad.cmvideo.cn",
+      "adxstatic.vivo.com.cn",
+      "aem.dentsuchina.cn",
+      "agn.aty.sohu.com",
+      "aiseet.aa.atianqi.com",
+      "alicoccdncnc-xn.inter.71edge.com",
+      "alicoccdnct-xn.inter.71edge.com",
+      "als.baidu.com",
+      "analytics.oceanengine.com",
+      "analytics.tiktok.com",
+      "andrqd.play.aiseet.atianqi.com",
+      "ap.dongdianqiu.com",
+      "ap.dongqiudi.com",
+      "api-access.pangolin-sdk-toutiao.com",
+      "api-access.pangolin-sdk-toutiao1.com",
+      "api-access.pangolin-sdk-toutiao2.com",
+      "api-access.pangolin-sdk-toutiao3.com",
+      "api-access.pangolin-sdk-toutiao4.com",
+      "api-access.pangolin-sdk-toutiao5.com",
+      "api-ad-data.kajicam.com",
+      "api-ad-product.huxiu.com",
+      "api-ad.kajicam.com",
+      "api-adservices.apple.com",
+      "api-gd.hiaiabc.com",
+      "api.ad.xiaomi.com",
+      "api.e.kuaishou.com",
+      "api.hzsanjiaomao.com",
+      "api.installer.xiaomi.com",
+      "api.jietuhb.com",
+      "api.touch-moblie.com",
+      "api5-normal-quic-lf.ixigua.com",
+      "apiyd.my91app.com",
+      "aqyad.com",
+      "baichuan-sdk.taobao.com",
+      "bgg.baidu.com",
+      "bianxian.com",
+      "bid.shanghailingye.cn",
+      "biz.weibo.com",
+      "bj-td-menta-01-callback.advlion.com",
+      "bj.ad.track.66mobi.com",
+      "boost-cmp.hismarttv.com",
+      "bootpreload.uve.weibo.com",
+      "brandadsstatic.vivo.com.cn",
+      "bsrv.qq.com",
+      "business-api.tiktok.com",
+      "c.bidtoolads.com",
+      "c.evidon.com",
+      "c.gj.qq.com",
+      "c.kuaiduizuoye.com",
+      "c.sayhi.360.cn",
+      "c2.gdt.qq.com",
+      "canvas-cdn.gdt.qq.com",
+      "catalog.fjwhcbsh.com",
+      "cbjs.baidu.com",
+      "ccc-x.jd.com",
+      "cdn-ads.oss-cn-shanghai.aliyuncs.com",
+      "cdn.aiclk.com",
+      "cdn.chinaliftoff-creatives.io",
+      "cdn.hpplay.com.cn",
+      "cdn.iads.unitychina.cn",
+      "chiq-cloud.com",
+      "click.chinaliftoff.io",
+      "click4.chinaliftoff.io",
+      "cloooud.com",
+      "commercial.shouji.360.cn",
+      "conf.hpplay.cn",
+      "config.chsmarttv.com",
+      "cpc-service-square.aiclk.com",
+      "cpro.baidustatic.com",
+      "d.applvn.com",
+      "da.statisticslinks.com",
+      "datacollection.uve.weibo.com",
+      "dc.sigmob.cn",
+      "diagnosis.ad.xiaomi.com",
+      "doubleclick-cn.net",
+      "dsp-x.jd.com",
+      "dsp.fcbox.com",
+      "dsplog-adnet.vivo.com.cn",
+      "dxp.baidu.com",
+      "e.ad.xiaomi.com",
+      "eclick.baidu.com",
+      "edge.ads.twitch.tv",
+      "engine.dcad01.com",
+      "entry.baidu.com",
+      "et-eus.w.inmobi.com",
+      "fclog.baidu.com",
+      "feed-image.baidu.com",
+      "file.daihuo.qq.com",
+      "frontend-perf-service.e.kuaishou.com",
+      "fxgate.baidu.com",
+      "g-adnet.hiaiabc.com",
+      "g-staic.ganjingworld.com",
+      "g.cn.miaozhen.com",
+      "g.dtv.cn.miaozhen.com",
+      "g2.ganjing.world",
+      "gemini.yahoo.com",
+      "ggx.cmvideo.cn",
+      "ggx01.miguvideo.com",
+      "ggx03.miguvideo.com",
+      "globalapi.ad.xiaomi.com",
+      "googleads.g.doubleclick.net",
+      "googleadservices-cn.com",
+      "googletagservices-cn.com",
+      "gorgon.youdao.com",
+      "gromore.pangolin-sdk-toutiao.com",
+      "gslb.hpplay.cn",
+      "gvideo.qpic.cn",
+      "hanlanad.com",
+      "hc-ssp.sm.cn",
+      "heads-ak.spotify.com.edgesuite.net",
+      "heads-fa.spotify.com",
+      "houyi.kkmh.com",
+      "hpplay.cdn.cibn.cc",
+      "huichuan-mc.sm.cn",
+      "huichuan.sm.cn",
+      "huodong.ios.shouji.360.cn",
+      "huodong.weibo.cn",
+      "hwpub-s01-drcn.cloud.dbankcloud.cn",
+      "hybrid.miniapp.taobao.com",
+      "hye.comp.360os.com",
+      "hyt.comp.360os.com",
+      "iad.apple.com",
+      "iad.g.163.com",
+      "iadcontent.apple.com",
+      "iadctest.qwapi.com",
+      "iadmoo.apple.com",
+      "iadmusicmat.music.126.net",
+      "ii.gdt.qq.com",
+      "image-ad.sm.cn",
+      "image.hpplay.cn",
+      "images.outbrainimg.com",
+      "img-c.heytapimage.com",
+      "img-x.jd.com",
+      "img.adnyg.com.w.kunlungr.com",
+      "img2.360buyimg.com",
+      "imp-cmp.hismarttv.com",
+      "impression-asia.chinaliftoff.io",
+      "impression.appsflyer.com",
+      "inner-hw.huazirc.com",
+      "irc.qubiankeji.com",
+      "iyfbodn.com",
+      "kde.qq.com",
+      "kepler.jd.com",
+      "kl.67it.com",
+      "ks.ferlytc.com",
+      "launcher.smart-tv.cn",
+      "launcherimg.smart-tv.cn",
+      "lf-event-manager.oceanengine.com",
+      "lh3.googleadsserving.cn",
+      "litchiads.com",
+      "live-api.hktvmall.com",
+      "liveats-vod.video.ptqy.gitv.tv",
+      "lm10111.jtrincc.cn",
+      "loading-cmp.hismarttv.com",
+      "log-api.pangolin-sdk-toutiao.com",
+      "log-verify.dutils.com",
+      "log-verify.hiaiabc.com",
+      "log.ad.xiaomi.com",
+      "logrcv.aiclk.com",
+      "logrcv.yunxish.com",
+      "luimg.baidu.com",
+      "m-adnet.hiaiabc.com",
+      "m.ad.zhangyue.com",
+      "m.atm.youku.com",
+      "m.shenshiads.com",
+      "m1.ad.10010.com",
+      "mapi.m.jd.com",
+      "masdkv6.3g.qq.com",
+      "medproad.com",
+      "micro-xdb.com",
+      "mini-prog-drm.vodplayvideo.net",
+      "mission-pub.smart-tv.cn",
+      "moatads.com",
+      "mobads-logs.baidu.com",
+      "mobaliyun.res.mgtv.com",
+      "mobile.da.mgtv.com",
+      "mobilead.kuwo.cn",
+      "monitor-ads-test.huan.tv",
+      "monitor.adxsenmeng.com",
+      "mores.toponad.com",
+      "ms.applvn.com",
+      "ms4.applvn.com",
+      "msdk.voiceads.cn",
+      "msg-cmp.hismarttv.com",
+      "nadvideo2.baidu.com",
+      "newvoice.chiq5.smart-tv.cn",
+      "nex.163.com",
+      "o2o.api.xiaomi.com",
+      "open-set-api.shenshiads.com",
+      "open.snssdk.com",
+      "optimus-ads.amap.com",
+      "outlookads.live.com",
+      "p.l.qq.com",
+      "p3-tt.byteimg.com",
+      "pagead2.googleadservices.com",
+      "pagead2.googlesyndication.com",
+      "pangolin-sdk-toutiao-b.com",
+      "paster-cmp.hismarttv.com",
+      "pay.sboot.cn",
+      "pgdt.ugdtimg.com",
+      "pica-a-display.diwodiwo.xyz",
+      "pica-ad-api.diwodiwo.xyz",
+      "pixon.ads-pixiv.net",
+      "pms.mb.qq.com",
+      "pos.baidu.com",
+      "prom-sdkv2.jysper.net",
+      "promotion-partner.kuaishou.com",
+      "proxy.advp.apple.com",
+      "public.gdtimg.com",
+      "q.i.gdt.qq.com",
+      "qmlog.baertt.com",
+      "recmd-cmp.hismarttv.com",
+      "recommend-drcn.hms.dbankcloud.cn",
+      "resource-cmp.hismarttv.com",
+      "review.gdtimg.com",
+      "roi.soulapp.cn",
+      "rpt.gdt.qq.com",
+      "rt.applvn.com",
+      "rtb.adxsenmeng.com",
+      "rtb.voiceads.cn",
+      "s1.cdn-sg.advlion.com",
+      "s8t.teads.tv",
+      "saad.ms.zhangyue.net",
+      "samsungads.com",
+      "sdk-cache.video.ptqy.gitv.tv",
+      "sdk-track.66mobi.com",
+      "sdk.1rtb.net",
+      "sdk.ad.smaato.net",
+      "sdk.adhuanxiao.com",
+      "sdk.cferw.com",
+      "sdk.hzsanjiaomao.com",
+      "sdk.hzzfcm.com",
+      "sdk.markmedia.com.cn",
+      "sdk.mobads.adwangmai.com",
+      "sdkapp.uve.weibo.com",
+      "sdkauth.hpplay.cn",
+      "sdkconfig.ad.intl.xiaomi.com",
+      "sdkconfig.ad.xiaomi.com",
+      "sdkconfig.play.aiseet.atianqi.com",
+      "sdkconfig.video.qq.com",
+      "sdownload.stargame.com",
+      "search.ixigua.com",
+      "search3-search.ixigua.com",
+      "search5-search-hl.ixigua.com",
+      "search5-search.ixigua.com",
+      "securepubads.g.doubleclick.net",
+      "service.vmos.cn",
+      "sigmob.com",
+      "skdisplay.jd.com",
+      "sl.hpplay.cn",
+      "smad.ms.zhangyue.net",
+      "smartad.10010.com",
+      "static-s.iqiyi.com",
+      "static.ads-twitter.com",
+      "statichf.shihuocdn.cn",
+      "statics.woozooo.com",
+      "sv-video.play.aiseet.atianqi.com",
+      "syh-imp.cdnjtzy.com",
+      "syh.zybang.com",
+      "t-adx.52qumao.com",
+      "t-dsp.pinduoduo.com",
+      "t.l.qq.com",
+      "t.teads.tv",
+      "t.track.ad.xiaomi.com",
+      "t002.ottcn.com",
+      "t1.teads.tv",
+      "t7z.cupid.ptqy.gitv.tv",
+      "tagtic.cn",
+      "target.ads.jihuoniao.com",
+      "tdsdk.cpatrk.net",
+      "tencent-dtv.m.cn.miaozhen.com",
+      "test.ad.xiaomi.com",
+      "tk.statisticslinks.com",
+      "tmead.y.qq.com",
+      "tmeadcomm.y.qq.com",
+      "tpc.googlesyndication-cn.com",
+      "tpc.googlesyndication.com",
+      "tracelog-debug.aiclk.com",
+      "tracelog-debug.qquanquan.com",
+      "tracelog-debug.yunxish.com",
+      "tracking-adnet.vivo.com.cn",
+      "tuiguang.meitu.com",
+      "tvapp.hpplay.cn",
+      "tytx.m.cn.miaozhen.com",
+      "ubixioe.com",
+      "update0.aiclk.com",
+      "us.l.qq.com",
+      "usr-api.aiclk.com",
+      "v.110route.cn",
+      "v1-ad.video.yximgs.com",
+      "v2-ad.video.yximgs.com",
+      "v2-api-channel-launcher.hismarttv.com",
+      "v2.gdt.qq.com",
+      "v2.reachmax.cn",
+      "v2mi.gdt.qq.com",
+      "v3-ad.video.yximgs.com",
+      "v3.gdt.qq.com",
+      "vd6.l.qq.com",
+      "vi.l.qq.com",
+      "video-ad.sm.cn",
+      "video-dsp.pddpic.com",
+      "video.dispatch.tc.qq.com",
+      "video.market.xiaomi.com",
+      "vipauth.hpplay.cn",
+      "vipgslb.hpplay.cn",
+      "vlion.cn",
+      "vlive.qqvideo.tc.qq.com",
+      "w.l.qq.com",
+      "weather-community-drcn.weather.dbankcloud.cn",
+      "widgets.outbrain.com",
+      "win.gdt.qq.com",
+      "wn.x.jd.com",
+      "ws.tapjoyads.com",
+      "wwads.cn",
+      "wxa.wxs.qq.com",
+      "wxaintpcos.wxqcloud.qq.com.cn",
+      "wximg.wxs.qq.com",
+      "wxsmw.wxs.qq.com",
+      "wxsnsad.tc.qq.com",
+      "wxsnsdy.tc.qq.com",
+      "wxsnsdy.wxs.qq.com",
+      "wxsnsdythumb.wxs.qq.com",
+      "xadsmartget.adgain.cn",
+      "xc.gdt.qq.com",
+      "xcx.dcad01.com",
+      "xiaomi-dtv.m.cn.miaozhen.com",
+      "xlviiirdr.com",
+      "xlviirdr.com",
+      "yk-ssp-ad.cp31.ott.cibntv.net",
+      "ykad-data.cp31.ott.cibntv.net",
+      "ykad-gateway.youku.com",
+      "ytx-file.110route.cn",
+      "zeus.ad.xiaomi.com",
+      "zhangyuyidong.cn",
+      "zjres-ad.kajicam.com"
+    ],
+    "removed_or_superseded_domains": [
+      "adstrategy.biz.weibo.com"
+    ]
+  },
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/0408f180b8d7575254162fc9911302646da2a12a/BaseFilter/sections/adservers.txt",
@@ -5210,6 +7225,11 @@
       "url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/c1fdb248eeddaddc543d7341a59c4a49dc6d0d3a/Filters/exclusions.txt",
       "file": "sources/adguard-dns/exclusions.txt",
       "sha256": "9457e4f6c15d5e98b0fb2bcea1b75d93933d95f7596dfdc59c261c3c16b61a59"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/3b96f6337ee05400d5be302f7e9bdd5188839b82/Filters/AWAvenue-Ads-Rule-Adguard-Only.Ads.txt",
+      "file": "sources/awavenue/ads.txt",
+      "sha256": "71f39df7387ecd8ec5084c0b5b69f14fe0175fb9677097a916ac43727a7fcfd4"
     }
   ],
   "license": "GPL-3.0-only"

@@ -1,12 +1,12 @@
 #!name=Even AdBlock
-#!desc=基于 AdGuard 官方基础、移动及中文广告清单的保守域名过滤。\n\n上游作者：AdGuard 及贡献者\n来源：github.com/AdguardTeam/AdguardFilters\n例外来源：github.com/AdguardTeam/AdGuardSDNSFilter\n转换维护：EvenSix66 · 2026.11.20.4\n许可：GPLv3，源码及转换脚本随仓库提供。\n不需要 MITM；不包含网页元素隐藏或视频贴片处理；不等同完整 AdGuard。\n项目：https://github.com/EvenSix66/surge-modules
-#!author=AdGuard and contributors; Surge conversion by EvenSix66
+#!desc=AdGuard 基础、移动、中文广告域名过滤，加入秋风纯广告清单增强中国应用覆盖。\n\n上游作者：AdGuard、TG-Twilight 及贡献者\n来源：github.com/AdguardTeam/AdguardFilters\n中国增强：github.com/TG-Twilight/AWAvenue-Ads-Rule（Only.Ads）\n例外来源：github.com/AdguardTeam/AdGuardSDNSFilter\n转换维护：EvenSix66 · 2026.11.20.5\n许可：GPLv3，原始清单及转换脚本随仓库提供。\n不需要 MITM；不含网页元素隐藏或视频贴片处理，不等同完整 AdGuard。\n项目：https://github.com/EvenSix66/surge-modules
+#!author=AdGuard, TG-Twilight and contributors; Surge conversion by EvenSix66
 #!homepage=https://github.com/EvenSix66/surge-modules
 #!category=Even Modules
-#!version=2026.11.20.4
+#!version=2026.11.20.5
 
 # SPDX-License-Identifier: GPL-3.0-only
-# Modified 2026-11-20. Derived rules: AdGuard and contributors.
+# Modified 2026-11-20. Derived rules: AdGuard, TG-Twilight and contributors.
 # Corresponding source, changes and full license: repository sources/, build_ads.py, LICENSES/.
 # Original Advertisers.sgmodule was replaced; no old module rules are used here.
 [Rule]

@@ -29,6 +29,14 @@ class ConversionTests(unittest.TestCase):
         result, _ = convert({'test': '||ads.example.com^\n||ads.example.com^\n||sub.ads.example.com^\n||badexample.com^'}, '', '')
         self.assertEqual(result, ['ads.example.com', 'badexample.com'])
 
+    def test_new_source_respects_existing_exceptions(self):
+        result, _ = convert({'base': '||old.example^', 'china': '||protected.example^\n||new.example^'}, '@@||protected.example^|', '')
+        self.assertEqual(result, ['new.example', 'old.example'])
+
+    def test_new_source_exception_protects_old_source(self):
+        result, _ = convert({'base': '||old.example^', 'china': '@@||old.example^\n||new.example^'}, '', '')
+        self.assertEqual(result, ['new.example'])
+
 
 if __name__ == '__main__':
     unittest.main()

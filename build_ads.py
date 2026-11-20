@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-only
-"""Convert a conservative subset of pinned AdGuard sources to Surge domains.
+"""Convert conservative subsets of pinned AdGuard and AWAvenue sources.
 
 Copyright (C) 2026 EvenSix66. See LICENSES/GPL-3.0.txt.
 No LoonKissSurge/iKelee rule data is used by this converter.
@@ -108,12 +108,22 @@ def convert(texts, exception_text, exclusion_text):
 def main():
     source = ROOT / 'sources/adguard'
     dns = ROOT / 'sources/adguard-dns'
+    awa = ROOT / 'sources/awavenue'
     commit = (source / 'commit.txt').read_text().strip()
     dns_commit = (dns / 'commit.txt').read_text().strip()
-    domains, report = convert(
-        {name: (source / name).read_text(encoding='utf-8-sig') for name in SOURCES},
-        (dns / 'exceptions.txt').read_text(encoding='utf-8-sig'),
-        (dns / 'exclusions.txt').read_text(encoding='utf-8-sig'))
+    awa_commit = (awa / 'commit.txt').read_text().strip()
+    texts = {name: (source / name).read_text(encoding='utf-8-sig') for name in SOURCES}
+    exceptions = (dns / 'exceptions.txt').read_text(encoding='utf-8-sig')
+    exclusions = (dns / 'exclusions.txt').read_text(encoding='utf-8-sig')
+    baseline, _ = convert(texts, exceptions, exclusions)
+    texts['awavenue/ads.txt'] = (awa / 'ads.txt').read_text(encoding='utf-8-sig')
+    domains, report = convert(texts, exceptions, exclusions)
+    report['china_enhancement'] = {
+        'source': 'AWAvenue Only.Ads', 'baseline_domains': len(baseline),
+        'merged_domains': len(domains),
+        'new_output_domains': sorted(set(domains) - set(baseline)),
+        'removed_or_superseded_domains': sorted(set(baseline) - set(domains)),
+    }
     assert len(domains) > 100, 'Unexpectedly empty source or conversion result'
     report['sources'] = [
         {'url': f'https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/{commit}/{path}',
@@ -126,21 +136,26 @@ def main():
          'sha256': hashlib.sha256((dns / name).read_bytes()).hexdigest()}
         for name in ('exceptions.txt', 'exclusions.txt')]
     report['license'] = 'GPL-3.0-only'
+    report['sources'].append({
+        'url': f'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/{awa_commit}/Filters/AWAvenue-Ads-Rule-Adguard-Only.Ads.txt',
+        'file': 'sources/awavenue/ads.txt',
+        'sha256': hashlib.sha256((awa / 'ads.txt').read_bytes()).hexdigest()})
     header = ('# SPDX-License-Identifier: GPL-3.0-only\n'
-              '# Source: AdGuard Filters / AdGuard DNS filter, AdGuard and contributors.\n'
+              '# Sources: AdGuard Filters / DNS filter; AWAvenue Ads Rule Only.Ads.\n'
+              '# Original authors: AdGuard and contributors; TG-Twilight and AWAvenue contributors.\n'
               '# Modified by EvenSix66 on 2026-11-20: conservative domain conversion.\n'
               '# Full corresponding sources, converter and license: https://github.com/EvenSix66/surge-modules\n')
     (ROOT / 'rules/AdGuardAds.list').write_text(
         header + ''.join(f'DOMAIN-SUFFIX,{d}\n' for d in domains), encoding='utf-8', newline='\n')
     module = r'''#!name=Even AdBlock
-#!desc=基于 AdGuard 官方基础、移动及中文广告清单的保守域名过滤。\n\n上游作者：AdGuard 及贡献者\n来源：github.com/AdguardTeam/AdguardFilters\n例外来源：github.com/AdguardTeam/AdGuardSDNSFilter\n转换维护：EvenSix66 · 2026.11.20.4\n许可：GPLv3，源码及转换脚本随仓库提供。\n不需要 MITM；不包含网页元素隐藏或视频贴片处理；不等同完整 AdGuard。\n项目：https://github.com/EvenSix66/surge-modules
-#!author=AdGuard and contributors; Surge conversion by EvenSix66
+#!desc=AdGuard 基础、移动、中文广告域名过滤，加入秋风纯广告清单增强中国应用覆盖。\n\n上游作者：AdGuard、TG-Twilight 及贡献者\n来源：github.com/AdguardTeam/AdguardFilters\n中国增强：github.com/TG-Twilight/AWAvenue-Ads-Rule（Only.Ads）\n例外来源：github.com/AdguardTeam/AdGuardSDNSFilter\n转换维护：EvenSix66 · 2026.11.20.5\n许可：GPLv3，原始清单及转换脚本随仓库提供。\n不需要 MITM；不含网页元素隐藏或视频贴片处理，不等同完整 AdGuard。\n项目：https://github.com/EvenSix66/surge-modules
+#!author=AdGuard, TG-Twilight and contributors; Surge conversion by EvenSix66
 #!homepage=https://github.com/EvenSix66/surge-modules
 #!category=Even Modules
-#!version=2026.11.20.4
+#!version=2026.11.20.5
 
 # SPDX-License-Identifier: GPL-3.0-only
-# Modified 2026-11-20. Derived rules: AdGuard and contributors.
+# Modified 2026-11-20. Derived rules: AdGuard, TG-Twilight and contributors.
 # Corresponding source, changes and full license: repository sources/, build_ads.py, LICENSES/.
 # Original Advertisers.sgmodule was replaced; no old module rules are used here.
 [Rule]

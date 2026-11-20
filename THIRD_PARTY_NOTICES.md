@@ -4,6 +4,8 @@
 
 ## 后续替换：Even AdBlock
 
+版本 2026.11.20.5 追加秋风 AWAvenue Only.Ads 纯广告清单（TG-Twilight 及贡献者，GPLv3）；固定来源、原始许可文本和合并修改见 ADGUARD.md、sources/awavenue/ 及构建报告。本次不采用 anti-AD 或 AdRules 的聚合数据。
+
 2026-11-20 已将当前 `Surge/Advertisers.sgmodule` 替换为基于 AdGuard 官方清单生成的 Even AdBlock。新版规则、脚本、源文件和 GPLv3 许可范围详见 [ADGUARD.md](ADGUARD.md) 及 [LICENSES/GPL-3.0.txt](LICENSES/GPL-3.0.txt)。旧 `upstream/Advertisers.sgmodule` 已从最新树移除；旧数据仍存在于 Git 历史，下面涉及旧广告模块的结论作为历史记录保留。HTTPDNS 的授权问题尚未解决。Google 模块许可状态不变。
 
 ## 文件范围
