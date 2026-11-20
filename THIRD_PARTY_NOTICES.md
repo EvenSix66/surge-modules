@@ -2,7 +2,13 @@
 
 核对日期：2026-11-20。本文件记录来源和发现，不构成授权书，也不授予第三方内容的新许可。
 
+## 后续替换：Even AdBlock
+
+2026-11-20 已将当前 `Surge/Advertisers.sgmodule` 替换为基于 AdGuard 官方清单生成的 Even AdBlock。新版规则、脚本、源文件和 GPLv3 许可范围详见 [ADGUARD.md](ADGUARD.md) 及 [LICENSES/GPL-3.0.txt](LICENSES/GPL-3.0.txt)。旧 `upstream/Advertisers.sgmodule` 已从最新树移除；旧数据仍存在于 Git 历史，下面涉及旧广告模块的结论作为历史记录保留。HTTPDNS 的授权问题尚未解决。Google 模块许可状态不变。
+
 ## 文件范围
+
+以下表格为替换前的核对记录；当前广告模块以本页“后续替换”和 ADGUARD.md 为准。
 
 | 文件 | 来源 / 作者 | 本次核对结论 |
 | --- | --- | --- |

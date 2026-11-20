@@ -1,4 +1,4 @@
-"""Reproducible Surge adaptation of pinned, already-converted source modules."""
+"""Build legacy HTTPDNS and the separately sourced AdGuard advertising module."""
 import csv
 import hashlib
 import ipaddress
@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 COMMIT = (ROOT / 'upstream/commit.txt').read_text().strip()
 REPORT = {}
-for name in ('HTTPDNS', 'Advertisers'):
+for name in ('HTTPDNS',):
     source = ROOT / f'upstream/{name}.sgmodule'
     original = source.read_text(encoding='utf-8-sig')
     output = []
@@ -104,3 +104,6 @@ for name in ('HTTPDNS', 'Advertisers'):
 
 (ROOT / 'build-report.json').write_text(json.dumps(REPORT, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(json.dumps(REPORT, ensure_ascii=False, indent=2))
+
+from build_ads import main as build_ads
+build_ads()

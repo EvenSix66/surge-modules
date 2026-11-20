@@ -1,14 +1,18 @@
 # Surge Modules
 
-> 许可证核对：HTTPDNS 和广告平台模块的修改、公开再分发授权尚未确认；上游的 CC BY-NC-SA 4.0 标识不能直接视为涵盖这些模块。本仓库没有统一开源许可证。逐文件来源、范围与待办见 [来源与许可证核对](THIRD_PARTY_NOTICES.md)。
+> 许可证核对：HTTPDNS 的修改、公开再分发授权仍未确认。新版 Even AdBlock 已改用 AdGuard 官方 GPLv3 清单，许可范围见下文。本仓库没有覆盖所有文件的统一许可证。逐文件来源、范围与待办见 [来源与许可证核对](THIRD_PARTY_NOTICES.md)。
 
-个人 Surge 模块仓库。首批包含 HTTPDNS 拦截器和广告平台拦截器。
+个人 Surge 模块仓库，包含 Even AdBlock、Even HTTPDNS 和 Google 搜索重定向。
+
+## 新版广告过滤
+
+**Even AdBlock** 已基于 AdGuard 官方基础、移动、中文广告服务器清单重新生成，采用域名过滤，无需 MITM。旧安装链接保持不变，更新 `Advertisers.sgmodule` 即可。GPLv3 许可、固定来源、转换策略、例外保护和使用限制详见 [ADGUARD.md](ADGUARD.md)。原始清单、转换脚本和许可全文均已提供。
 
 本仓库模块在 Surge 中统一归类为 `Even Modules`。模块名称使用功能名称；原作者、原项目和转换来源保留在说明和源码备注中，分类不代表原作者署名。Google 重定向为独立编写，注明作者及官方语法来源。
 
 ## 来源与当前范围
 
-原作者：可莉，以及 HTTPDNS 模块署名的 VirgilClyne。保留模块内原始署名、图标、主页和日期。
+以下旧转换来源仅适用于当前 HTTPDNS 和历史广告平台模块。当前 Even AdBlock 的独立来源见下方说明。HTTPDNS 原作者为可莉、VirgilClyne，保留原始署名、图标、主页和日期。
 
 - 原项目索引：https://github.com/luestr/ProxyResource
 - 插件中心：https://hub.kelee.one/
@@ -22,7 +26,7 @@
 | 模块 | 文件 | 作用 |
 | --- | --- | --- |
 | HTTPDNS 拦截器 | [HTTPDNS.sgmodule](Surge/HTTPDNS.sgmodule) | 拒绝常见 HTTPDNS 请求，促使支持回退的应用使用正常 DNS |
-| 广告平台拦截器 | [Advertisers.sgmodule](Surge/Advertisers.sgmodule) | 拦截广告平台域名及部分广告资源，配合应用专项模块 |
+| Even AdBlock | [Advertisers.sgmodule](Surge/Advertisers.sgmodule) | 基于 AdGuard 官方清单生成的保守域名过滤，无需 MITM |
 | Google 搜索重定向 | [GoogleRedirect.sgmodule](Surge/GoogleRedirect.sgmodule) | 将 Google 中国搜索域名跳转至 www.google.com，保留路径及搜索参数 |
 
 仓库公开，可以在 Surge 中通过以下直链添加远程模块：
@@ -33,11 +37,11 @@
 
 Google 重定向为独立编写的模块，遵照 Surge 官方 URL Rewrite 语法，使用 307 和 `$1` 保留路径及参数，仅匹配 google.cn / g.cn 及各自的 www 域名。它不修改浏览器默认搜索引擎设置；需禁用重复的 Google 重定向模块。HTTPS 重定向需要重写与 MITM 生效，且请求经过 Surge。若浏览器允许自定义搜索引擎，也可直接将搜索模板设为 `https://www.google.com/search?q=%s`（占位符以浏览器要求为准），避免先请求 .cn。
 
-使用当前稳定版 Surge。规则中包含 `pre-matching`（官方注明 iOS 5.14.0+ / Mac 5.9.0+）；HTTPDNS 模块还包含内联 Map Local。将广告平台模块置于模块列表靠前位置，具体优先级以 Surge 合并后的配置为准。两个模块并不替代各应用专项规则。
+以下条件针对 HTTPDNS：使用当前稳定版 Surge。规则中包含 `pre-matching`（官方注明 iOS 5.14.0+ / Mac 5.9.0+）；HTTPDNS 模块还包含内联 Map Local。模块优先级以 Surge 合并后的配置为准；域名过滤并不替代各应用专项规则。
 
-HTTPS URL 重写和 Map Local 需要启用重写、MITM，并在设备信任 Surge 的 MITM 证书；普通域名/IP 拦截不依赖 HTTPS 解密。导入不会自动创建或信任证书。
+HTTPDNS 和 Google 模块中的 HTTPS URL 重写和 Map Local 需要启用重写、MITM，并在设备信任 Surge 的 MITM 证书；普通域名/IP 拦截不依赖 HTTPS 解密。导入不会自动创建或信任证书。
 
-## 本次适配
+## 旧模块适配记录（当前仅 HTTPDNS 继续使用）
 
 模块头遵循 [Surge 官方模块说明](https://manual.nssurge.com/profile/module.html)：文件以连续的 `#!` 元数据开始，`#!name`、`#!desc` 位于最前，普通来源注释放到元数据之后。版本 2026.11.20.2 将作者、适配版本、上游日期及使用条件写入 `#!desc`，方便在模块说明中查看。`author`、`homepage`、`version` 等额外字段供参考，官方并未保证在所有客户端界面单独展示。已有安装请手动更新远程模块；本地导入需重新下载。
 
@@ -61,4 +65,4 @@ HTTPDNS 拒绝后能否回退取决于应用；某些应用可能出现重试或
 
 原始模块及规则的权利属于各自作者，本仓库不将其重新许可。上游网站声明限制修改和公开分发，索引仓库也说明仅配置模板开源。本仓库公开不代表已取得原作者额外授权。转换来源仓库也不主张拥有模块版权。
 
-截至 2026-11-20，尚未取得两个基础模块具体版本的公开再分发授权证明。保留署名和来源属于来源记录，不等于授权已齐备。独立编写的 Google 模块及构建脚本尚未选择对外许可证；没有为全仓库擅自套用上游的 CC 许可。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+截至 2026-11-20，尚未取得 HTTPDNS 及旧广告平台模块具体版本的公开再分发授权证明；新版广告模块已替换数据来源。保留署名和来源属于来源记录，不等于授权已齐备。独立编写的 Google 模块及构建脚本尚未选择对外许可证；没有为全仓库擅自套用上游的 CC 许可。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

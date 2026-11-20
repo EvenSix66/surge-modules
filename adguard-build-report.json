@@ -1,0 +1,5216 @@
+{
+  "candidates": 1730,
+  "skipped": {
+    "conditional": 780,
+    "other_syntax": 78,
+    "ip_exclusion_not_applicable": 8
+  },
+  "safeguard_domains": 750,
+  "safeguard_regexes": 16,
+  "removed_for_safety": {
+    "adfox.ru": [
+      "adfox.ru"
+    ],
+    "advertising.com": [
+      "guce.advertising.com"
+    ],
+    "aniview.com": [
+      "ssai.aniview.com"
+    ],
+    "api-ao.adison.co": [
+      "api-ao.adison.co"
+    ],
+    "app.adjust.net.in": [
+      "app.adjust.net.in"
+    ],
+    "appodeal.com": [
+      "artifactory.appodeal.com"
+    ],
+    "at.adtech.redventures.io": [
+      "redventures.io"
+    ],
+    "conde.digital": [
+      "puzzles-games-api.gp-prod.conde.digital"
+    ],
+    "csi.gstatic.com": [
+      "csi.gstatic.com"
+    ],
+    "delivery-cdn-cf.adswizz.com": [
+      "adswizz.com"
+    ],
+    "dotomi.com": [
+      "cj.dotomi.com"
+    ],
+    "gcdn.2mdn.net": [
+      "2mdn.net"
+    ],
+    "googleadservices.com": [
+      "www.googleadservices.com"
+    ],
+    "i.skimresources.com": [
+      "skimresources.com"
+    ],
+    "imrworldwide.com": [
+      "imrworldwide.com"
+    ],
+    "kqzyfj.com": [
+      "kqzyfj.com"
+    ],
+    "p.tanx.com": [
+      "tanx.com"
+    ],
+    "prod.cm.publishers.advertising.a2z.com": [
+      "a2z.com"
+    ],
+    "r0.mradx.net": [
+      "mradx.net"
+    ],
+    "scorecardresearch.com": [
+      "scorecardresearch.com"
+    ],
+    "shareasale.com": [
+      "shareasale.com"
+    ],
+    "targetspot.com": [
+      "radiofrance.targetspot.com"
+    ],
+    "tivan.naver.com": [
+      "tivan.naver.com"
+    ],
+    "veta.naver.com": [
+      "veta.naver.com"
+    ]
+  },
+  "output_domains": 1697,
+  "provenance": {
+    "002777.xyz": [
+      "chinese.txt:132"
+    ],
+    "023hysj.com": [
+      "mobile.txt:684"
+    ],
+    "0xclicks.com": [
+      "base.txt:137"
+    ],
+    "1200555.com": [
+      "chinese.txt:135"
+    ],
+    "152media.cloud": [
+      "base.txt:1447"
+    ],
+    "17324756.cfd": [
+      "base.txt:529"
+    ],
+    "1f7wwaex9rbh.com": [
+      "base.txt:867"
+    ],
+    "1iuh5l.com": [
+      "chinese.txt:86"
+    ],
+    "1mp.mobi": [
+      "mobile.txt:745"
+    ],
+    "1oqib8z2vxqmtwtczzg.cfd": [
+      "base.txt:94"
+    ],
+    "247realmedia.com": [
+      "mobile.txt:746"
+    ],
+    "3n2nc158v6u5hv6o.cfd": [
+      "base.txt:442"
+    ],
+    "600fiber.net": [
+      "base.txt:295"
+    ],
+    "60ah.com": [
+      "base.txt:536"
+    ],
+    "64gkf7zhlwqn6y4eutgq1hjjo9y.rest": [
+      "base.txt:453"
+    ],
+    "666579.xyz": [
+      "chinese.txt:131"
+    ],
+    "666hh999gg.com": [
+      "chinese.txt:104"
+    ],
+    "6ogiuks905.com": [
+      "chinese.txt:24"
+    ],
+    "776.jstatic.xyz": [
+      "chinese.txt:105"
+    ],
+    "7d36a.com": [
+      "chinese.txt:50"
+    ],
+    "80xmedia.com": [
+      "base.txt:1478"
+    ],
+    "883.engine.mobileapptracking.com": [
+      "mobile.txt:675"
+    ],
+    "9867.org": [
+      "chinese.txt:46"
+    ],
+    "98765.pw": [
+      "chinese.txt:126"
+    ],
+    "99fkw4w8.com": [
+      "base.txt:521"
+    ],
+    "a.applvn.com": [
+      "mobile.txt:708"
+    ],
+    "a.gripi.online": [
+      "base.txt:378"
+    ],
+    "a.line.me": [
+      "mobile.txt:50"
+    ],
+    "a.pur.agency": [
+      "base.txt:197"
+    ],
+    "a.tyncar.com": [
+      "chinese.txt:200"
+    ],
+    "aacycjgsifojcw.com": [
+      "base.txt:562"
+    ],
+    "aafns.xyz": [
+      "chinese.txt:88"
+    ],
+    "aag.yahooapis.jp": [
+      "mobile.txt:521"
+    ],
+    "aanqylta.com": [
+      "base.txt:1135"
+    ],
+    "aatkit.com": [
+      "mobile.txt:116"
+    ],
+    "abbott.vo.llnwd.net": [
+      "mobile.txt:698"
+    ],
+    "abdalminhag.com": [
+      "base.txt:424"
+    ],
+    "abjectionfreedpaying.com": [
+      "base.txt:330"
+    ],
+    "abnad.net": [
+      "mobile.txt:748"
+    ],
+    "aboveaveragefinallycast.com": [
+      "base.txt:372"
+    ],
+    "abovesave.com": [
+      "base.txt:127"
+    ],
+    "abroad-ad.kingsoft-office-service.com": [
+      "mobile.txt:654"
+    ],
+    "abtest.mistat.xiaomi.com": [
+      "mobile.txt:622"
+    ],
+    "abtest.swrve.com": [
+      "mobile.txt:749"
+    ],
+    "accountut.com": [
+      "base.txt:37"
+    ],
+    "acdn.newshuntads.com": [
+      "mobile.txt:163"
+    ],
+    "acquaintjokinglyscoring.com": [
+      "base.txt:347",
+      "base.txt:425"
+    ],
+    "activity.browser.intl.miui.com": [
+      "mobile.txt:612"
+    ],
+    "acvraulxhsvkr.com": [
+      "base.txt:572"
+    ],
+    "ad-api.ehawk.com": [
+      "mobile.txt:68"
+    ],
+    "ad-api.maxnapps.com": [
+      "mobile.txt:208"
+    ],
+    "ad-api.revoaidapp.com": [
+      "mobile.txt:191"
+    ],
+    "ad-blocker-1.static-cloudflare.workers.dev": [
+      "base.txt:413"
+    ],
+    "ad-brix.com": [
+      "mobile.txt:751"
+    ],
+    "ad-channel.wikawika.xyz": [
+      "mobile.txt:530"
+    ],
+    "ad-creatives-public.commondatastorage.googleapis.com": [
+      "mobile.txt:743"
+    ],
+    "ad-ettoday.cdn.hinet.net": [
+      "mobile.txt:635"
+    ],
+    "ad-files.classting.com": [
+      "mobile.txt:350"
+    ],
+    "ad-specs.guoshipartners.com": [
+      "base.txt:1134"
+    ],
+    "ad-splash-tracking.hktvmall.com": [
+      "mobile.txt:22"
+    ],
+    "ad-splash.hktvmall.com": [
+      "mobile.txt:23"
+    ],
+    "ad-x.co.uk": [
+      "mobile.txt:752"
+    ],
+    "ad.apps.fm": [
+      "mobile.txt:753"
+    ],
+    "ad.apsalar.com": [
+      "mobile.txt:754"
+    ],
+    "ad.bestools.group": [
+      "mobile.txt:203"
+    ],
+    "ad.bluepartner.eu": [
+      "base.txt:830"
+    ],
+    "ad.buzzvil.com": [
+      "mobile.txt:119"
+    ],
+    "ad.cauly.co.kr": [
+      "mobile.txt:739"
+    ],
+    "ad.daum.net": [
+      "mobile.txt:676"
+    ],
+    "ad.deepthought.industries": [
+      "mobile.txt:324"
+    ],
+    "ad.duapps.com": [
+      "mobile.txt:136"
+    ],
+    "ad.flipboard.com": [
+      "mobile.txt:89"
+    ],
+    "ad.foxnetworks.com": [
+      "base.txt:866"
+    ],
+    "ad.inston.ltd": [
+      "mobile.txt:323"
+    ],
+    "ad.intools.dev": [
+      "mobile.txt:265"
+    ],
+    "ad.iwhop.cn": [
+      "mobile.txt:343"
+    ],
+    "ad.jorte.com": [
+      "mobile.txt:755"
+    ],
+    "ad.leadboltapps.net": [
+      "mobile.txt:756"
+    ],
+    "ad.leap.app": [
+      "mobile.txt:538"
+    ],
+    "ad.line-scdn.net": [
+      "mobile.txt:348"
+    ],
+    "ad.lomadee.com": [
+      "base.txt:864"
+    ],
+    "ad.mediamixer.co.kr": [
+      "mobile.txt:378"
+    ],
+    "ad.mobiuspace.net": [
+      "mobile.txt:335"
+    ],
+    "ad.mojisead.co.kr": [
+      "mobile.txt:221"
+    ],
+    "ad.nvdvr.cn": [
+      "mobile.txt:457"
+    ],
+    "ad.ohmyad.co": [
+      "mobile.txt:757"
+    ],
+    "ad.particlenews.com": [
+      "mobile.txt:545"
+    ],
+    "ad.period-calendar.com": [
+      "mobile.txt:689"
+    ],
+    "ad.simpledesign.ltd": [
+      "mobile.txt:417"
+    ],
+    "ad.smaad.jp": [
+      "mobile.txt:758"
+    ],
+    "ad.snappea.com": [
+      "mobile.txt:549"
+    ],
+    "ad.snaptube.app": [
+      "mobile.txt:334"
+    ],
+    "ad.sxp.smartclip.net": [
+      "mobile.txt:470"
+    ],
+    "ad.tencentmusic.com": [
+      "mobile.txt:518"
+    ],
+    "ad.vrvm.com": [
+      "mobile.txt:759"
+    ],
+    "ad.weibo.com": [
+      "mobile.txt:122"
+    ],
+    "ad.weplayer.cc": [
+      "mobile.txt:81"
+    ],
+    "ad.wynk.in": [
+      "mobile.txt:546"
+    ],
+    "ad.youku.com": [
+      "mobile.txt:14"
+    ],
+    "ad.zankhana.ltd": [
+      "mobile.txt:204"
+    ],
+    "ad.zijieapi.com": [
+      "mobile.txt:381"
+    ],
+    "ad.zui.com": [
+      "chinese.txt:133"
+    ],
+    "ad1.udn.com": [
+      "base.txt:1138"
+    ],
+    "ad2.fivecdm.com": [
+      "mobile.txt:171"
+    ],
+    "ad2.udn.com": [
+      "base.txt:1139"
+    ],
+    "ad3.udn.com": [
+      "base.txt:1140"
+    ],
+    "ad4.udn.com": [
+      "base.txt:1141"
+    ],
+    "ad5.udn.com": [
+      "base.txt:1142"
+    ],
+    "ad6media.fr": [
+      "mobile.txt:760"
+    ],
+    "adactive.cz": [
+      "base.txt:597"
+    ],
+    "adadvisor.net": [
+      "mobile.txt:761"
+    ],
+    "adballoon.sooplive.com": [
+      "mobile.txt:147"
+    ],
+    "adbite.com": [
+      "base.txt:1464"
+    ],
+    "adbkacpmu.com": [
+      "base.txt:464"
+    ],
+    "adblade.com": [
+      "mobile.txt:762"
+    ],
+    "adblendr.io": [
+      "base.txt:296"
+    ],
+    "adbot.tw": [
+      "chinese.txt:163"
+    ],
+    "adcamp.ru": [
+      "mobile.txt:763"
+    ],
+    "adcel.co": [
+      "mobile.txt:523"
+    ],
+    "adcel.vrvm.com": [
+      "mobile.txt:764"
+    ],
+    "adcolony.com": [
+      "mobile.txt:765"
+    ],
+    "adcs.myappsget.com": [
+      "mobile.txt:413"
+    ],
+    "adcy.net": [
+      "base.txt:1485"
+    ],
+    "addapptr.com": [
+      "mobile.txt:766"
+    ],
+    "addata.mediacategory.com": [
+      "mobile.txt:560"
+    ],
+    "adeeply.ru": [
+      "mobile.txt:238"
+    ],
+    "adentifi.com": [
+      "mobile.txt:557"
+    ],
+    "adflake.com": [
+      "mobile.txt:741"
+    ],
+    "adflyer.media": [
+      "base.txt:1497"
+    ],
+    "adforgames.com": [
+      "mobile.txt:767"
+    ],
+    "adfork.co.kr": [
+      "mobile.txt:379"
+    ],
+    "adform.com": [
+      "mobile.txt:768"
+    ],
+    "adg.kajicam.com": [
+      "mobile.txt:493"
+    ],
+    "adgear.com": [
+      "mobile.txt:770"
+    ],
+    "adgebra.net": [
+      "base.txt:614"
+    ],
+    "adgrx.com": [
+      "mobile.txt:771"
+    ],
+    "adhitzads.com": [
+      "mobile.txt:772"
+    ],
+    "adhood.com": [
+      "mobile.txt:773"
+    ],
+    "adhub.porcino-kinoko.workers.dev": [
+      "mobile.txt:174"
+    ],
+    "adhunter.media": [
+      "base.txt:1484"
+    ],
+    "adinfo.tango.me": [
+      "mobile.txt:774"
+    ],
+    "adition.com": [
+      "mobile.txt:775"
+    ],
+    "adkmob.com": [
+      "mobile.txt:776"
+    ],
+    "adkwai.com": [
+      "mobile.txt:392"
+    ],
+    "adleads.com": [
+      "mobile.txt:777"
+    ],
+    "adlibr.com": [
+      "mobile.txt:778"
+    ],
+    "adman.gr": [
+      "mobile.txt:779"
+    ],
+    "admarketing.yahoo.net": [
+      "mobile.txt:780"
+    ],
+    "admarvel.com": [
+      "mobile.txt:729"
+    ],
+    "admarvel.s3.amazonaws.com": [
+      "mobile.txt:781"
+    ],
+    "admedia.com": [
+      "mobile.txt:782"
+    ],
+    "admicro1.vcmedia.vn": [
+      "mobile.txt:783"
+    ],
+    "admin.appnext.com": [
+      "mobile.txt:37"
+    ],
+    "admixer.co.kr": [
+      "mobile.txt:785"
+    ],
+    "admozartxml.com": [
+      "base.txt:1470"
+    ],
+    "admulti.com": [
+      "mobile.txt:786"
+    ],
+    "adn.insight.ucweb.com": [
+      "mobile.txt:670"
+    ],
+    "adnami.io": [
+      "mobile.txt:337"
+    ],
+    "adokutcontextual.com": [
+      "base.txt:1486"
+    ],
+    "adonly.com": [
+      "mobile.txt:787"
+    ],
+    "adpalladium.com": [
+      "base.txt:1480"
+    ],
+    "adpaths.com": [
+      "base.txt:976"
+    ],
+    "adpies.com": [
+      "mobile.txt:496"
+    ],
+    "adplatform.vrtcal.com": [
+      "mobile.txt:692"
+    ],
+    "adpluto.com": [
+      "base.txt:1492"
+    ],
+    "adpopcorn.com": [
+      "mobile.txt:535"
+    ],
+    "adprotected.com": [
+      "mobile.txt:789"
+    ],
+    "adproxy.tf1.fr": [
+      "mobile.txt:790"
+    ],
+    "adpublisher.s3.amazonaws.com": [
+      "mobile.txt:791"
+    ],
+    "adpush.goforandroid.com": [
+      "mobile.txt:85"
+    ],
+    "adquota.com": [
+      "mobile.txt:792"
+    ],
+    "adright.com": [
+      "base.txt:1473"
+    ],
+    "ads-ap-venues.yinzcam.com": [
+      "mobile.txt:320"
+    ],
+    "ads-api.kidsnote.com": [
+      "mobile.txt:397"
+    ],
+    "ads-bidder-api.twitter.com": [
+      "mobile.txt:651"
+    ],
+    "ads-blocker-1.static-cloudflare.workers.dev": [
+      "base.txt:414"
+    ],
+    "ads-bridge.pixocial.com": [
+      "mobile.txt:241"
+    ],
+    "ads-cdn.hopper.com": [
+      "mobile.txt:249"
+    ],
+    "ads-chunks.prod.ihrhls.com": [
+      "mobile.txt:92"
+    ],
+    "ads-cloud.rovio.com": [
+      "mobile.txt:520"
+    ],
+    "ads-config-engine-noneu.truecaller.com": [
+      "mobile.txt:322"
+    ],
+    "ads-delivery.gunosy.com": [
+      "mobile.txt:321"
+    ],
+    "ads-game-configuration-master.ads.prd.ie.internal.unity3d.com": [
+      "mobile.txt:594"
+    ],
+    "ads-gdl.imovideo.ru": [
+      "mobile.txt:462"
+    ],
+    "ads-interfaces.sc-cdn.net": [
+      "mobile.txt:466"
+    ],
+    "ads-leaseweb.appsgeyser.com": [
+      "mobile.txt:562"
+    ],
+    "ads-m.rustore.ru": [
+      "mobile.txt:172"
+    ],
+    "ads-proxy-aka.prod.bo.canal.canalplustech.pro": [
+      "mobile.txt:162"
+    ],
+    "ads-resources.waze.com": [
+      "mobile.txt:416"
+    ],
+    "ads-router-noneu.truecaller.com": [
+      "mobile.txt:338"
+    ],
+    "ads-sdk.mattel163.com": [
+      "mobile.txt:418"
+    ],
+    "ads-sdk.nianticlabs.com": [
+      "mobile.txt:377"
+    ],
+    "ads-segment-profile-noneu.truecaller.com": [
+      "mobile.txt:264"
+    ],
+    "ads-server.mxplay.com": [
+      "mobile.txt:430"
+    ],
+    "ads-static.phonepe.com": [
+      "mobile.txt:214"
+    ],
+    "ads.123net.jp": [
+      "base.txt:960"
+    ],
+    "ads.ad2iction.com": [
+      "mobile.txt:793"
+    ],
+    "ads.adadapted.com": [
+      "mobile.txt:406"
+    ],
+    "ads.adinmotech.com": [
+      "mobile.txt:318"
+    ],
+    "ads.aerserv.com": [
+      "mobile.txt:794"
+    ],
+    "ads.aitype.net": [
+      "mobile.txt:742"
+    ],
+    "ads.appbundledownload.com": [
+      "mobile.txt:294"
+    ],
+    "ads.appsgeyser.com": [
+      "mobile.txt:563"
+    ],
+    "ads.bulldogcpi.com": [
+      "mobile.txt:601"
+    ],
+    "ads.cocomobi.com": [
+      "mobile.txt:325"
+    ],
+    "ads.dzeko11.st": [
+      "base.txt:188"
+    ],
+    "ads.edadeal.ru": [
+      "mobile.txt:525"
+    ],
+    "ads.feelingtouch.com": [
+      "mobile.txt:517"
+    ],
+    "ads.heytapmobi.com": [
+      "mobile.txt:176"
+    ],
+    "ads.imbc.com": [
+      "mobile.txt:424"
+    ],
+    "ads.imovideo.ru": [
+      "mobile.txt:463"
+    ],
+    "ads.inmobi.com": [
+      "mobile.txt:919"
+    ],
+    "ads.iosappsworld.com": [
+      "mobile.txt:519"
+    ],
+    "ads.jianchiapp.com": [
+      "mobile.txt:653"
+    ],
+    "ads.mobilityware.com": [
+      "mobile.txt:795"
+    ],
+    "ads.mobvertising.net": [
+      "mobile.txt:796"
+    ],
+    "ads.mopub.com": [
+      "mobile.txt:797"
+    ],
+    "ads.oppomobile.com": [
+      "mobile.txt:420"
+    ],
+    "ads.pdbarea.com": [
+      "mobile.txt:798"
+    ],
+    "ads.phonepe.com": [
+      "mobile.txt:213"
+    ],
+    "ads.pinger.com": [
+      "mobile.txt:799"
+    ],
+    "ads.playground.xyz": [
+      "base.txt:825"
+    ],
+    "ads.rmbl.ws": [
+      "mobile.txt:357"
+    ],
+    "ads.smrtbid.com": [
+      "mobile.txt:310"
+    ],
+    "ads.taptapnetworks.com": [
+      "mobile.txt:800"
+    ],
+    "ads.topsex.cc": [
+      "base.txt:896"
+    ],
+    "ads.xlxtra.com": [
+      "mobile.txt:801"
+    ],
+    "ads.youtube.com": [
+      "mobile.txt:802"
+    ],
+    "ads01.pages.dev": [
+      "base.txt:598"
+    ],
+    "adsapi.manhuaren.com": [
+      "mobile.txt:632"
+    ],
+    "adsapi.snapchat.com": [
+      "mobile.txt:467"
+    ],
+    "adsassets-ipv6.waze.com": [
+      "mobile.txt:358"
+    ],
+    "adsassets.waze.com": [
+      "mobile.txt:415"
+    ],
+    "adsbuyclick.com": [
+      "base.txt:1468"
+    ],
+    "adsbynimbus.com": [
+      "mobile.txt:464"
+    ],
+    "adsdk.vrvm.com": [
+      "mobile.txt:706"
+    ],
+    "adsee.jp": [
+      "mobile.txt:803"
+    ],
+    "adserver.goforandroid.com": [
+      "mobile.txt:804"
+    ],
+    "adserver.kimia.es": [
+      "mobile.txt:805"
+    ],
+    "adserver.pandora.com": [
+      "mobile.txt:806"
+    ],
+    "adserver.shadow.snapads.com": [
+      "mobile.txt:91"
+    ],
+    "adserver.yahoo.com": [
+      "base.txt:1032"
+    ],
+    "adservice.tohsoft.com": [
+      "mobile.txt:542"
+    ],
+    "adserwer.xwords.pl": [
+      "base.txt:1109"
+    ],
+    "adsfs.heytapimage.com": [
+      "mobile.txt:177"
+    ],
+    "adsfs.oppomobile.com": [
+      "mobile.txt:421"
+    ],
+    "adsgard.aprod.scopely.io": [
+      "mobile.txt:465"
+    ],
+    "adsgig.com": [
+      "base.txt:901"
+    ],
+    "adshost2.com": [
+      "mobile.txt:807"
+    ],
+    "adslog.apexinnotech.com": [
+      "mobile.txt:553"
+    ],
+    "adslot.uc.cn": [
+      "mobile.txt:709"
+    ],
+    "adsmo.ru": [
+      "mobile.txt:808"
+    ],
+    "adsmogo.mobi": [
+      "mobile.txt:660"
+    ],
+    "adsmogo.net": [
+      "mobile.txt:659"
+    ],
+    "adsmoloco.com": [
+      "mobile.txt:809"
+    ],
+    "adsmrapi.imbc.com": [
+      "mobile.txt:423"
+    ],
+    "adsniper.ru": [
+      "mobile.txt:810"
+    ],
+    "adsolut.in": [
+      "base.txt:1430"
+    ],
+    "adspot.tfgapps.com": [
+      "mobile.txt:532"
+    ],
+    "adsrvr.io": [
+      "mobile.txt:616"
+    ],
+    "adsrvr.org": [
+      "mobile.txt:811"
+    ],
+    "adsterratech.com": [
+      "base.txt:88"
+    ],
+    "adstrategy.biz.weibo.com": [
+      "mobile.txt:121"
+    ],
+    "adtech.de": [
+      "mobile.txt:812"
+    ],
+    "adtilt.com": [
+      "mobile.txt:813"
+    ],
+    "adtimaserver.vn": [
+      "mobile.txt:550"
+    ],
+    "adtmonetize.com": [
+      "mobile.txt:247"
+    ],
+    "adtorque.in": [
+      "mobile.txt:564"
+    ],
+    "adtrack.king.com": [
+      "mobile.txt:814"
+    ],
+    "adtscriptshark.com": [
+      "base.txt:575"
+    ],
+    "adtube.media": [
+      "base.txt:1449"
+    ],
+    "adultadworld.com": [
+      "mobile.txt:815"
+    ],
+    "adv-ettoday.cdn.hinet.net": [
+      "mobile.txt:636"
+    ],
+    "adv-front.devpnd.com": [
+      "mobile.txt:472"
+    ],
+    "adv.bandi.so": [
+      "base.txt:794"
+    ],
+    "adv.ettoday.net": [
+      "mobile.txt:637"
+    ],
+    "adv.mxmcdn.net": [
+      "mobile.txt:816"
+    ],
+    "adv.sec.intl.miui.com": [
+      "mobile.txt:615"
+    ],
+    "adversal.com": [
+      "mobile.txt:817"
+    ],
+    "adverticum.net": [
+      "mobile.txt:818"
+    ],
+    "advertise.com": [
+      "mobile.txt:819"
+    ],
+    "advertising.amazon.dev": [
+      "mobile.txt:156"
+    ],
+    "advertur.ru": [
+      "mobile.txt:821"
+    ],
+    "advil.waze.com": [
+      "mobile.txt:25"
+    ],
+    "advlistings.com": [
+      "base.txt:1503"
+    ],
+    "advmanager.techfun.pl": [
+      "base.txt:1060"
+    ],
+    "advolve.io": [
+      "base.txt:409"
+    ],
+    "advombat.ru": [
+      "mobile.txt:822"
+    ],
+    "adx-dre.op.hicloud.com": [
+      "mobile.txt:468"
+    ],
+    "adx-open-service.youku.com": [
+      "mobile.txt:13"
+    ],
+    "adx-os.bridgeoos.com": [
+      "mobile.txt:300"
+    ],
+    "adx-sg-req.bridgeoos.com": [
+      "mobile.txt:299"
+    ],
+    "adxcorp.kr": [
+      "mobile.txt:586"
+    ],
+    "adxfactory.com": [
+      "base.txt:1469"
+    ],
+    "adz.mobi": [
+      "mobile.txt:823"
+    ],
+    "adzerk.net": [
+      "mobile.txt:824"
+    ],
+    "adzestocp.com": [
+      "base.txt:1434"
+    ],
+    "adzgame.com": [
+      "base.txt:1448"
+    ],
+    "adzmobi.com": [
+      "mobile.txt:825"
+    ],
+    "afafb.com": [
+      "mobile.txt:266"
+    ],
+    "afcpatrk.com": [
+      "base.txt:505"
+    ],
+    "affectionatestorage.com": [
+      "base.txt:108"
+    ],
+    "afppcvyfyjs.com": [
+      "base.txt:489"
+    ],
+    "afqgqg4e.com": [
+      "chinese.txt:75"
+    ],
+    "afrdtech.com": [
+      "base.txt:571"
+    ],
+    "afs.googlesyndication.com": [
+      "mobile.txt:205"
+    ],
+    "agent.tamedia.com.tw": [
+      "mobile.txt:655"
+    ],
+    "agl003.com": [
+      "base.txt:110"
+    ],
+    "agl004.fun": [
+      "base.txt:516"
+    ],
+    "agl008.shop": [
+      "base.txt:503"
+    ],
+    "agl010.pro": [
+      "base.txt:490"
+    ],
+    "ahoy-internal-ads-hv.b-cdn.net": [
+      "mobile.txt:341"
+    ],
+    "aifpleasurebeh.org": [
+      "base.txt:252"
+    ],
+    "aikhiwnpdff.com": [
+      "base.txt:427"
+    ],
+    "aixmqgygvui.com": [
+      "base.txt:526"
+    ],
+    "aizhantj.com": [
+      "chinese.txt:81"
+    ],
+    "ajdivotdelbloab24.jio.com": [
+      "mobile.txt:585"
+    ],
+    "alaphoid.com": [
+      "base.txt:133"
+    ],
+    "albss.com": [
+      "base.txt:612"
+    ],
+    "aleapeact.club": [
+      "base.txt:1029"
+    ],
+    "ali-ad.a.yximgs.com": [
+      "mobile.txt:387"
+    ],
+    "alt-ad.mail.ru": [
+      "mobile.txt:475"
+    ],
+    "amaerodactylon.com": [
+      "base.txt:1401"
+    ],
+    "amanad.adtdp.com": [
+      "mobile.txt:469"
+    ],
+    "amazingfork.com": [
+      "base.txt:16"
+    ],
+    "amazon-adsystem.com": [
+      "base.txt:1227"
+    ],
+    "amdcwiptibfy.in": [
+      "base.txt:70"
+    ],
+    "amillionads.com": [
+      "mobile.txt:577"
+    ],
+    "amkcuwli.in": [
+      "base.txt:328"
+    ],
+    "amobee.com": [
+      "mobile.txt:826"
+    ],
+    "an.facebook.com": [
+      "mobile.txt:498"
+    ],
+    "analytics.scalemonk.com": [
+      "mobile.txt:533"
+    ],
+    "analyticsq.com": [
+      "base.txt:1064"
+    ],
+    "androidtvchannels-pa.googleapis.com": [
+      "base.txt:831"
+    ],
+    "androidtvwatsonfe-pa.googleapis.com": [
+      "base.txt:832"
+    ],
+    "antiadblockcore.com": [
+      "base.txt:177"
+    ],
+    "anythinktech.com": [
+      "mobile.txt:409"
+    ],
+    "aomsitf.com": [
+      "mobile.txt:313"
+    ],
+    "aoqenxgnxtnnc.club": [
+      "base.txt:628"
+    ],
+    "ap.smardroid.com": [
+      "mobile.txt:663"
+    ],
+    "apbjukta.com": [
+      "base.txt:520"
+    ],
+    "api-ad-adapter.wps.com": [
+      "mobile.txt:438"
+    ],
+    "api-ad-callback.falconnet.app": [
+      "mobile.txt:336"
+    ],
+    "api-v2.shareitgames.com": [
+      "mobile.txt:199"
+    ],
+    "api.ad-locus.com": [
+      "mobile.txt:683"
+    ],
+    "api.adaether.com": [
+      "mobile.txt:274"
+    ],
+    "api.ads.newsdigest.jp": [
+      "mobile.txt:487"
+    ],
+    "api.ads.watchabc.go.com": [
+      "mobile.txt:94"
+    ],
+    "api.applovefrom.com": [
+      "mobile.txt:569"
+    ],
+    "api.appnxt.net": [
+      "mobile.txt:40"
+    ],
+    "api.bridgeoos.com": [
+      "mobile.txt:302"
+    ],
+    "api.brs.intl.miui.com": [
+      "mobile.txt:613"
+    ],
+    "api.clickaine.com": [
+      "base.txt:840"
+    ],
+    "api.fusepowered.com": [
+      "mobile.txt:827"
+    ],
+    "api.itpub.cloud": [
+      "mobile.txt:471"
+    ],
+    "api.kickoffo.site": [
+      "mobile.txt:301"
+    ],
+    "api.mediation.amberweather.com": [
+      "mobile.txt:551"
+    ],
+    "api.mobula.ds.duapps.com": [
+      "mobile.txt:131"
+    ],
+    "api.mobula.sdk.duapps.com": [
+      "mobile.txt:135"
+    ],
+    "api.myadsget.com": [
+      "mobile.txt:297"
+    ],
+    "api.newsfeed.intl.miui.com": [
+      "mobile.txt:614"
+    ],
+    "api.pingstart.com": [
+      "mobile.txt:736"
+    ],
+    "api.pubfinity.com": [
+      "base.txt:835"
+    ],
+    "api.shanghailingye.cn": [
+      "chinese.txt:33"
+    ],
+    "api.smartnews-ads.com": [
+      "base.txt:1231"
+    ],
+    "api.sve.cc": [
+      "mobile.txt:298"
+    ],
+    "api.usebutton.com": [
+      "mobile.txt:828"
+    ],
+    "api.youngle.tech": [
+      "mobile.txt:296"
+    ],
+    "api2.wshareit.com": [
+      "mobile.txt:197"
+    ],
+    "apis.appnxt.net": [
+      "mobile.txt:41"
+    ],
+    "apishow.babybus.com": [
+      "mobile.txt:282"
+    ],
+    "app-ads-services.com": [
+      "mobile.txt:246"
+    ],
+    "app.adjust.world": [
+      "mobile.txt:515"
+    ],
+    "app.bxapi.de": [
+      "mobile.txt:164"
+    ],
+    "app.ssp.yahoo.com": [
+      "mobile.txt:53"
+    ],
+    "appbaqend.com": [
+      "mobile.txt:103"
+    ],
+    "appboy-images.com": [
+      "mobile.txt:544"
+    ],
+    "appclick.net": [
+      "mobile.txt:829"
+    ],
+    "appgift.sinaapp.com": [
+      "mobile.txt:574"
+    ],
+    "appgiftwall.oss-us-west-1.aliyuncs.com": [
+      "mobile.txt:573"
+    ],
+    "appgw.inmobi.com": [
+      "mobile.txt:173"
+    ],
+    "applifier.com": [
+      "mobile.txt:830"
+    ],
+    "applovin.com": [
+      "mobile.txt:832"
+    ],
+    "applzr.com": [
+      "base.txt:375"
+    ],
+    "appnext-a.akamaihd.net": [
+      "mobile.txt:833"
+    ],
+    "appnext.hs.llnwd.net": [
+      "mobile.txt:705"
+    ],
+    "appocean.media": [
+      "base.txt:1476"
+    ],
+    "appodealx.com": [
+      "mobile.txt:693"
+    ],
+    "apppromoteapi.babybus.com": [
+      "mobile.txt:283"
+    ],
+    "appsdt.com": [
+      "mobile.txt:834"
+    ],
+    "appserver-ap.com": [
+      "mobile.txt:835"
+    ],
+    "appshelf.ttpsdk.info": [
+      "mobile.txt:836"
+    ],
+    "appsrv.display.io": [
+      "mobile.txt:347"
+    ],
+    "apptornado.com": [
+      "mobile.txt:735"
+    ],
+    "appwall.tv2phone.cn": [
+      "mobile.txt:837"
+    ],
+    "aqi.wd.amberweather.com": [
+      "mobile.txt:552"
+    ],
+    "araplhn.org": [
+      "base.txt:117"
+    ],
+    "ardance.org": [
+      "base.txt:118"
+    ],
+    "arrasinutile.com": [
+      "base.txt:574"
+    ],
+    "artjnley.com": [
+      "chinese.txt:9"
+    ],
+    "as.adfonic.net": [
+      "mobile.txt:838"
+    ],
+    "ashamed-employer.com": [
+      "base.txt:208"
+    ],
+    "assoc-amazon.com": [
+      "mobile.txt:839"
+    ],
+    "astrsk.net": [
+      "mobile.txt:840"
+    ],
+    "asttoxa.ru": [
+      "mobile.txt:157"
+    ],
+    "atddmn.com": [
+      "base.txt:153"
+    ],
+    "athena.api.kwalee.com": [
+      "mobile.txt:485"
+    ],
+    "atti.com": [
+      "mobile.txt:841"
+    ],
+    "aucdn.net": [
+      "base.txt:631"
+    ],
+    "audiomob.com": [
+      "mobile.txt:396"
+    ],
+    "aufas.com": [
+      "base.txt:455"
+    ],
+    "authslatteringmisinters.com": [
+      "base.txt:405"
+    ],
+    "axmaxhsa.com": [
+      "base.txt:280"
+    ],
+    "axon.ai": [
+      "mobile.txt:218"
+    ],
+    "azlfmivp.in": [
+      "base.txt:132"
+    ],
+    "aznude.workers.dev": [
+      "base.txt:408"
+    ],
+    "b10.justacdn.net": [
+      "chinese.txt:95"
+    ],
+    "badylenicesist.com": [
+      "base.txt:166"
+    ],
+    "baggyrepackingrocky.com": [
+      "base.txt:420"
+    ],
+    "banner.bet365partners.com": [
+      "mobile.txt:166"
+    ],
+    "banner.dabi.ir": [
+      "base.txt:1167"
+    ],
+    "banner.hpmdnetwork.ru": [
+      "mobile.txt:124"
+    ],
+    "bannerflow.com": [
+      "mobile.txt:842"
+    ],
+    "banners-slb.mobile.yandex.net": [
+      "mobile.txt:45"
+    ],
+    "banners.etermax.com": [
+      "mobile.txt:843"
+    ],
+    "banners.mobile.yandex.net": [
+      "mobile.txt:46"
+    ],
+    "bannersnack.com": [
+      "mobile.txt:844"
+    ],
+    "bannerwall.herewetest.com": [
+      "mobile.txt:845"
+    ],
+    "bannerwall.s3.appcnt.com": [
+      "mobile.txt:846"
+    ],
+    "bayctrk.com": [
+      "mobile.txt:847"
+    ],
+    "bbnfcfrvjs.com": [
+      "base.txt:859"
+    ],
+    "bcfads.com": [
+      "mobile.txt:848"
+    ],
+    "bdapi-ads.realmemobile.com": [
+      "mobile.txt:419"
+    ],
+    "bdapi-in-ads.realmemobile.com": [
+      "mobile.txt:426"
+    ],
+    "begun.ru": [
+      "mobile.txt:849"
+    ],
+    "behacdn.ksmobile.net": [
+      "mobile.txt:77"
+    ],
+    "behance.vo.llnwd.net": [
+      "mobile.txt:699"
+    ],
+    "beijingzhongnanhai.com": [
+      "mobile.txt:259"
+    ],
+    "beixisys.com": [
+      "base.txt:539"
+    ],
+    "beizi.biz": [
+      "chinese.txt:37"
+    ],
+    "bellnewyork.org": [
+      "base.txt:38"
+    ],
+    "benrif-solutions.com": [
+      "base.txt:1441"
+    ],
+    "bepolite.eu": [
+      "mobile.txt:850"
+    ],
+    "bet365affiliates.com": [
+      "mobile.txt:851"
+    ],
+    "betamountwo.com": [
+      "base.txt:172"
+    ],
+    "betorytrackers.com": [
+      "base.txt:141"
+    ],
+    "betrad.com": [
+      "mobile.txt:852"
+    ],
+    "betsonsport.ru": [
+      "mobile.txt:686"
+    ],
+    "bevfpfekwskzg.world": [
+      "base.txt:645"
+    ],
+    "bi.yeshen.com": [
+      "mobile.txt:62"
+    ],
+    "bid-algorix.com": [
+      "base.txt:589"
+    ],
+    "bidder.a11.vega.aurion11.io": [
+      "mobile.txt:189"
+    ],
+    "bidforclicks.com": [
+      "base.txt:1471"
+    ],
+    "bidjora.com": [
+      "mobile.txt:312"
+    ],
+    "bidmyadz.com": [
+      "base.txt:1440"
+    ],
+    "bidmyqps.xyz": [
+      "base.txt:1420"
+    ],
+    "bidsms.com": [
+      "mobile.txt:234"
+    ],
+    "bidsopt.com": [
+      "mobile.txt:725"
+    ],
+    "biggestplayer.cachefly.net": [
+      "base.txt:1153"
+    ],
+    "bigmobileads.com": [
+      "mobile.txt:853"
+    ],
+    "biomanos.org": [
+      "base.txt:24",
+      "base.txt:91"
+    ],
+    "bjads.bejbej.ca": [
+      "mobile.txt:427"
+    ],
+    "bktpcross.com": [
+      "base.txt:400"
+    ],
+    "black6adv.com": [
+      "mobile.txt:854"
+    ],
+    "blakeunwanted.com": [
+      "base.txt:233"
+    ],
+    "bleua.ecefibwja.xyz": [
+      "base.txt:1124"
+    ],
+    "bliss91.com": [
+      "base.txt:1477"
+    ],
+    "blogads.com": [
+      "mobile.txt:855"
+    ],
+    "blueduckredapple.com": [
+      "mobile.txt:447"
+    ],
+    "boggindesire.com": [
+      "base.txt:106"
+    ],
+    "bojegoju.top": [
+      "base.txt:394"
+    ],
+    "boostads.net": [
+      "mobile.txt:856"
+    ],
+    "botanyreadersettlement.com": [
+      "base.txt:407"
+    ],
+    "boulder-collide.com": [
+      "base.txt:543"
+    ],
+    "boutomeeshaul.com": [
+      "base.txt:502"
+    ],
+    "brealtime.com": [
+      "mobile.txt:857"
+    ],
+    "breezebrowsing.com": [
+      "base.txt:343"
+    ],
+    "brightadnetwork.com": [
+      "base.txt:602"
+    ],
+    "broadlyjukeboxunrevised.com": [
+      "base.txt:429"
+    ],
+    "brunettemattersrefused.com": [
+      "base.txt:863"
+    ],
+    "bstgms4y.com": [
+      "mobile.txt:229"
+    ],
+    "bstream.channelcom.tech": [
+      "mobile.txt:215"
+    ],
+    "btloader.com": [
+      "base.txt:674"
+    ],
+    "btrbdf.com": [
+      "base.txt:494"
+    ],
+    "bu1.duba.com": [
+      "mobile.txt:75"
+    ],
+    "bubblesmedia.ru": [
+      "mobile.txt:859"
+    ],
+    "burstnet.com": [
+      "mobile.txt:860"
+    ],
+    "buysellads.com": [
+      "mobile.txt:608"
+    ],
+    "buzzcity.net": [
+      "mobile.txt:861"
+    ],
+    "buzzonclick.com": [
+      "mobile.txt:862"
+    ],
+    "buzzoola.com": [
+      "base.txt:287"
+    ],
+    "bycsg.oii.la": [
+      "base.txt:175"
+    ],
+    "byracucosopenu.com": [
+      "base.txt:192"
+    ],
+    "c.etoolads.cn": [
+      "chinese.txt:36"
+    ],
+    "c.vrvm.com": [
+      "mobile.txt:695"
+    ],
+    "c2i.startappnetwork.com": [
+      "mobile.txt:733"
+    ],
+    "c2s.startappnetwork.com": [
+      "mobile.txt:734"
+    ],
+    "c8.net.ua": [
+      "mobile.txt:863"
+    ],
+    "cad.youku.com": [
+      "mobile.txt:16"
+    ],
+    "cads.scalemonk.com": [
+      "mobile.txt:531"
+    ],
+    "cafe-latte.myshoplus.com": [
+      "mobile.txt:604"
+    ],
+    "cafflekiloton.com": [
+      "base.txt:434"
+    ],
+    "campingfinishvow.com": [
+      "base.txt:170"
+    ],
+    "camplethora.com": [
+      "base.txt:619"
+    ],
+    "camsbanner.wtfgroup.co": [
+      "base.txt:804"
+    ],
+    "cashprom.ru": [
+      "mobile.txt:864"
+    ],
+    "casino-ad-mediation.me2zengame.com": [
+      "mobile.txt:609"
+    ],
+    "caspervisiveogor.cyou": [
+      "base.txt:92"
+    ],
+    "catapultx.com": [
+      "base.txt:1428"
+    ],
+    "catsonictp.com": [
+      "base.txt:402",
+      "mobile.txt:200"
+    ],
+    "ccnsad.com": [
+      "base.txt:216"
+    ],
+    "cda7k-ddok.com": [
+      "base.txt:699"
+    ],
+    "cdclub.net": [
+      "base.txt:339"
+    ],
+    "cdn-ad.wtzw.com": [
+      "mobile.txt:346"
+    ],
+    "cdn-api.admost.com": [
+      "mobile.txt:724"
+    ],
+    "cdn-cf.postitial.com": [
+      "mobile.txt:649"
+    ],
+    "cdn-image.com": [
+      "mobile.txt:865"
+    ],
+    "cdn-ketchapp.akamaized.net": [
+      "mobile.txt:31"
+    ],
+    "cdn-rtb.sape.ru": [
+      "mobile.txt:115"
+    ],
+    "cdn-settings.af-sdk.com": [
+      "mobile.txt:159"
+    ],
+    "cdn.adk2.com": [
+      "base.txt:1174"
+    ],
+    "cdn.ads-flipp.com": [
+      "base.txt:720"
+    ],
+    "cdn.appnext.com": [
+      "mobile.txt:39"
+    ],
+    "cdn.aucey.com": [
+      "base.txt:1402"
+    ],
+    "cdn.batmobi.net": [
+      "mobile.txt:668"
+    ],
+    "cdn.fedsy.xyz": [
+      "base.txt:844"
+    ],
+    "cdn.jampp.com": [
+      "mobile.txt:479"
+    ],
+    "cdn.smartnews-ads.com": [
+      "base.txt:897"
+    ],
+    "cdn.testdomain12345xyz.com": [
+      "base.txt:269"
+    ],
+    "cdn.traffmovie.com": [
+      "base.txt:519"
+    ],
+    "cdn.xpln.tech": [
+      "base.txt:714"
+    ],
+    "cdn2.sales-frontier.com": [
+      "base.txt:713"
+    ],
+    "cdns.lodeo.io": [
+      "mobile.txt:715"
+    ],
+    "cdp.cloud.unity3d.com": [
+      "mobile.txt:595"
+    ],
+    "celtra.com": [
+      "mobile.txt:866"
+    ],
+    "cengqinglin.cn": [
+      "chinese.txt:122"
+    ],
+    "centent.slreamplay.cc": [
+      "base.txt:893"
+    ],
+    "cerineas.com": [
+      "base.txt:1460"
+    ],
+    "cf-ads.pinger.com": [
+      "mobile.txt:867"
+    ],
+    "cf.adxcel.com": [
+      "base.txt:698"
+    ],
+    "cfjump.com": [
+      "base.txt:350"
+    ],
+    "chango.com": [
+      "mobile.txt:868"
+    ],
+    "chartboost.com": [
+      "mobile.txt:869"
+    ],
+    "chartboosts.com": [
+      "mobile.txt:661"
+    ],
+    "chavoads.com": [
+      "mobile.txt:476"
+    ],
+    "cheeseoverlordsaline.com": [
+      "base.txt:14"
+    ],
+    "cl-ad.x-flow.app": [
+      "mobile.txt:539"
+    ],
+    "clanpages.org": [
+      "base.txt:85"
+    ],
+    "cleartag.run": [
+      "base.txt:547"
+    ],
+    "click.hooligapps.com": [
+      "base.txt:924"
+    ],
+    "clickgate07.biz": [
+      "base.txt:849"
+    ],
+    "clickgate09.biz": [
+      "base.txt:854"
+    ],
+    "clickmeniaads.com": [
+      "base.txt:1499"
+    ],
+    "client.midosoo.com": [
+      "mobile.txt:643"
+    ],
+    "clifads.com": [
+      "base.txt:839"
+    ],
+    "clixforads.com": [
+      "base.txt:1437"
+    ],
+    "clixvista.com": [
+      "base.txt:1481"
+    ],
+    "clk.taptica.com": [
+      "mobile.txt:870"
+    ],
+    "cloudfrant.net": [
+      "base.txt:111"
+    ],
+    "cloudnaery.net": [
+      "base.txt:66"
+    ],
+    "cloudscape84.net": [
+      "base.txt:471"
+    ],
+    "cls.vrvm.com": [
+      "mobile.txt:696"
+    ],
+    "cmshow.gtimg.cn": [
+      "mobile.txt:372"
+    ],
+    "cocojen.cdn.bcebos.com": [
+      "chinese.txt:48"
+    ],
+    "colbwxlsfenwn.website": [
+      "base.txt:381"
+    ],
+    "colossalteacher.com": [
+      "base.txt:134"
+    ],
+    "comanicilikeiste.com": [
+      "base.txt:226"
+    ],
+    "combatbaskstationery.com": [
+      "base.txt:54"
+    ],
+    "common.duapps.com": [
+      "mobile.txt:133"
+    ],
+    "comscore.com": [
+      "mobile.txt:871"
+    ],
+    "config.htplayground.com": [
+      "base.txt:566"
+    ],
+    "config.inmobi.com": [
+      "mobile.txt:920"
+    ],
+    "config.tremorhub.com": [
+      "mobile.txt:872"
+    ],
+    "configuration.ttpsdk.info": [
+      "mobile.txt:565"
+    ],
+    "consent.easybrain.com": [
+      "mobile.txt:258"
+    ],
+    "constellation.networknmedia.com": [
+      "base.txt:354"
+    ],
+    "contextualadv.com": [
+      "mobile.txt:432"
+    ],
+    "controversychilly.com": [
+      "base.txt:481"
+    ],
+    "contuselegator.com": [
+      "base.txt:27"
+    ],
+    "convergeselect.net": [
+      "base.txt:1425"
+    ],
+    "convertap.com": [
+      "base.txt:1442"
+    ],
+    "coolaspen.tech": [
+      "base.txt:20"
+    ],
+    "cos1999.top": [
+      "chinese.txt:107"
+    ],
+    "coupontic.com": [
+      "base.txt:1431"
+    ],
+    "cp.pushwoosh.com": [
+      "mobile.txt:873"
+    ],
+    "cpactions.com": [
+      "mobile.txt:690"
+    ],
+    "cpmstar.com": [
+      "mobile.txt:874"
+    ],
+    "craniolgozzan.com": [
+      "base.txt:657"
+    ],
+    "creativedot.net": [
+      "base.txt:1445"
+    ],
+    "crispadvertising.com": [
+      "mobile.txt:875"
+    ],
+    "criteo.com": [
+      "mobile.txt:98"
+    ],
+    "criteo.net": [
+      "mobile.txt:99"
+    ],
+    "cross-promo-provider.easybrain.com": [
+      "mobile.txt:257"
+    ],
+    "crossadsapi.ecomobileapp.com": [
+      "mobile.txt:289"
+    ],
+    "crossboardmobile.com": [
+      "mobile.txt:876"
+    ],
+    "crosspromo.voodoo.io": [
+      "mobile.txt:621"
+    ],
+    "crosspromotion-us.avosapps.us": [
+      "mobile.txt:688"
+    ],
+    "crosspromotion.weplayer.cc": [
+      "mobile.txt:80"
+    ],
+    "crouteintendersinbringer.monster": [
+      "base.txt:406"
+    ],
+    "crxcra.com": [
+      "base.txt:387"
+    ],
+    "cs.rivierewhimsey.com": [
+      "base.txt:616"
+    ],
+    "cs02-pps-drcn.dbankcdn.com": [
+      "mobile.txt:497"
+    ],
+    "ctl.buyt.in": [
+      "mobile.txt:878"
+    ],
+    "ctrtraffic.com": [
+      "base.txt:1421"
+    ],
+    "ctv-ads.api.leiniao.com": [
+      "mobile.txt:224"
+    ],
+    "cursosmarketing.info": [
+      "base.txt:39"
+    ],
+    "cyicbayqmbz.com": [
+      "base.txt:157"
+    ],
+    "czilladx.com": [
+      "base.txt:217"
+    ],
+    "d.6xw.com": [
+      "chinese.txt:214"
+    ],
+    "d.kugou.com": [
+      "mobile.txt:306"
+    ],
+    "d19xf4taj229i8.cloudfront.net": [
+      "mobile.txt:603"
+    ],
+    "d1j5bhx6uel4km.cloudfront.net": [
+      "base.txt:456"
+    ],
+    "d1tru86qrby720.cloudfront.net": [
+      "mobile.txt:212"
+    ],
+    "d239g0z67jcted.cloudfront.net": [
+      "mobile.txt:618"
+    ],
+    "d2nrdy2pg3k168.cloudfront.net": [
+      "mobile.txt:879"
+    ],
+    "d2pf0ys5xus6n.cloudfront.net": [
+      "base.txt:189"
+    ],
+    "d32z5ni8t5127x.cloudfront.net": [
+      "mobile.txt:672"
+    ],
+    "d33f51dyacx7bd.cloudfront.net": [
+      "base.txt:470"
+    ],
+    "d3hdbjtb1686tn.cloudfront.net": [
+      "mobile.txt:410"
+    ],
+    "d3rem.com": [
+      "base.txt:386"
+    ],
+    "d3vgkjyuhp91nc.cloudfront.net": [
+      "mobile.txt:209"
+    ],
+    "d830x8j3o1b2k.cloudfront.net": [
+      "mobile.txt:880"
+    ],
+    "da.flvcdn.net": [
+      "mobile.txt:160"
+    ],
+    "dacfhprtw.com": [
+      "base.txt:79"
+    ],
+    "dad-api.dcard.tw": [
+      "mobile.txt:19"
+    ],
+    "dadatuwz.com": [
+      "chinese.txt:121"
+    ],
+    "data-optout-service.uca.cloud.unity3d.com": [
+      "mobile.txt:596"
+    ],
+    "data.adwombat.com": [
+      "base.txt:1126"
+    ],
+    "data2.doodlemobile.com": [
+      "mobile.txt:617"
+    ],
+    "datacygnal.io": [
+      "base.txt:1475"
+    ],
+    "datafinder-beacon.starii-rover.com": [
+      "mobile.txt:240"
+    ],
+    "dataflow.biliapi.com": [
+      "mobile.txt:317"
+    ],
+    "datk.bridgeoos.com": [
+      "mobile.txt:293"
+    ],
+    "dclsrv.com": [
+      "base.txt:324"
+    ],
+    "deapi.sooplive.com": [
+      "mobile.txt:148"
+    ],
+    "debitm.org": [
+      "base.txt:84"
+    ],
+    "debojuagug1sf.cloudfront.net": [
+      "mobile.txt:881"
+    ],
+    "dehorsshochet.com": [
+      "base.txt:185"
+    ],
+    "delightlintlunatic.com": [
+      "base.txt:289"
+    ],
+    "delivery.sexyxxx.biz": [
+      "base.txt:905"
+    ],
+    "delivery.viewsense.ai": [
+      "base.txt:121"
+    ],
+    "demandzoo.com": [
+      "base.txt:1456"
+    ],
+    "demoaccount.site": [
+      "base.txt:607"
+    ],
+    "demonicclanstarch.com": [
+      "base.txt:475"
+    ],
+    "desk.unlesscool.com": [
+      "base.txt:120"
+    ],
+    "dev.appboy.com": [
+      "mobile.txt:882"
+    ],
+    "dfqzah.xyz": [
+      "chinese.txt:119"
+    ],
+    "dfyxzuog.com": [
+      "base.txt:528"
+    ],
+    "dgkqqbixb.com": [
+      "base.txt:77"
+    ],
+    "dgwxaedsrledc.site": [
+      "base.txt:102"
+    ],
+    "dhkqqe.top": [
+      "chinese.txt:97"
+    ],
+    "diciestchokybuffi.cyou": [
+      "base.txt:143"
+    ],
+    "didna.io": [
+      "base.txt:1494"
+    ],
+    "digitalcaramel.com": [
+      "base.txt:518"
+    ],
+    "dingywearyfortress.com": [
+      "base.txt:473"
+    ],
+    "direct-push.com": [
+      "base.txt:292"
+    ],
+    "displayio.cloud": [
+      "base.txt:1500",
+      "mobile.txt:435"
+    ],
+    "disqusads.com": [
+      "mobile.txt:710"
+    ],
+    "djvbrjtpqbikw.com": [
+      "base.txt:82"
+    ],
+    "dkaktsb.icu": [
+      "chinese.txt:52"
+    ],
+    "dkweuy.com": [
+      "chinese.txt:85"
+    ],
+    "dl-adx.op-mobile.opera.com": [
+      "mobile.txt:309"
+    ],
+    "dm.isnssdk.com": [
+      "mobile.txt:504"
+    ],
+    "dm.toutiao.com": [
+      "mobile.txt:561"
+    ],
+    "doathair.com": [
+      "base.txt:982"
+    ],
+    "dollphoin.site": [
+      "mobile.txt:327"
+    ],
+    "doorknockset.com": [
+      "base.txt:416"
+    ],
+    "doubletag.run": [
+      "base.txt:535"
+    ],
+    "downloadshi.b-cdn.net": [
+      "mobile.txt:342"
+    ],
+    "dpdvx.com": [
+      "base.txt:491"
+    ],
+    "dpjzr.top": [
+      "chinese.txt:113"
+    ],
+    "drainmayhem.click": [
+      "base.txt:581"
+    ],
+    "drawers06.com": [
+      "chinese.txt:49"
+    ],
+    "drbbzzs.xyz": [
+      "mobile.txt:263"
+    ],
+    "driftsbabbleswandery.cfd": [
+      "base.txt:278"
+    ],
+    "drlagqnl.com": [
+      "chinese.txt:15"
+    ],
+    "druxxo.com": [
+      "base.txt:303"
+    ],
+    "dspunion.com": [
+      "mobile.txt:483"
+    ],
+    "dsxlez.com": [
+      "base.txt:553"
+    ],
+    "dtasrvr.com": [
+      "base.txt:325"
+    ],
+    "dtbxnc.com": [
+      "base.txt:150"
+    ],
+    "dtignite.com": [
+      "base.txt:680"
+    ],
+    "dtipvw.com": [
+      "base.txt:167"
+    ],
+    "dullequivalent.com": [
+      "base.txt:670"
+    ],
+    "dumedia.ru": [
+      "mobile.txt:883"
+    ],
+    "dunanscastle.org": [
+      "base.txt:53"
+    ],
+    "dup.baidustatic.com": [
+      "base.txt:1082"
+    ],
+    "dutchrelay.com": [
+      "base.txt:204"
+    ],
+    "dvwztnx4ab3fl.cloudfront.net": [
+      "base.txt:28"
+    ],
+    "dwlv.xyz": [
+      "base.txt:485"
+    ],
+    "dwyeuy.com": [
+      "chinese.txt:83"
+    ],
+    "dyf08yha87tii.cloudfront.net": [
+      "base.txt:96"
+    ],
+    "dzpu6za66svjl.cloudfront.net": [
+      "mobile.txt:87"
+    ],
+    "e-planning.net": [
+      "mobile.txt:884"
+    ],
+    "e-volution.ai": [
+      "base.txt:1429"
+    ],
+    "e.apsalar.com": [
+      "mobile.txt:885"
+    ],
+    "e.qq.com": [
+      "mobile.txt:886"
+    ],
+    "eadygos.com": [
+      "base.txt:139"
+    ],
+    "ecdwm.com": [
+      "base.txt:342"
+    ],
+    "edhmnn.com": [
+      "base.txt:603"
+    ],
+    "egmoytcwvwfnc.website": [
+      "base.txt:250"
+    ],
+    "elogecoptersabacot.cfd": [
+      "base.txt:261"
+    ],
+    "eltrafiko.com": [
+      "mobile.txt:887"
+    ],
+    "ember-cf-netlify.cdn-x.net": [
+      "base.txt:411"
+    ],
+    "emediate.eu": [
+      "mobile.txt:888"
+    ],
+    "enchanted-station.com": [
+      "base.txt:116"
+    ],
+    "enfacesplaineddeglory.qpon": [
+      "base.txt:279"
+    ],
+    "engine.camconnections.live": [
+      "base.txt:119"
+    ],
+    "engine.trialhd.com": [
+      "base.txt:681"
+    ],
+    "engine.vaxcams.com": [
+      "base.txt:357"
+    ],
+    "ep.umobile.pl": [
+      "base.txt:807"
+    ],
+    "epom.com": [
+      "mobile.txt:889"
+    ],
+    "eppmedia.si": [
+      "base.txt:882"
+    ],
+    "erg.ihclam.cn": [
+      "mobile.txt:459"
+    ],
+    "ergadx.com": [
+      "base.txt:98"
+    ],
+    "et-code.ru": [
+      "mobile.txt:680"
+    ],
+    "etargetnet.com": [
+      "mobile.txt:890"
+    ],
+    "euadsapi.manhuaren.com": [
+      "mobile.txt:633"
+    ],
+    "evenyippee.com": [
+      "base.txt:97"
+    ],
+    "everestop.io": [
+      "mobile.txt:454"
+    ],
+    "evolutionadv.it": [
+      "base.txt:263"
+    ],
+    "exbd.ex.co": [
+      "base.txt:78"
+    ],
+    "exe.bid": [
+      "mobile.txt:727"
+    ],
+    "exelbid.com": [
+      "mobile.txt:494"
+    ],
+    "exhalesyntheticundefined.com": [
+      "base.txt:212"
+    ],
+    "eximdigital.com": [
+      "base.txt:1436"
+    ],
+    "explorads.com": [
+      "base.txt:1474"
+    ],
+    "exponential.com": [
+      "mobile.txt:891"
+    ],
+    "ezojs.com": [
+      "base.txt:210"
+    ],
+    "ezze0ct.com": [
+      "chinese.txt:10"
+    ],
+    "fairscrew.com": [
+      "base.txt:435"
+    ],
+    "fairycarboys.qpon": [
+      "base.txt:124"
+    ],
+    "fancyapi.com": [
+      "chinese.txt:29"
+    ],
+    "fancydsp.com": [
+      "chinese.txt:30"
+    ],
+    "fancyotter.me": [
+      "base.txt:22"
+    ],
+    "farflung-permission.com": [
+      "base.txt:346"
+    ],
+    "fast-down.ru": [
+      "base.txt:604"
+    ],
+    "fdluoxnn.com": [
+      "chinese.txt:17"
+    ],
+    "featured.perfectionholic.com": [
+      "mobile.txt:620"
+    ],
+    "festivehorse.com": [
+      "base.txt:45"
+    ],
+    "fetchperiodic.com": [
+      "base.txt:336"
+    ],
+    "fhpxjbryxqwoak.com": [
+      "base.txt:426"
+    ],
+    "fiksu.com": [
+      "mobile.txt:892"
+    ],
+    "files.xtpag.top": [
+      "chinese.txt:108"
+    ],
+    "finebucket.info": [
+      "base.txt:23"
+    ],
+    "fingerhi.net": [
+      "mobile.txt:168"
+    ],
+    "fingerprint-veri.info": [
+      "base.txt:169"
+    ],
+    "fitlivelywhup.com": [
+      "base.txt:154"
+    ],
+    "flairads.com": [
+      "base.txt:1454"
+    ],
+    "floors.dev": [
+      "base.txt:662"
+    ],
+    "fluentmobile.com": [
+      "mobile.txt:893"
+    ],
+    "flurry.cachefly.net": [
+      "mobile.txt:894"
+    ],
+    "flurry.com": [
+      "mobile.txt:895"
+    ],
+    "flurryad.com": [
+      "base.txt:1451"
+    ],
+    "fluxivetsknummus.cyou": [
+      "base.txt:275"
+    ],
+    "flygo.ru": [
+      "mobile.txt:896"
+    ],
+    "fmepuzstjrkqv.website": [
+      "base.txt:103"
+    ],
+    "fnozzitywh.com": [
+      "base.txt:259"
+    ],
+    "fnyfeds.com": [
+      "mobile.txt:196"
+    ],
+    "focas.jp": [
+      "mobile.txt:897"
+    ],
+    "foisonad.com": [
+      "base.txt:593"
+    ],
+    "forgivefireextinguisher.com": [
+      "base.txt:333"
+    ],
+    "fourthdistributeexpecting.com": [
+      "base.txt:104"
+    ],
+    "fpoyvjgdm.com": [
+      "chinese.txt:76"
+    ],
+    "fqrukpjaahukp.com": [
+      "base.txt:244"
+    ],
+    "freewheel-jitt.sanoma.fi": [
+      "mobile.txt:242"
+    ],
+    "freewheel-mtgx-tv.akamaized.net": [
+      "base.txt:851"
+    ],
+    "friendlyduck.com": [
+      "mobile.txt:898"
+    ],
+    "frontier100-toutiao-lf.fqnovel.com": [
+      "mobile.txt:333"
+    ],
+    "frugraoqlo.com": [
+      "base.txt:457"
+    ],
+    "fsuooh.cc": [
+      "chinese.txt:27"
+    ],
+    "ftl5li6yv2x4tio8pum64x.rest": [
+      "base.txt:452"
+    ],
+    "funny-tooth.com": [
+      "base.txt:271"
+    ],
+    "fxlcvd.icu": [
+      "mobile.txt:252"
+    ],
+    "fyber.com": [
+      "mobile.txt:899"
+    ],
+    "gadsme.com": [
+      "mobile.txt:279"
+    ],
+    "gallerieshub.com": [
+      "mobile.txt:117"
+    ],
+    "gameanalysis.appcpi.net": [
+      "mobile.txt:600"
+    ],
+    "garudakrakatau.com": [
+      "base.txt:474"
+    ],
+    "gateway.ttpsdk.info": [
+      "mobile.txt:566"
+    ],
+    "gatheringtypes.com": [
+      "base.txt:392"
+    ],
+    "gbhozynxmyxos.online": [
+      "base.txt:450"
+    ],
+    "gdfp.gifshow.com": [
+      "mobile.txt:394"
+    ],
+    "gdl.i9dhjx.ru": [
+      "mobile.txt:451"
+    ],
+    "gdn.bigfishgames.com": [
+      "mobile.txt:674"
+    ],
+    "geede.info": [
+      "mobile.txt:900"
+    ],
+    "geegad.com": [
+      "mobile.txt:202"
+    ],
+    "geoloc.yospace.com": [
+      "mobile.txt:123"
+    ],
+    "ggbond.peaksite.tech": [
+      "mobile.txt:216"
+    ],
+    "gggpppht.com": [
+      "base.txt:410"
+    ],
+    "giqepofa.com": [
+      "base.txt:1148"
+    ],
+    "gjxmcla.pro": [
+      "base.txt:596"
+    ],
+    "glance.inmobi.com": [
+      "mobile.txt:921"
+    ],
+    "glidersreplume.qpon": [
+      "base.txt:267"
+    ],
+    "global.appnext.com": [
+      "mobile.txt:38"
+    ],
+    "globlemath.com": [
+      "base.txt:1424"
+    ],
+    "go.admost.com": [
+      "mobile.txt:722"
+    ],
+    "go.mobstitialtag.com": [
+      "mobile.txt:901"
+    ],
+    "go.vrvm.com": [
+      "mobile.txt:694"
+    ],
+    "goads2023.com": [
+      "mobile.txt:183"
+    ],
+    "goi08150kh.com": [
+      "mobile.txt:253"
+    ],
+    "goodpics.net": [
+      "base.txt:41"
+    ],
+    "google-analyticals.com": [
+      "base.txt:1419"
+    ],
+    "goshare-fleet-ads.s3.ap-southeast-1.amazonaws.com": [
+      "mobile.txt:522"
+    ],
+    "great12.org": [
+      "base.txt:512"
+    ],
+    "greatpuppydogs.com": [
+      "base.txt:220"
+    ],
+    "greentrafsa.com": [
+      "base.txt:49"
+    ],
+    "gresrv.com": [
+      "base.txt:326"
+    ],
+    "grindsteeplesprung.com": [
+      "base.txt:183"
+    ],
+    "groovinews.com": [
+      "base.txt:1387"
+    ],
+    "grouchy-lay.com": [
+      "base.txt:379"
+    ],
+    "gs6ye5zj.ac1n.net": [
+      "base.txt:311"
+    ],
+    "gts-ads.twistbox.com": [
+      "mobile.txt:903"
+    ],
+    "gumgum.com": [
+      "mobile.txt:904"
+    ],
+    "gusoclji.com": [
+      "base.txt:643"
+    ],
+    "gwrtdp-tn690bfadt.tclclouds.com": [
+      "mobile.txt:69"
+    ],
+    "gynax.com": [
+      "mobile.txt:681"
+    ],
+    "h-adashx.ut.taobao.com": [
+      "mobile.txt:180"
+    ],
+    "h5.isnssdk.com": [
+      "mobile.txt:505"
+    ],
+    "ha-api.pushwoosh.com": [
+      "mobile.txt:905"
+    ],
+    "hairsromance.com": [
+      "base.txt:483"
+    ],
+    "hakurei.cdnbo.org": [
+      "base.txt:668"
+    ],
+    "handskeeping.com": [
+      "base.txt:179"
+    ],
+    "hb.headbidder.net": [
+      "base.txt:1059"
+    ],
+    "hellay.net": [
+      "mobile.txt:428"
+    ],
+    "helpfulmaple.com": [
+      "base.txt:36"
+    ],
+    "hestherchiffer.com": [
+      "base.txt:268"
+    ],
+    "hetcash.com": [
+      "base.txt:1446"
+    ],
+    "hewdasgas.com": [
+      "base.txt:57"
+    ],
+    "heyzap.com": [
+      "mobile.txt:906"
+    ],
+    "hfisngksng.com": [
+      "chinese.txt:91"
+    ],
+    "hhvhpxvuu.com": [
+      "base.txt:294"
+    ],
+    "hoerenjs.b-cdn.net": [
+      "base.txt:393"
+    ],
+    "hohosearch.com": [
+      "base.txt:1149"
+    ],
+    "hokkid5.com": [
+      "chinese.txt:11"
+    ],
+    "holder.com.ua": [
+      "mobile.txt:687"
+    ],
+    "hookspf.com": [
+      "base.txt:397"
+    ],
+    "horsed44.com": [
+      "mobile.txt:251"
+    ],
+    "host57k.cfd": [
+      "base.txt:440"
+    ],
+    "hotapi-va.isnssdk.com": [
+      "mobile.txt:506"
+    ],
+    "houseads-prod.elasticbeanstalk.com": [
+      "mobile.txt:907"
+    ],
+    "houseads.ttpsdk.info": [
+      "mobile.txt:908"
+    ],
+    "hpfkvr.icu": [
+      "mobile.txt:250"
+    ],
+    "hs.178yc.com": [
+      "chinese.txt:39"
+    ],
+    "hsehk.cn": [
+      "chinese.txt:28"
+    ],
+    "hsrdkt.com": [
+      "base.txt:492"
+    ],
+    "httpdns.bilivideo.com": [
+      "mobile.txt:316"
+    ],
+    "httpool.com": [
+      "mobile.txt:909"
+    ],
+    "hubcloud.com.cn": [
+      "chinese.txt:34"
+    ],
+    "huldeeforgoer.com": [
+      "base.txt:419"
+    ],
+    "humiliatedaboveboardwho.com": [
+      "base.txt:249"
+    ],
+    "hungry-exit.com": [
+      "base.txt:345"
+    ],
+    "huntmad.com": [
+      "mobile.txt:910"
+    ],
+    "hw-ot-ad.a.yximgs.com": [
+      "mobile.txt:391"
+    ],
+    "hybrid.ai": [
+      "mobile.txt:125"
+    ],
+    "hyperadx.com": [
+      "mobile.txt:728"
+    ],
+    "i-reklama.sk": [
+      "base.txt:883"
+    ],
+    "i-vengo.com": [
+      "mobile.txt:912"
+    ],
+    "i.isnssdk.com": [
+      "mobile.txt:507"
+    ],
+    "i.singular.net": [
+      "mobile.txt:1005"
+    ],
+    "i16-tb.isnssdk.com": [
+      "mobile.txt:508"
+    ],
+    "i2ad.jp": [
+      "mobile.txt:717"
+    ],
+    "iad.appboy.com": [
+      "mobile.txt:914"
+    ],
+    "iads.unity3d.com": [
+      "mobile.txt:359"
+    ],
+    "iadsdk.apple.com": [
+      "mobile.txt:916"
+    ],
+    "iam.datasavannah.com": [
+      "mobile.txt:570"
+    ],
+    "ichannel.isnssdk.com": [
+      "mobile.txt:509"
+    ],
+    "icyads.com": [
+      "base.txt:1452"
+    ],
+    "ig65.vip": [
+      "chinese.txt:100"
+    ],
+    "ig66.vip": [
+      "chinese.txt:101"
+    ],
+    "ig67.vip": [
+      "chinese.txt:102"
+    ],
+    "iiageq.com": [
+      "base.txt:663"
+    ],
+    "im.ov.yahoo.co.jp": [
+      "mobile.txt:441"
+    ],
+    "imapi-sg.isnssdk.com": [
+      "mobile.txt:510"
+    ],
+    "img.175532.com": [
+      "chinese.txt:109"
+    ],
+    "img.911787.com": [
+      "chinese.txt:110"
+    ],
+    "imgx.jampp.com": [
+      "mobile.txt:480"
+    ],
+    "impassableretainerexplained.com": [
+      "base.txt:290"
+    ],
+    "impbid.com": [
+      "mobile.txt:233"
+    ],
+    "impdsp.meituan.com": [
+      "chinese.txt:22"
+    ],
+    "inapps.af-sdk.com": [
+      "mobile.txt:158"
+    ],
+    "infinity-info.com": [
+      "base.txt:1455"
+    ],
+    "infolinks.com": [
+      "mobile.txt:918"
+    ],
+    "ingamesads.gameloft.com": [
+      "mobile.txt:716"
+    ],
+    "injusticebakery.com": [
+      "base.txt:277"
+    ],
+    "inklinkor.com": [
+      "base.txt:236"
+    ],
+    "inmense.site": [
+      "mobile.txt:326"
+    ],
+    "inmobi.cn": [
+      "mobile.txt:923"
+    ],
+    "inmobi.net": [
+      "mobile.txt:922"
+    ],
+    "inmobicdn.net": [
+      "mobile.txt:924"
+    ],
+    "inmobisdk-a.akamaihd.net": [
+      "mobile.txt:925"
+    ],
+    "inner-active.com": [
+      "mobile.txt:926"
+    ],
+    "inner-active.mobi": [
+      "mobile.txt:927"
+    ],
+    "innovid.com": [
+      "mobile.txt:928"
+    ],
+    "insensitiveshoweraudible.com": [
+      "base.txt:418"
+    ],
+    "integral-marketing.com": [
+      "mobile.txt:929"
+    ],
+    "interlinecustomroofingllc.com": [
+      "base.txt:145"
+    ],
+    "intermarkets.net": [
+      "mobile.txt:930"
+    ],
+    "intowow.com": [
+      "mobile.txt:931"
+    ],
+    "investingchannel.com": [
+      "mobile.txt:932"
+    ],
+    "irregularglancedyielded.com": [
+      "base.txt:479"
+    ],
+    "itad.linetv.tw": [
+      "base.txt:1047"
+    ],
+    "itadapi.ithome.com.tw": [
+      "chinese.txt:233"
+    ],
+    "iv.hautboyhellen.com": [
+      "base.txt:716"
+    ],
+    "iyes.youku.com": [
+      "mobile.txt:492"
+    ],
+    "jackknifemonuments.com": [
+      "base.txt:380"
+    ],
+    "jambojar.com": [
+      "base.txt:1453"
+    ],
+    "jcgdhqusv.com": [
+      "base.txt:313"
+    ],
+    "jdvzwpsfnjphs.com": [
+      "base.txt:260"
+    ],
+    "jentii.online": [
+      "base.txt:95"
+    ],
+    "jfvnerukf.it.com": [
+      "base.txt:432"
+    ],
+    "jicypigra.com": [
+      "base.txt:833"
+    ],
+    "jillsclickcorner.com": [
+      "base.txt:880"
+    ],
+    "jinanrqz.com": [
+      "chinese.txt:16"
+    ],
+    "jioads.akamaized.net": [
+      "mobile.txt:584"
+    ],
+    "jjpp.lmtjapi.com": [
+      "mobile.txt:331"
+    ],
+    "jorcnuuk.com": [
+      "base.txt:101"
+    ],
+    "jscdn.yieldbird.com": [
+      "base.txt:1058"
+    ],
+    "jsfilecdn.com": [
+      "base.txt:488"
+    ],
+    "jsonads.upnerd.net": [
+      "base.txt:626"
+    ],
+    "jumpfiledoor.click": [
+      "base.txt:552"
+    ],
+    "juneworewyjyna.com": [
+      "base.txt:238"
+    ],
+    "justad.mobi": [
+      "mobile.txt:933"
+    ],
+    "jybsb9oyss.com": [
+      "mobile.txt:260"
+    ],
+    "kayzen.io": [
+      "base.txt:591"
+    ],
+    "kcwcohcmsotlsyn.com": [
+      "base.txt:472"
+    ],
+    "ketchapp.org": [
+      "mobile.txt:30"
+    ],
+    "kiki18.com": [
+      "base.txt:417"
+    ],
+    "kingered-banctours.com": [
+      "base.txt:513"
+    ],
+    "kiosked.com": [
+      "mobile.txt:935"
+    ],
+    "kjbeseujnss.com": [
+      "base.txt:100"
+    ],
+    "kjetdxtcammhc.com": [
+      "base.txt:80"
+    ],
+    "kmqianneng66.com": [
+      "chinese.txt:106"
+    ],
+    "kochava.com": [
+      "mobile.txt:936"
+    ],
+    "komoona.com": [
+      "mobile.txt:937"
+    ],
+    "krbulhb.com": [
+      "chinese.txt:116"
+    ],
+    "krt.asycxtz.cn": [
+      "mobile.txt:458"
+    ],
+    "krutilka.net": [
+      "mobile.txt:938"
+    ],
+    "ksks2.sportsonline.top": [
+      "base.txt:199"
+    ],
+    "ku7v49qghpkytrk537er.rest": [
+      "base.txt:361"
+    ],
+    "kummelsmytilid.cfd": [
+      "base.txt:115"
+    ],
+    "kurxabjwulu.in": [
+      "base.txt:367"
+    ],
+    "kvaedit.site": [
+      "mobile.txt:319"
+    ],
+    "kw0xlh4wig.com": [
+      "mobile.txt:179"
+    ],
+    "kyemnphpymnyv.website": [
+      "base.txt:270"
+    ],
+    "kzeaxmzil.in": [
+      "base.txt:63"
+    ],
+    "l0-secure.videohub.tv": [
+      "mobile.txt:939"
+    ],
+    "l3op.info": [
+      "mobile.txt:940"
+    ],
+    "lacunads.com": [
+      "mobile.txt:362"
+    ],
+    "lafacw.xyz": [
+      "chinese.txt:120"
+    ],
+    "lajeshuru.pro": [
+      "base.txt:879"
+    ],
+    "launcher.us.yeshen.com": [
+      "mobile.txt:63"
+    ],
+    "lb.usemaxserver.de": [
+      "mobile.txt:941"
+    ],
+    "ldfyjedytzkpx.space": [
+      "base.txt:61"
+    ],
+    "leadboltads.net": [
+      "mobile.txt:942"
+    ],
+    "leanplum.com": [
+      "mobile.txt:943"
+    ],
+    "lepidpomps.com": [
+      "base.txt:465"
+    ],
+    "lf-static.tiktokpangle-cdn-us.com": [
+      "mobile.txt:286"
+    ],
+    "lgvlbd.icu": [
+      "mobile.txt:288"
+    ],
+    "lh1dki82.com": [
+      "chinese.txt:77"
+    ],
+    "lib-wp.dev": [
+      "base.txt:340"
+    ],
+    "libelintent.com": [
+      "base.txt:74"
+    ],
+    "liftoff-creatives.io": [
+      "mobile.txt:453"
+    ],
+    "liftoff.io": [
+      "mobile.txt:623"
+    ],
+    "liftyad.xyz": [
+      "base.txt:594"
+    ],
+    "lightlypowerfulgourmet.com": [
+      "base.txt:195"
+    ],
+    "live.hyprmx.com": [
+      "mobile.txt:499"
+    ],
+    "livestt.co": [
+      "base.txt:624"
+    ],
+    "lndpy.com": [
+      "base.txt:493"
+    ],
+    "loadmypath.click": [
+      "base.txt:551"
+    ],
+    "longansabortionrusin.com": [
+      "base.txt:497"
+    ],
+    "look.kfiopkln.com": [
+      "mobile.txt:627"
+    ],
+    "looksmartppc.com": [
+      "base.txt:1491"
+    ],
+    "loopmeedge.net": [
+      "base.txt:590"
+    ],
+    "lordhq.biz": [
+      "base.txt:72"
+    ],
+    "luckyforworlds.com": [
+      "mobile.txt:605"
+    ],
+    "luugy.com": [
+      "base.txt:211"
+    ],
+    "lxqcgj.com": [
+      "mobile.txt:685"
+    ],
+    "lzopmoas.in": [
+      "base.txt:35"
+    ],
+    "mad.mobisky.pl": [
+      "mobile.txt:945"
+    ],
+    "madnet.ru": [
+      "mobile.txt:946"
+    ],
+    "mads.amazon.com": [
+      "mobile.txt:368"
+    ],
+    "manage.com": [
+      "mobile.txt:947"
+    ],
+    "mantis-awx.com": [
+      "base.txt:282"
+    ],
+    "marketing.mangacopy.com": [
+      "mobile.txt:393"
+    ],
+    "masculine-employment.com": [
+      "base.txt:176"
+    ],
+    "maskmonopoly.com": [
+      "base.txt:224"
+    ],
+    "masterlythehague.com": [
+      "base.txt:304"
+    ],
+    "maticooads.com": [
+      "mobile.txt:280"
+    ],
+    "matrix.dailyinnovation.biz": [
+      "mobile.txt:554"
+    ],
+    "max-adserv.com": [
+      "base.txt:988"
+    ],
+    "max21.info": [
+      "base.txt:449"
+    ],
+    "maxesads.com": [
+      "base.txt:544"
+    ],
+    "maxesads.ru": [
+      "mobile.txt:239"
+    ],
+    "mblapi.ssl2.duapps.com": [
+      "mobile.txt:130"
+    ],
+    "mbn.com.ua": [
+      "mobile.txt:948"
+    ],
+    "mcds.dalyfeds.com": [
+      "mobile.txt:198"
+    ],
+    "mcoreads.com": [
+      "mobile.txt:578"
+    ],
+    "meadowwhat.com": [
+      "base.txt:89"
+    ],
+    "meatusbyway.cfd": [
+      "base.txt:93"
+    ],
+    "med-api.admost.com": [
+      "mobile.txt:723"
+    ],
+    "mediacpc.com": [
+      "base.txt:1423"
+    ],
+    "mediadstream.com": [
+      "base.txt:1483"
+    ],
+    "medialand.ru": [
+      "mobile.txt:949"
+    ],
+    "mediation.goog": [
+      "mobile.txt:217"
+    ],
+    "mediation.unity3d.com": [
+      "mobile.txt:345"
+    ],
+    "medium-while.com": [
+      "base.txt:202"
+    ],
+    "meendocash.com": [
+      "mobile.txt:951"
+    ],
+    "megapred.com": [
+      "base.txt:213"
+    ],
+    "meijxqop.com": [
+      "chinese.txt:13"
+    ],
+    "mejewusodovuca.com": [
+      "base.txt:193"
+    ],
+    "mellow-habit.com": [
+      "base.txt:293"
+    ],
+    "member.javtvnow.xyz": [
+      "base.txt:891"
+    ],
+    "mernrza.com": [
+      "chinese.txt:55"
+    ],
+    "metamx.com": [
+      "mobile.txt:952"
+    ],
+    "mg.xhkvff.cn": [
+      "chinese.txt:141"
+    ],
+    "mgage.com": [
+      "mobile.txt:953"
+    ],
+    "mi.gdt.qq.com": [
+      "mobile.txt:954"
+    ],
+    "midnightlotusgrove.com": [
+      "base.txt:1357"
+    ],
+    "mimicromax.com": [
+      "mobile.txt:60"
+    ],
+    "mintegral.com": [
+      "mobile.txt:473"
+    ],
+    "minutelight-1.online": [
+      "base.txt:1504"
+    ],
+    "miwxoqcbiswmx.com": [
+      "base.txt:165"
+    ],
+    "mixadvert.com": [
+      "mobile.txt:955"
+    ],
+    "mm.wxc.cc": [
+      "chinese.txt:118"
+    ],
+    "mmp-api.itpub.cloud": [
+      "mobile.txt:192"
+    ],
+    "mmp001.scalemonk.com": [
+      "mobile.txt:455"
+    ],
+    "mn.browpotware.com": [
+      "base.txt:235"
+    ],
+    "mo.freeindoapp.com": [
+      "mobile.txt:143"
+    ],
+    "moatads.com.edgekey.net": [
+      "mobile.txt:707"
+    ],
+    "moba8.net": [
+      "mobile.txt:956"
+    ],
+    "mobads-logs.bcebos.com": [
+      "mobile.txt:187"
+    ],
+    "mobads-pre-config.cdn.bcebos.com": [
+      "mobile.txt:186"
+    ],
+    "mobads.baidu.com": [
+      "mobile.txt:957"
+    ],
+    "mobclix.com": [
+      "mobile.txt:958"
+    ],
+    "mobfox.com": [
+      "mobile.txt:959"
+    ],
+    "mobi.yanosik.pl": [
+      "mobile.txt:488"
+    ],
+    "mobiads.ru": [
+      "mobile.txt:960"
+    ],
+    "mobidriven.com": [
+      "mobile.txt:452"
+    ],
+    "mobile-campaigns.avast.com": [
+      "mobile.txt:83"
+    ],
+    "mobileadvertiser.yanosik.pl": [
+      "mobile.txt:489"
+    ],
+    "mobilecore.com": [
+      "mobile.txt:961"
+    ],
+    "mobiledl.adboe.com": [
+      "mobile.txt:962"
+    ],
+    "mobilefuse.com": [
+      "mobile.txt:448"
+    ],
+    "mobondhrd.appspot.com": [
+      "mobile.txt:486"
+    ],
+    "mobotoolpush.moboapps.io": [
+      "mobile.txt:71"
+    ],
+    "mobpowertech.com": [
+      "mobile.txt:662"
+    ],
+    "mobuppsrtb.com": [
+      "base.txt:1489"
+    ],
+    "modusygunaciro.com": [
+      "base.txt:52"
+    ],
+    "mofox.com": [
+      "mobile.txt:963"
+    ],
+    "monitor.adcaffe.com": [
+      "mobile.txt:66"
+    ],
+    "montmena.top": [
+      "base.txt:609"
+    ],
+    "moofoonepaw.com": [
+      "base.txt:563"
+    ],
+    "moonlighthathel.org": [
+      "base.txt:253"
+    ],
+    "mopub-win-us-east.bksn.se": [
+      "mobile.txt:730"
+    ],
+    "mossfast.com": [
+      "base.txt:545"
+    ],
+    "mossru.com": [
+      "base.txt:396",
+      "mobile.txt:330"
+    ],
+    "mossturbo.com": [
+      "base.txt:399"
+    ],
+    "msg.ettoday.net": [
+      "mobile.txt:634"
+    ],
+    "mt-api.itpub.cloud": [
+      "mobile.txt:193"
+    ],
+    "mtag.mman.kr": [
+      "mobile.txt:407"
+    ],
+    "mtburn.jp": [
+      "mobile.txt:964"
+    ],
+    "mtgglobals.com": [
+      "mobile.txt:370"
+    ],
+    "mtrcss.com": [
+      "mobile.txt:965"
+    ],
+    "multiww.com": [
+      "mobile.txt:201"
+    ],
+    "musiciansaudience.com": [
+      "base.txt:1466"
+    ],
+    "mxaserver.mxplay.com": [
+      "mobile.txt:431"
+    ],
+    "mxqdpxzybpx.com": [
+      "base.txt:69"
+    ],
+    "mxvp-ad-config-prod-1.zenmxapps.com": [
+      "mobile.txt:718"
+    ],
+    "mxvp-feature-toggle-prod-1.zenmxapps.com": [
+      "mobile.txt:719"
+    ],
+    "mydas.mobi": [
+      "mobile.txt:966"
+    ],
+    "n0611.com": [
+      "chinese.txt:136"
+    ],
+    "n152adserv.com": [
+      "mobile.txt:1070"
+    ],
+    "n55ylc001.vip": [
+      "chinese.txt:112"
+    ],
+    "n6pwo7whs2.com": [
+      "chinese.txt:18"
+    ],
+    "namebrain.org": [
+      "base.txt:17"
+    ],
+    "nanigans.com": [
+      "mobile.txt:967"
+    ],
+    "nasimobi.com": [
+      "mobile.txt:440"
+    ],
+    "native.cli.bz": [
+      "mobile.txt:691"
+    ],
+    "nativead.s3.amazonaws.com": [
+      "mobile.txt:731"
+    ],
+    "nativex.com": [
+      "mobile.txt:968"
+    ],
+    "naverpa-phinf.pstatic.net": [
+      "mobile.txt:400"
+    ],
+    "nbcollect.kugou.com": [
+      "mobile.txt:307"
+    ],
+    "nbcollectretry.kugou.com": [
+      "mobile.txt:308"
+    ],
+    "nearbyad.com": [
+      "mobile.txt:969"
+    ],
+    "nend.net": [
+      "mobile.txt:970"
+    ],
+    "neo7x.com": [
+      "base.txt:302"
+    ],
+    "neonewszone.lat": [
+      "base.txt:51"
+    ],
+    "nervousstroke.com": [
+      "base.txt:112"
+    ],
+    "netavenir.com": [
+      "mobile.txt:971"
+    ],
+    "netpub.media": [
+      "base.txt:1240"
+    ],
+    "netseer.com": [
+      "mobile.txt:972"
+    ],
+    "netshelter.net": [
+      "mobile.txt:973"
+    ],
+    "networksdk.ssacdn.com": [
+      "mobile.txt:581"
+    ],
+    "networld.hk": [
+      "mobile.txt:974"
+    ],
+    "new-split.com": [
+      "base.txt:113"
+    ],
+    "newchallenges-dsp.com": [
+      "base.txt:1461"
+    ],
+    "newfeatureview.perfectionholic.com": [
+      "mobile.txt:619"
+    ],
+    "news-cdn.site": [
+      "mobile.txt:329"
+    ],
+    "news-img.site": [
+      "mobile.txt:328"
+    ],
+    "newsnet.in.ua": [
+      "mobile.txt:975"
+    ],
+    "nexac.com": [
+      "mobile.txt:976"
+    ],
+    "nextacdn.top": [
+      "mobile.txt:226"
+    ],
+    "nhgmymxth.com": [
+      "base.txt:243"
+    ],
+    "nicelymodulo.com": [
+      "base.txt:123"
+    ],
+    "nickhel.com": [
+      "mobile.txt:677"
+    ],
+    "njhlvz.icu": [
+      "chinese.txt:47"
+    ],
+    "nkdccsiwixvzj.world": [
+      "base.txt:669"
+    ],
+    "nkis.nikkei.com": [
+      "mobile.txt:599"
+    ],
+    "nmxcvnue.it.com": [
+      "base.txt:431"
+    ],
+    "notabl8.com": [
+      "base.txt:711"
+    ],
+    "novostimira.biz": [
+      "mobile.txt:977"
+    ],
+    "noxagile.duapp.com": [
+      "mobile.txt:132"
+    ],
+    "numbers.md": [
+      "mobile.txt:978"
+    ],
+    "numnahphineas.com": [
+      "base.txt:315"
+    ],
+    "nwhentheautumn.com": [
+      "base.txt:588"
+    ],
+    "nycp-hlb.dvgtm.akadns.net": [
+      "mobile.txt:697"
+    ],
+    "nyhizyjybawozi.com": [
+      "base.txt:152"
+    ],
+    "o333o.com": [
+      "base.txt:1223"
+    ],
+    "ob.leap.app": [
+      "mobile.txt:460"
+    ],
+    "ocolt.com": [
+      "base.txt:495"
+    ],
+    "oconner.biz": [
+      "mobile.txt:679"
+    ],
+    "octillion.tv": [
+      "mobile.txt:223"
+    ],
+    "ofbtrorzo.in": [
+      "base.txt:439"
+    ],
+    "offerwall-adnative.com": [
+      "mobile.txt:524"
+    ],
+    "offerwall.yandex.net": [
+      "mobile.txt:422"
+    ],
+    "ofroztlmyo.in": [
+      "base.txt:160"
+    ],
+    "ogads-pa.clients6.google.com": [
+      "mobile.txt:220"
+    ],
+    "ojfotraqjg.in": [
+      "base.txt:447"
+    ],
+    "okloib88.com": [
+      "mobile.txt:254"
+    ],
+    "omes-sec.heytapmobi.com": [
+      "chinese.txt:35"
+    ],
+    "onaudience.com": [
+      "base.txt:1131"
+    ],
+    "one-new-message.com": [
+      "base.txt:476"
+    ],
+    "onemediawork.com": [
+      "base.txt:1505"
+    ],
+    "onlineapi.youappi.com": [
+      "mobile.txt:579"
+    ],
+    "onmarshtompor.com": [
+      "base.txt:501"
+    ],
+    "ookris.oferty-kredytowe.pl": [
+      "base.txt:1009"
+    ],
+    "open.e.kuaishou.cn": [
+      "mobile.txt:383"
+    ],
+    "open.e.kuaishou.com": [
+      "mobile.txt:384"
+    ],
+    "open.isnssdk.com": [
+      "mobile.txt:511"
+    ],
+    "open.kuaishouzt.com": [
+      "mobile.txt:385"
+    ],
+    "open.kwaizt.com": [
+      "mobile.txt:386"
+    ],
+    "openads.aira.cz": [
+      "base.txt:580"
+    ],
+    "openglass.tv": [
+      "mobile.txt:222"
+    ],
+    "openmindedpassengerserr.com": [
+      "base.txt:341"
+    ],
+    "openrtb.in": [
+      "base.txt:1498"
+    ],
+    "opt8.co": [
+      "mobile.txt:650"
+    ],
+    "organic-package.com": [
+      "base.txt:50"
+    ],
+    "os.scmpacdn.com": [
+      "mobile.txt:979"
+    ],
+    "othbmudutr.in": [
+      "base.txt:58"
+    ],
+    "other.appcpi.net": [
+      "mobile.txt:602"
+    ],
+    "ouiokaq.top": [
+      "chinese.txt:99"
+    ],
+    "outpush.net": [
+      "base.txt:1450"
+    ],
+    "overplantovervaluetwine.com": [
+      "base.txt:422"
+    ],
+    "ozbnagojbop.com": [
+      "base.txt:721"
+    ],
+    "p-behacdn.ksmobile.net": [
+      "mobile.txt:78"
+    ],
+    "p.lbserver.xyz": [
+      "base.txt:239"
+    ],
+    "p1-lm.adukwai.com": [
+      "mobile.txt:395"
+    ],
+    "p16-ad.byteoversea.com": [
+      "mobile.txt:369"
+    ],
+    "p3-ad-sign.byteimg.com": [
+      "mobile.txt:181"
+    ],
+    "p3-ad-sign.byteimg.com.queniusy.com": [
+      "mobile.txt:182"
+    ],
+    "p7tycr5jcw42r2pflvo7.cfd": [
+      "base.txt:360"
+    ],
+    "pahtbt.tech": [
+      "base.txt:463"
+    ],
+    "pahter.tech": [
+      "base.txt:458"
+    ],
+    "pahtlf.tech": [
+      "base.txt:461"
+    ],
+    "pahtpw.tech": [
+      "base.txt:623"
+    ],
+    "pahtsx.tech": [
+      "base.txt:462"
+    ],
+    "pahtuo.tech": [
+      "base.txt:459"
+    ],
+    "pahtuz.tech": [
+      "base.txt:460"
+    ],
+    "palateonce.com": [
+      "mobile.txt:170"
+    ],
+    "pangle.io": [
+      "mobile.txt:536"
+    ],
+    "pangolin16.isnssdk.com": [
+      "mobile.txt:512"
+    ],
+    "pangolin16.sgsnssdk.com": [
+      "mobile.txt:404"
+    ],
+    "parrot-flow.com": [
+      "base.txt:403",
+      "mobile.txt:244"
+    ],
+    "partnerearning.com": [
+      "mobile.txt:982"
+    ],
+    "pasfox.co": [
+      "base.txt:549"
+    ],
+    "pasta.esfile.duapps.com": [
+      "mobile.txt:134"
+    ],
+    "pecannerous.com": [
+      "base.txt:225"
+    ],
+    "perf-events.cloud.unity3d.com": [
+      "mobile.txt:983"
+    ],
+    "performoo.com": [
+      "base.txt:653"
+    ],
+    "pexelss.net": [
+      "base.txt:65"
+    ],
+    "pflexads.com": [
+      "mobile.txt:984"
+    ],
+    "pgdt.gtimg.cn": [
+      "mobile.txt:371"
+    ],
+    "pglstatp-toutiao.com": [
+      "mobile.txt:382"
+    ],
+    "phluant.com": [
+      "mobile.txt:985"
+    ],
+    "phoneupstandingcatholic.com": [
+      "base.txt:454"
+    ],
+    "phoobsoo.net": [
+      "base.txt:487"
+    ],
+    "physicaldad.com": [
+      "base.txt:205"
+    ],
+    "pic-stash.com": [
+      "mobile.txt:118"
+    ],
+    "piousshiners.com": [
+      "base.txt:156"
+    ],
+    "pithyiwgz.top": [
+      "mobile.txt:235"
+    ],
+    "pixel.admobclick.com": [
+      "mobile.txt:986"
+    ],
+    "pixelpluses.com": [
+      "base.txt:1459"
+    ],
+    "pkoapbafhgaf.in": [
+      "base.txt:366"
+    ],
+    "plarimoplus.com": [
+      "base.txt:1426"
+    ],
+    "playgap.b-cdn.net": [
+      "mobile.txt:340"
+    ],
+    "playhaven.com": [
+      "mobile.txt:987"
+    ],
+    "playwire.com": [
+      "mobile.txt:167"
+    ],
+    "plugin.mobopay.baidu.com": [
+      "mobile.txt:142"
+    ],
+    "pm.poqwua.cn": [
+      "chinese.txt:142"
+    ],
+    "pnzekbgdcsumd.com": [
+      "base.txt:555"
+    ],
+    "pob-mob2.websearchbrowser.com": [
+      "mobile.txt:206"
+    ],
+    "politicallygreek.com": [
+      "base.txt:297"
+    ],
+    "polymorphicads.jp": [
+      "mobile.txt:714"
+    ],
+    "pontiflex.com": [
+      "mobile.txt:989"
+    ],
+    "popcashjs.b-cdn.net": [
+      "base.txt:850"
+    ],
+    "portalfluently.com": [
+      "base.txt:305"
+    ],
+    "portiasaigon.com": [
+      "base.txt:161"
+    ],
+    "postmedia-ai.wehaacdn.com": [
+      "base.txt:382"
+    ],
+    "powderencouraged.com": [
+      "base.txt:215"
+    ],
+    "powerlinks.com": [
+      "mobile.txt:555"
+    ],
+    "ppcent.org": [
+      "base.txt:600"
+    ],
+    "pr.comet.yahoo.com": [
+      "mobile.txt:526"
+    ],
+    "preanalytication.com": [
+      "base.txt:983"
+    ],
+    "prebid.scope3.com": [
+      "base.txt:569"
+    ],
+    "precoxwurzels.qpon": [
+      "base.txt:144"
+    ],
+    "prehurl.com": [
+      "base.txt:231"
+    ],
+    "preroll.hostave3.net": [
+      "base.txt:538"
+    ],
+    "presage.io": [
+      "mobile.txt:1054"
+    ],
+    "prettytube.net": [
+      "base.txt:1380"
+    ],
+    "prismriotads.com": [
+      "mobile.txt:188"
+    ],
+    "prizefamily.com": [
+      "base.txt:272"
+    ],
+    "prod-blocking.workers.dev": [
+      "base.txt:412"
+    ],
+    "prod.adjoe.zone": [
+      "mobile.txt:366"
+    ],
+    "profitable-grocery.com": [
+      "base.txt:351"
+    ],
+    "projecta-common-1258344701.file.myqcloud.com": [
+      "mobile.txt:373"
+    ],
+    "prologguisedputid.qpon": [
+      "base.txt:298"
+    ],
+    "promediaspace.my": [
+      "base.txt:448"
+    ],
+    "promo-images.ttpsdk.info": [
+      "mobile.txt:567"
+    ],
+    "promoted.sndcdn.com": [
+      "mobile.txt:541"
+    ],
+    "promoted.soundcloud.com": [
+      "mobile.txt:611"
+    ],
+    "promotion-en.xmeye.net": [
+      "mobile.txt:270"
+    ],
+    "promotion-quicker.jftechsoft.com": [
+      "mobile.txt:271"
+    ],
+    "promotion.xmeye.net": [
+      "mobile.txt:269"
+    ],
+    "promotionad.nvcam.net": [
+      "mobile.txt:456"
+    ],
+    "psonstrentie.info": [
+      "base.txt:1045"
+    ],
+    "pssvc.iqzone.com": [
+      "mobile.txt:648"
+    ],
+    "psvpromo.psvgamestudio.com": [
+      "mobile.txt:352"
+    ],
+    "pteknvcm.com": [
+      "base.txt:178"
+    ],
+    "puata.info": [
+      "chinese.txt:31"
+    ],
+    "pub.contexthub.net": [
+      "base.txt:956"
+    ],
+    "pub.searchnova.net": [
+      "base.txt:371"
+    ],
+    "pub1.co": [
+      "mobile.txt:992"
+    ],
+    "pubds.bid": [
+      "base.txt:209"
+    ],
+    "pubfuture-ssp.com": [
+      "base.txt:214"
+    ],
+    "pubjelly.nxjmp.com": [
+      "base.txt:508"
+    ],
+    "pubnative.info": [
+      "mobile.txt:537"
+    ],
+    "pubnative.net": [
+      "mobile.txt:993"
+    ],
+    "pullcf.com": [
+      "mobile.txt:195"
+    ],
+    "punosy.best": [
+      "base.txt:307"
+    ],
+    "pushad.metajoy.services": [
+      "mobile.txt:547"
+    ],
+    "pusqfnqjeekvd.website": [
+      "base.txt:232"
+    ],
+    "pwr-ads.com": [
+      "base.txt:1490"
+    ],
+    "px.adhigh.net": [
+      "mobile.txt:126"
+    ],
+    "pzaawtgujvim.com": [
+      "base.txt:484"
+    ],
+    "qbhsocu.com": [
+      "chinese.txt:19"
+    ],
+    "qifacaisklop.com": [
+      "chinese.txt:25"
+    ],
+    "qirgzaosm.in": [
+      "base.txt:203"
+    ],
+    "qist.me": [
+      "mobile.txt:461"
+    ],
+    "qortex.ai": [
+      "base.txt:1465"
+    ],
+    "questionmarket.com": [
+      "mobile.txt:994"
+    ],
+    "quizzicalrun.com": [
+      "base.txt:415"
+    ],
+    "qwfh39851jtfvkurf21hf.com": [
+      "base.txt:1130"
+    ],
+    "qwooxrmixmzi.com": [
+      "base.txt:477"
+    ],
+    "qxaz2xcw.com": [
+      "chinese.txt:74"
+    ],
+    "qxif497o6q61e2nep.cyou": [
+      "base.txt:276"
+    ],
+    "qxwoiv.com": [
+      "chinese.txt:115"
+    ],
+    "qzs.gdtimg.com": [
+      "chinese.txt:12"
+    ],
+    "r0.mail.ru": [
+      "mobile.txt:303"
+    ],
+    "r2d2.aotter.net": [
+      "mobile.txt:477"
+    ],
+    "ra1.xyz": [
+      "chinese.txt:134"
+    ],
+    "raggedapproaching.com": [
+      "base.txt:107"
+    ],
+    "rainmaker.production-public.tubi.io": [
+      "mobile.txt:275"
+    ],
+    "rainmaker4.production-public.tubi.io": [
+      "mobile.txt:210"
+    ],
+    "rapidfire.cc": [
+      "base.txt:126"
+    ],
+    "rayjump.com": [
+      "mobile.txt:111"
+    ],
+    "rca.lol": [
+      "base.txt:647"
+    ],
+    "rdipmrbwgvk.com": [
+      "base.txt:237"
+    ],
+    "reachableads.com": [
+      "base.txt:1458"
+    ],
+    "recordedfuseexecuted.com": [
+      "base.txt:522"
+    ],
+    "red-swimming.com": [
+      "base.txt:671"
+    ],
+    "redetaailshilet.com": [
+      "base.txt:610"
+    ],
+    "redtram.com": [
+      "mobile.txt:678"
+    ],
+    "referwhen.com": [
+      "base.txt:135"
+    ],
+    "reflecting-nature.com": [
+      "base.txt:42"
+    ],
+    "relevanceads.com": [
+      "base.txt:1457"
+    ],
+    "relieved-understanding.com": [
+      "base.txt:194"
+    ],
+    "renrenkanpian.com": [
+      "chinese.txt:94"
+    ],
+    "reqde.sooplive.com": [
+      "mobile.txt:146"
+    ],
+    "resourcelow.com": [
+      "base.txt:76"
+    ],
+    "restartad.com": [
+      "mobile.txt:572"
+    ],
+    "resu8.hjfile.cn": [
+      "base.txt:1079"
+    ],
+    "reward-api.csjplatform.com": [
+      "mobile.txt:231"
+    ],
+    "rfsdvudff.com": [
+      "base.txt:68"
+    ],
+    "rfvgcross.com": [
+      "base.txt:398"
+    ],
+    "rgzz3rs.icu": [
+      "chinese.txt:21"
+    ],
+    "richlifeads.ru": [
+      "mobile.txt:314"
+    ],
+    "ritzumafma.com": [
+      "base.txt:564"
+    ],
+    "rixengine.com": [
+      "base.txt:705"
+    ],
+    "robin-flow.com": [
+      "base.txt:401",
+      "mobile.txt:245"
+    ],
+    "rodexchange.com": [
+      "base.txt:73"
+    ],
+    "rollgosize.com": [
+      "base.txt:180"
+    ],
+    "ropeshippingcatchy.com": [
+      "base.txt:234"
+    ],
+    "ropsumemu.com": [
+      "base.txt:355"
+    ],
+    "rossoad.com": [
+      "mobile.txt:484"
+    ],
+    "rotaban.ru": [
+      "mobile.txt:995"
+    ],
+    "royalbluefireplace.com": [
+      "base.txt:19"
+    ],
+    "rqmob.com": [
+      "mobile.txt:429"
+    ],
+    "rsptkogqvascs.site": [
+      "base.txt:316"
+    ],
+    "rtapi.abbi.io": [
+      "mobile.txt:626"
+    ],
+    "rtb.appbid.com": [
+      "mobile.txt:625"
+    ],
+    "rtb.julang.taobao.com": [
+      "chinese.txt:23"
+    ],
+    "rtb.nefta.app": [
+      "mobile.txt:161"
+    ],
+    "rtb.viewsense.ai": [
+      "base.txt:122"
+    ],
+    "rtbadzesto.com": [
+      "base.txt:1501"
+    ],
+    "rtbbtr.com": [
+      "base.txt:537"
+    ],
+    "rtbdemand.com": [
+      "base.txt:1482"
+    ],
+    "rtbfactory.com": [
+      "base.txt:1495"
+    ],
+    "rtblab.net": [
+      "mobile.txt:361"
+    ],
+    "rtbplatform.net": [
+      "base.txt:1432"
+    ],
+    "rtbserve.io": [
+      "base.txt:1463"
+    ],
+    "rtouchingthewaterw.com": [
+      "base.txt:500"
+    ],
+    "ruamupr.com": [
+      "base.txt:46"
+    ],
+    "rudimentarytheoreticalrome.com": [
+      "base.txt:138"
+    ],
+    "rugfrfji.win": [
+      "mobile.txt:248"
+    ],
+    "ruuaqkw.com": [
+      "mobile.txt:364"
+    ],
+    "s-adx.op-mobile.opera.com": [
+      "mobile.txt:28"
+    ],
+    "s-odx.oleads.com": [
+      "mobile.txt:344"
+    ],
+    "s.dt6ycu.com": [
+      "base.txt:632"
+    ],
+    "s.hisp.in": [
+      "mobile.txt:411"
+    ],
+    "s2.static.cfgr3.com": [
+      "base.txt:654"
+    ],
+    "s3.ttpsdk.info": [
+      "mobile.txt:568"
+    ],
+    "sableviolet.com": [
+      "base.txt:229"
+    ],
+    "sahqtibw.com": [
+      "base.txt:650"
+    ],
+    "sainwertapr.com": [
+      "base.txt:274"
+    ],
+    "salungavine.com": [
+      "base.txt:129"
+    ],
+    "samsungtvads.com": [
+      "base.txt:1341"
+    ],
+    "san.myadssupport.com": [
+      "mobile.txt:295"
+    ],
+    "saqtuwrryaft.in": [
+      "base.txt:13"
+    ],
+    "sat.cellordion3.net": [
+      "base.txt:700"
+    ],
+    "sat.dipamaid.net": [
+      "base.txt:701"
+    ],
+    "sat.fevilsor5.net": [
+      "base.txt:703"
+    ],
+    "sat.terithrow2.net": [
+      "base.txt:702"
+    ],
+    "satisfiednews.com": [
+      "base.txt:428"
+    ],
+    "saturndynamic.pt": [
+      "base.txt:1493"
+    ],
+    "saymedia.com": [
+      "mobile.txt:997"
+    ],
+    "sc.smardroid.com": [
+      "mobile.txt:644"
+    ],
+    "screen.buzzvil.com": [
+      "mobile.txt:120"
+    ],
+    "scripts.contimo.app": [
+      "base.txt:370"
+    ],
+    "sdhahs.com": [
+      "base.txt:496"
+    ],
+    "sdk-api-v1.singular.net": [
+      "mobile.txt:1006"
+    ],
+    "sdk-api.kidoz.net": [
+      "mobile.txt:278"
+    ],
+    "sdk.adtiming.com": [
+      "mobile.txt:658"
+    ],
+    "sdk.starbolt.io": [
+      "mobile.txt:999"
+    ],
+    "sdkc.vervegroupinc.net": [
+      "mobile.txt:113"
+    ],
+    "sdkv2.imaginationunwired.com": [
+      "mobile.txt:437"
+    ],
+    "sdnstatistic.com": [
+      "base.txt:308"
+    ],
+    "se.rfvtgbyhn.com": [
+      "mobile.txt:227"
+    ],
+    "search.adcaffe.com": [
+      "mobile.txt:65"
+    ],
+    "seeksgironny.com": [
+      "base.txt:184"
+    ],
+    "seminarycentral.org": [
+      "base.txt:196"
+    ],
+    "servebom.com": [
+      "mobile.txt:1000"
+    ],
+    "servedby.o2.co.uk": [
+      "mobile.txt:576"
+    ],
+    "server.megabrain.co": [
+      "base.txt:697"
+    ],
+    "serveraddr.service.kugou.com": [
+      "mobile.txt:305"
+    ],
+    "service-ad-image-ga.prd.pluto.tv": [
+      "mobile.txt:290"
+    ],
+    "sessionm.com": [
+      "mobile.txt:1001"
+    ],
+    "sfaobvfic.in": [
+      "base.txt:510"
+    ],
+    "shameful-farm.com": [
+      "base.txt:207"
+    ],
+    "sharebang.com": [
+      "base.txt:568"
+    ],
+    "sharethrough.com": [
+      "mobile.txt:1003"
+    ],
+    "sharkvidskr.com": [
+      "base.txt:173",
+      "base.txt:181"
+    ],
+    "sheilaqeb.com": [
+      "mobile.txt:273"
+    ],
+    "shieryuefajkix.com": [
+      "chinese.txt:41"
+    ],
+    "shilongnianlopa.com": [
+      "chinese.txt:26"
+    ],
+    "shisanmaozser.com": [
+      "chinese.txt:42"
+    ],
+    "shiyifacaisalzc.com": [
+      "mobile.txt:178"
+    ],
+    "shouldercommandmentlimitless.com": [
+      "chinese.txt:123"
+    ],
+    "shypublishedeternity.com": [
+      "base.txt:146"
+    ],
+    "sikncs.com": [
+      "chinese.txt:92"
+    ],
+    "silvermob.com": [
+      "mobile.txt:1004"
+    ],
+    "sinceaware.com": [
+      "base.txt:142"
+    ],
+    "sitemaji.com": [
+      "mobile.txt:631"
+    ],
+    "sitescout.com": [
+      "mobile.txt:1008"
+    ],
+    "skadnetwork.singular.net": [
+      "mobile.txt:1007"
+    ],
+    "skadsdk.appsflyer.com": [
+      "mobile.txt:474"
+    ],
+    "ski.leftnewsex.com": [
+      "base.txt:284"
+    ],
+    "skt-asum.com": [
+      "mobile.txt:425"
+    ],
+    "skypie.info": [
+      "base.txt:625"
+    ],
+    "slc.cbssports.com": [
+      "base.txt:554"
+    ],
+    "sm-cloud.yunsafe.top": [
+      "chinese.txt:82"
+    ],
+    "smallanywhere.com": [
+      "base.txt:206"
+    ],
+    "smartytouch.co": [
+      "base.txt:451"
+    ],
+    "smilered.com": [
+      "mobile.txt:1071"
+    ],
+    "smog.gentlecork.com": [
+      "base.txt:47"
+    ],
+    "smrtads.com": [
+      "base.txt:592"
+    ],
+    "socdm.com": [
+      "mobile.txt:96"
+    ],
+    "solarad.net": [
+      "base.txt:1439"
+    ],
+    "somepossibility.com": [
+      "base.txt:369"
+    ],
+    "sonicsads.com": [
+      "mobile.txt:225"
+    ],
+    "sonobi.com": [
+      "mobile.txt:1009"
+    ],
+    "soundcloud-pax.pandora.com": [
+      "mobile.txt:540"
+    ],
+    "spbgc.com": [
+      "base.txt:334"
+    ],
+    "speee-ad.akamaized.net": [
+      "mobile.txt:652"
+    ],
+    "spicyrtb.com": [
+      "base.txt:301"
+    ],
+    "spitefulmom.com": [
+      "base.txt:223"
+    ],
+    "splash-ad.classting.com": [
+      "mobile.txt:349"
+    ],
+    "splash.appsgeyser.com": [
+      "mobile.txt:1010"
+    ],
+    "splicky.com": [
+      "mobile.txt:665"
+    ],
+    "springserve.com": [
+      "mobile.txt:558"
+    ],
+    "srt94.click": [
+      "base.txt:90"
+    ],
+    "srvgl.com": [
+      "base.txt:327"
+    ],
+    "sscefsol.com": [
+      "mobile.txt:1011"
+    ],
+    "ssp-ad.momento.dev": [
+      "mobile.txt:495"
+    ],
+    "ssp.mediation.trnox.com": [
+      "mobile.txt:73"
+    ],
+    "ssp.otm-r.com": [
+      "mobile.txt:580"
+    ],
+    "sspapi-prd.samsungrs.com": [
+      "mobile.txt:34"
+    ],
+    "st-fly.b-cdn.net": [
+      "chinese.txt:128"
+    ],
+    "stackup-ai.com": [
+      "base.txt:109"
+    ],
+    "stanzytkyx.com": [
+      "base.txt:480"
+    ],
+    "startappservice.com": [
+      "mobile.txt:638"
+    ],
+    "startup-mobile.ap.yandex-net.ru": [
+      "mobile.txt:152"
+    ],
+    "startup.mobile.webvisor.com": [
+      "mobile.txt:151"
+    ],
+    "startup.mobile.yandex.net": [
+      "mobile.txt:150"
+    ],
+    "stat.kika-backend.com": [
+      "mobile.txt:1012"
+    ],
+    "static.accesstrade.vn": [
+      "base.txt:230"
+    ],
+    "static.hyprmx.com": [
+      "mobile.txt:501"
+    ],
+    "static.jampp.com": [
+      "mobile.txt:481"
+    ],
+    "static.terratraf.com": [
+      "mobile.txt:114"
+    ],
+    "static.timetreeads.com": [
+      "mobile.txt:354"
+    ],
+    "stream.spongead.com": [
+      "mobile.txt:399"
+    ],
+    "streamvault.top": [
+      "base.txt:321"
+    ],
+    "stripe.rs-1028-a.com": [
+      "base.txt:1325"
+    ],
+    "studdisablerely.com": [
+      "base.txt:130"
+    ],
+    "stutterschuyt.com": [
+      "base.txt:376"
+    ],
+    "subag.freexxxbase.com": [
+      "base.txt:730"
+    ],
+    "sumatoad.com": [
+      "mobile.txt:673"
+    ],
+    "sunnyreception.com": [
+      "base.txt:182"
+    ],
+    "supersedeaccolade.com": [
+      "base.txt:222",
+      "base.txt:227"
+    ],
+    "supersonicads-a.akamaihd.net": [
+      "mobile.txt:1013"
+    ],
+    "supersonicads.com": [
+      "mobile.txt:1014"
+    ],
+    "swelen.com": [
+      "mobile.txt:1015"
+    ],
+    "switchadhub.com": [
+      "mobile.txt:1016"
+    ],
+    "sx.fakjkwp.cn": [
+      "chinese.txt:137"
+    ],
+    "syncbm.com": [
+      "base.txt:64"
+    ],
+    "syndication.trafficreps.com": [
+      "mobile.txt:1017"
+    ],
+    "synthes.vo.llnwd.net": [
+      "mobile.txt:700"
+    ],
+    "szubtepzaka.com": [
+      "base.txt:558"
+    ],
+    "t.easywebland.my": [
+      "base.txt:437"
+    ],
+    "taboola-display.com": [
+      "base.txt:40"
+    ],
+    "tag.winister.app": [
+      "base.txt:803"
+    ],
+    "tap-nexus.appspot.com": [
+      "mobile.txt:1018"
+    ],
+    "tapad.com": [
+      "mobile.txt:1019"
+    ],
+    "tapdaq-adverts.global.ssl.fastly.net": [
+      "mobile.txt:624"
+    ],
+    "tapit.com": [
+      "mobile.txt:1020"
+    ],
+    "tapjoy.com": [
+      "mobile.txt:527"
+    ],
+    "tapjoy.net": [
+      "mobile.txt:528"
+    ],
+    "tapone.jp": [
+      "mobile.txt:1021"
+    ],
+    "tappx.com": [
+      "mobile.txt:1022"
+    ],
+    "tapsell.ir": [
+      "mobile.txt:583"
+    ],
+    "tapsense.com": [
+      "mobile.txt:1023"
+    ],
+    "tapulsads.ru": [
+      "mobile.txt:315"
+    ],
+    "targaubs.com": [
+      "base.txt:1042"
+    ],
+    "tbiwtech.com": [
+      "mobile.txt:232"
+    ],
+    "tc.qzwxrtyk.com": [
+      "mobile.txt:228"
+    ],
+    "tccbanner.com": [
+      "mobile.txt:592"
+    ],
+    "tcwvvosfnvk.com": [
+      "base.txt:164",
+      "base.txt:168"
+    ],
+    "tds.bid": [
+      "base.txt:570"
+    ],
+    "teachscape.vo.llnwd.net": [
+      "mobile.txt:701"
+    ],
+    "techaddom8132.com": [
+      "base.txt:646"
+    ],
+    "telecome.cn": [
+      "chinese.txt:80"
+    ],
+    "textads.lv": [
+      "base.txt:75"
+    ],
+    "thecalokas.com": [
+      "base.txt:443"
+    ],
+    "thecatmachine.com": [
+      "mobile.txt:446"
+    ],
+    "thenetwork18.com": [
+      "base.txt:1438"
+    ],
+    "thetrafficstat.net": [
+      "mobile.txt:1026"
+    ],
+    "theweeklydonut.org": [
+      "chinese.txt:79"
+    ],
+    "thind-gke-euw.prd.data.corp.unity3d.com": [
+      "mobile.txt:597"
+    ],
+    "thoroughgear.com": [
+      "base.txt:55"
+    ],
+    "tiktokpangle.us": [
+      "mobile.txt:284"
+    ],
+    "tilerypursers.qpon": [
+      "base.txt:125"
+    ],
+    "tinyns.me": [
+      "base.txt:60"
+    ],
+    "tiu6ij9yqn.com": [
+      "mobile.txt:262"
+    ],
+    "tiz-cc95ue-309.com": [
+      "base.txt:622"
+    ],
+    "tizerclik.com": [
+      "mobile.txt:1027"
+    ],
+    "tjskjndukyk.com": [
+      "base.txt:573"
+    ],
+    "tk0x1.com": [
+      "mobile.txt:434"
+    ],
+    "tk6if76q.ab1n.net": [
+      "base.txt:310"
+    ],
+    "tkcatrun.aotter.net": [
+      "mobile.txt:478"
+    ],
+    "tkcatwalk.aotter.net": [
+      "mobile.txt:639"
+    ],
+    "tkmedia-cache.aotter.net": [
+      "mobile.txt:641"
+    ],
+    "tkmedia.aotter.net": [
+      "mobile.txt:640"
+    ],
+    "tkmftc.aotter.net": [
+      "mobile.txt:671"
+    ],
+    "tkportal.aotter.net": [
+      "mobile.txt:642"
+    ],
+    "tl7x928g7l3ppnqnc7ngy8wue3qgkvnb.cfd": [
+      "base.txt:362"
+    ],
+    "tm1.hoiplay.com": [
+      "mobile.txt:1028"
+    ],
+    "tmadsrv.com": [
+      "base.txt:309"
+    ],
+    "tmz.vo.llnwd.net": [
+      "mobile.txt:702"
+    ],
+    "tnc16-alisg.isnssdk.com": [
+      "mobile.txt:513"
+    ],
+    "tnc16-useast1a.isnssdk.com": [
+      "mobile.txt:514"
+    ],
+    "togothermany.com": [
+      "mobile.txt:360"
+    ],
+    "tonefuse.com": [
+      "mobile.txt:1029"
+    ],
+    "tooasthmaloose.com": [
+      "base.txt:908"
+    ],
+    "toodlerehouse.com": [
+      "base.txt:421"
+    ],
+    "topdealad.com": [
+      "base.txt:1435"
+    ],
+    "toponadss.com": [
+      "mobile.txt:412"
+    ],
+    "topsolutionsmedia.com": [
+      "base.txt:1479"
+    ],
+    "tp.suppercacheimages.top": [
+      "chinese.txt:45"
+    ],
+    "tpbid.com": [
+      "mobile.txt:726"
+    ],
+    "tpiwudolrna.in": [
+      "base.txt:67"
+    ],
+    "tpx.tesseradigital.com": [
+      "base.txt:902"
+    ],
+    "tr.acobt.tech": [
+      "mobile.txt:268"
+    ],
+    "track.bcvc.mobi": [
+      "base.txt:1210"
+    ],
+    "track.sparta-tracking.xyz": [
+      "base.txt:793"
+    ],
+    "trackimpression.com": [
+      "mobile.txt:1031"
+    ],
+    "tracking.applift.com": [
+      "mobile.txt:1032"
+    ],
+    "tracking.cirrusinsight.com": [
+      "base.txt:1211"
+    ],
+    "tracking.scenepass.com": [
+      "base.txt:992"
+    ],
+    "tradplusad.com": [
+      "mobile.txt:529"
+    ],
+    "traffic.cam4pays.com": [
+      "base.txt:389"
+    ],
+    "traffinity.pro": [
+      "base.txt:242"
+    ],
+    "trafmag.com": [
+      "mobile.txt:1033"
+    ],
+    "traktum.com": [
+      "mobile.txt:1034"
+    ],
+    "trambelongedallure.com": [
+      "base.txt:26"
+    ],
+    "trc.taboola.com": [
+      "mobile.txt:1035"
+    ],
+    "trk.glispa.com": [
+      "mobile.txt:1036"
+    ],
+    "trustkiwi.com": [
+      "base.txt:254"
+    ],
+    "tsrrygodropvq.space": [
+      "base.txt:81"
+    ],
+    "tubemogul.com": [
+      "mobile.txt:1037"
+    ],
+    "tubexazimebeze.com": [
+      "base.txt:241"
+    ],
+    "turn.com": [
+      "mobile.txt:1038"
+    ],
+    "turnipsoft.pubfinity.com": [
+      "base.txt:834"
+    ],
+    "turnstilesocially.com": [
+      "base.txt:395"
+    ],
+    "tveta.naver.net": [
+      "mobile.txt:629"
+    ],
+    "tvqmgheb.com": [
+      "chinese.txt:38"
+    ],
+    "tw-api.vpon.com": [
+      "mobile.txt:589"
+    ],
+    "tw.api.vpon.com": [
+      "mobile.txt:657"
+    ],
+    "twigcrucialpal.com": [
+      "base.txt:285"
+    ],
+    "tx-ad.a.yximgs.com": [
+      "mobile.txt:389"
+    ],
+    "tx-kmpaudio.pull.yximgs.com": [
+      "mobile.txt:390"
+    ],
+    "txhywh.cn": [
+      "chinese.txt:43"
+    ],
+    "typicallyuncovernull.com": [
+      "base.txt:467"
+    ],
+    "u-ad.info": [
+      "mobile.txt:1039"
+    ],
+    "u40pdqw.com": [
+      "chinese.txt:78"
+    ],
+    "u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me": [
+      "base.txt:813"
+    ],
+    "ucads.ucweb.com": [
+      "mobile.txt:207"
+    ],
+    "ue8im.com": [
+      "chinese.txt:130"
+    ],
+    "ufz.doesxyz.com": [
+      "mobile.txt:138"
+    ],
+    "uibjh29vqc.com": [
+      "mobile.txt:175"
+    ],
+    "ultraadserver.com": [
+      "mobile.txt:1040"
+    ],
+    "umbel.com": [
+      "mobile.txt:1041"
+    ],
+    "umini.shujupie.com": [
+      "chinese.txt:20"
+    ],
+    "umphek.com": [
+      "mobile.txt:339"
+    ],
+    "unalaskamiaskitewormproof.monster": [
+      "base.txt:286"
+    ],
+    "unblockia.com": [
+      "base.txt:283"
+    ],
+    "unfoldedtrade.com": [
+      "base.txt:43"
+    ],
+    "unicume.com": [
+      "mobile.txt:1042"
+    ],
+    "unityads.unity3d.com": [
+      "mobile.txt:598"
+    ],
+    "untilhmph.com": [
+      "base.txt:71"
+    ],
+    "untimely-hello.com": [
+      "base.txt:155"
+    ],
+    "untimely-proof.pro": [
+      "base.txt:288"
+    ],
+    "up.ousabq.tech": [
+      "mobile.txt:219"
+    ],
+    "upasiansex.com": [
+      "base.txt:1136"
+    ],
+    "upbeatbut.com": [
+      "base.txt:198"
+    ],
+    "upsight.com": [
+      "mobile.txt:1043"
+    ],
+    "usekahuna.com": [
+      "mobile.txt:1044"
+    ],
+    "userwave.com": [
+      "base.txt:1422"
+    ],
+    "usheebainaut.com": [
+      "base.txt:611"
+    ],
+    "usp1.baidu.com": [
+      "mobile.txt:140"
+    ],
+    "usrpubtrck.com": [
+      "base.txt:44"
+    ],
+    "uydeqs9.xyz": [
+      "mobile.txt:194"
+    ],
+    "v.kidoz.net": [
+      "mobile.txt:277"
+    ],
+    "v16-ad.byteoversea.com": [
+      "mobile.txt:351"
+    ],
+    "v8b9c0x1z2.sai7348.xyz": [
+      "mobile.txt:287"
+    ],
+    "vahqmyowjp.com": [
+      "base.txt:258"
+    ],
+    "vampyrejibmen.com": [
+      "base.txt:444"
+    ],
+    "velti.com": [
+      "mobile.txt:1045"
+    ],
+    "vernaellac.com": [
+      "chinese.txt:51"
+    ],
+    "video-ads-module.ad-tech.nbcuni.com": [
+      "base.txt:841"
+    ],
+    "videoads-cloud.rovio.com": [
+      "mobile.txt:490"
+    ],
+    "videoplus.vo.llnwd.net": [
+      "mobile.txt:703"
+    ],
+    "vidwestxyz.com": [
+      "base.txt:314"
+    ],
+    "villagybullion.cyou": [
+      "base.txt:299"
+    ],
+    "vipads.live": [
+      "base.txt:1229"
+    ],
+    "vivotzrigtry.com": [
+      "base.txt:273"
+    ],
+    "vm5apis.com": [
+      "mobile.txt:788"
+    ],
+    "vmap.v.ad-generation.jp": [
+      "mobile.txt:491"
+    ],
+    "vniddlg.xyz": [
+      "mobile.txt:261"
+    ],
+    "vod-mplayer.sooplive.com": [
+      "mobile.txt:145"
+    ],
+    "vokut.com": [
+      "base.txt:1502"
+    ],
+    "voluumtrk2.com": [
+      "base.txt:1213"
+    ],
+    "vserv.mobi": [
+      "mobile.txt:1047"
+    ],
+    "vungle.com": [
+      "mobile.txt:1048"
+    ],
+    "vuukle.net": [
+      "base.txt:1496"
+    ],
+    "vxcholycr.com": [
+      "base.txt:527"
+    ],
+    "waardex.com": [
+      "base.txt:1444"
+    ],
+    "waiads.com": [
+      "mobile.txt:1049"
+    ],
+    "wanlycoxier.com": [
+      "base.txt:128"
+    ],
+    "wapstart.ru": [
+      "mobile.txt:1050"
+    ],
+    "warkedmalie.com": [
+      "base.txt:240"
+    ],
+    "warp.media.net": [
+      "base.txt:601"
+    ],
+    "waterloggedkind.com": [
+      "base.txt:114"
+    ],
+    "wcp.taobao.com": [
+      "mobile.txt:184"
+    ],
+    "wdig.vo.llnwd.net": [
+      "mobile.txt:704"
+    ],
+    "wdziitkl.com": [
+      "chinese.txt:14"
+    ],
+    "webmedxml.com": [
+      "base.txt:1462"
+    ],
+    "webtradingspot.com": [
+      "base.txt:1472"
+    ],
+    "west.bidtellect.com": [
+      "mobile.txt:1051"
+    ],
+    "whatdidheseehe.com": [
+      "base.txt:262"
+    ],
+    "wheelroot.com": [
+      "base.txt:349"
+    ],
+    "whehilru.com": [
+      "base.txt:1040"
+    ],
+    "whoeverhow.com": [
+      "base.txt:87"
+    ],
+    "widespace.com": [
+      "mobile.txt:1052"
+    ],
+    "wild-match.com": [
+      "base.txt:388"
+    ],
+    "wildwist.com": [
+      "chinese.txt:140"
+    ],
+    "wivowu.my": [
+      "base.txt:62"
+    ],
+    "wkzw.me": [
+      "chinese.txt:96"
+    ],
+    "wl.uqwjdhgv.top": [
+      "chinese.txt:117"
+    ],
+    "wnwtfmpsmslwi.site": [
+      "base.txt:187"
+    ],
+    "wonderfulyesterday.com": [
+      "base.txt:344"
+    ],
+    "wordego.com": [
+      "mobile.txt:1053"
+    ],
+    "wrupqrdcwvjar.space": [
+      "base.txt:320"
+    ],
+    "wtraff.com": [
+      "mobile.txt:1055"
+    ],
+    "www.adbert.com.tw": [
+      "mobile.txt:656"
+    ],
+    "wxqdcakvuv.com": [
+      "base.txt:368"
+    ],
+    "x3m.biz": [
+      "mobile.txt:211"
+    ],
+    "xaprio.net": [
+      "base.txt:1433"
+    ],
+    "xbarbppqv.com": [
+      "base.txt:469"
+    ],
+    "xcultur.com": [
+      "chinese.txt:32"
+    ],
+    "xdowl0adxd0wnloadx.com": [
+      "base.txt:868"
+    ],
+    "xdrig.com": [
+      "mobile.txt:139"
+    ],
+    "xdrlthfhikvgm.club": [
+      "base.txt:661"
+    ],
+    "xhvideo.saawsedge.com": [
+      "base.txt:83"
+    ],
+    "ximad.com": [
+      "mobile.txt:1056"
+    ],
+    "xjwhtz10.com": [
+      "chinese.txt:56"
+    ],
+    "xjwhtz2.com": [
+      "chinese.txt:57"
+    ],
+    "xjwhtz3.com": [
+      "chinese.txt:58"
+    ],
+    "xjwhtz4.com": [
+      "chinese.txt:59"
+    ],
+    "xjwhtz5.com": [
+      "chinese.txt:60"
+    ],
+    "xjwhtz6.com": [
+      "chinese.txt:61"
+    ],
+    "xjwhtz7.com": [
+      "chinese.txt:62"
+    ],
+    "xjwhtz8.com": [
+      "chinese.txt:63"
+    ],
+    "xjwhtz9.com": [
+      "chinese.txt:64"
+    ],
+    "xl-ads.com": [
+      "base.txt:247"
+    ],
+    "xml.pops.gg": [
+      "base.txt:151"
+    ],
+    "xml.srvqk.com": [
+      "base.txt:331"
+    ],
+    "xmlfusion.com": [
+      "base.txt:1443"
+    ],
+    "xmlppc.net": [
+      "base.txt:1467"
+    ],
+    "xn--2ss830adjbqy7h.xn--fiqs8s": [
+      "chinese.txt:144"
+    ],
+    "xpjcg.oss-accelerate.aliyuncs.com": [
+      "chinese.txt:114"
+    ],
+    "xrtb.io": [
+      "base.txt:1427"
+    ],
+    "xwdsofoflwimy.website": [
+      "base.txt:246"
+    ],
+    "xxsmtz1.com": [
+      "chinese.txt:65"
+    ],
+    "xxsmtz2.com": [
+      "chinese.txt:66"
+    ],
+    "xxsmtz3.com": [
+      "chinese.txt:67"
+    ],
+    "xxsmtz4.com": [
+      "chinese.txt:68"
+    ],
+    "xxsmtz5.com": [
+      "chinese.txt:69"
+    ],
+    "xxsmtz6.com": [
+      "chinese.txt:70"
+    ],
+    "xxsmtz7.com": [
+      "chinese.txt:71"
+    ],
+    "xxsmtz8.com": [
+      "chinese.txt:72"
+    ],
+    "xxsmtz9.com": [
+      "chinese.txt:73"
+    ],
+    "y.crazyporn.xxx": [
+      "base.txt:712"
+    ],
+    "yandexadexchange.net": [
+      "mobile.txt:1057"
+    ],
+    "yc-ads.s3.amazonaws.com": [
+      "mobile.txt:1058"
+    ],
+    "ydxdg.xyz": [
+      "chinese.txt:87"
+    ],
+    "yearlyartist.com": [
+      "base.txt:140"
+    ],
+    "yeesshh.com": [
+      "base.txt:1487"
+    ],
+    "yessearches.com": [
+      "base.txt:1150"
+    ],
+    "yfanads.com": [
+      "mobile.txt:185"
+    ],
+    "yieldkit.com": [
+      "mobile.txt:1059"
+    ],
+    "yieldmo.com": [
+      "mobile.txt:1060"
+    ],
+    "yinyouapp.com": [
+      "chinese.txt:145"
+    ],
+    "yippeeidle.com": [
+      "base.txt:99"
+    ],
+    "yjibimcrcylrg.website": [
+      "base.txt:245"
+    ],
+    "ykad-data.youku.com": [
+      "mobile.txt:15"
+    ],
+    "yllix.com": [
+      "mobile.txt:1061"
+    ],
+    "ymdxl.com": [
+      "chinese.txt:139"
+    ],
+    "yodo1.com": [
+      "mobile.txt:165"
+    ],
+    "youmi.net": [
+      "mobile.txt:1062"
+    ],
+    "yovoads.com": [
+      "mobile.txt:571"
+    ],
+    "zealousimage.com": [
+      "base.txt:433"
+    ],
+    "zedo.com": [
+      "mobile.txt:1064"
+    ],
+    "zentrixads.com": [
+      "base.txt:1488"
+    ],
+    "zgzxs.weathercn.com": [
+      "mobile.txt:355"
+    ],
+    "zipzirim.com": [
+      "base.txt:18"
+    ],
+    "ziweuu.com": [
+      "chinese.txt:84"
+    ],
+    "zmqdez.ru": [
+      "mobile.txt:267"
+    ],
+    "zoligirls.com": [
+      "base.txt:201"
+    ],
+    "zoly.tech": [
+      "mobile.txt:237"
+    ],
+    "zowiedead.com": [
+      "base.txt:33"
+    ],
+    "zrraksfxccuop.online": [
+      "base.txt:59"
+    ],
+    "zstnzufw.com": [
+      "base.txt:468"
+    ],
+    "zugasezuryjoxo.com": [
+      "base.txt:191"
+    ],
+    "zxphiz.tech": [
+      "mobile.txt:236"
+    ],
+    "zzhengre.com": [
+      "mobile.txt:720"
+    ],
+    "zzlocalsquared.com": [
+      "base.txt:306"
+    ],
+    "zzyqkeniw.com": [
+      "base.txt:281"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/0408f180b8d7575254162fc9911302646da2a12a/BaseFilter/sections/adservers.txt",
+      "file": "sources/adguard/base.txt",
+      "sha256": "54927e24f8d45ce6f94fde790bd3ab542a366a39b88a27233b51b13297790be2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/0408f180b8d7575254162fc9911302646da2a12a/MobileFilter/sections/adservers.txt",
+      "file": "sources/adguard/mobile.txt",
+      "sha256": "f23fbc56cb7dadee6fe2f8057b395cca12aadd124bc16711593258a3d0f51f40"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/0408f180b8d7575254162fc9911302646da2a12a/ChineseFilter/sections/adservers.txt",
+      "file": "sources/adguard/chinese.txt",
+      "sha256": "78f9d889dcaacef52e0f994080d1d997bf99ea41d04d4bda66a0772233b07bbe"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/c1fdb248eeddaddc543d7341a59c4a49dc6d0d3a/Filters/exceptions.txt",
+      "file": "sources/adguard-dns/exceptions.txt",
+      "sha256": "908696a453e162ab839b53a97b3e38fb389ac2102e4a54046ec4b2f4287f664d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/c1fdb248eeddaddc543d7341a59c4a49dc6d0d3a/Filters/exclusions.txt",
+      "file": "sources/adguard-dns/exclusions.txt",
+      "sha256": "9457e4f6c15d5e98b0fb2bcea1b75d93933d95f7596dfdc59c261c3c16b61a59"
+    }
+  ],
+  "license": "GPL-3.0-only"
+}
