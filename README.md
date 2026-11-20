@@ -20,7 +20,10 @@
 | HTTPDNS 拦截器 | [HTTPDNS.sgmodule](Surge/HTTPDNS.sgmodule) | 拒绝常见 HTTPDNS 请求，促使支持回退的应用使用正常 DNS |
 | 广告平台拦截器 | [Advertisers.sgmodule](Surge/Advertisers.sgmodule) | 拦截广告平台域名及部分广告资源，配合应用专项模块 |
 
-仓库默认私有。私有 raw 链接不能作为稳定的免登录远程模块订阅，请从 GitHub 下载上述文件，再在 Surge 中作为本地模块导入；不要把 GitHub 令牌写入订阅地址。
+仓库公开，可以在 Surge 中通过以下直链添加远程模块：
+
+- HTTPDNS：https://raw.githubusercontent.com/EvenSix66/surge-modules/main/Surge/HTTPDNS.sgmodule
+- 广告平台：https://raw.githubusercontent.com/EvenSix66/surge-modules/main/Surge/Advertisers.sgmodule
 
 使用当前稳定版 Surge。规则中包含 `pre-matching`（官方注明 iOS 5.14.0+ / Mac 5.9.0+）；HTTPDNS 模块还包含内联 Map Local。将广告平台模块置于模块列表靠前位置，具体优先级以 Surge 合并后的配置为准。两个模块并不替代各应用专项规则。
 
@@ -46,4 +49,4 @@ HTTPDNS 拒绝后能否回退取决于应用；某些应用可能出现重试或
 
 ## 权利说明
 
-原始模块及规则的权利属于各自作者，本仓库不将其重新许可。上游网站声明限制修改和公开分发，索引仓库也说明仅配置模板开源。本仓库保持私有，不代表取得了额外授权；未经原作者许可不要改为公开或再次分发。转换来源仓库也不主张拥有模块版权。
+原始模块及规则的权利属于各自作者，本仓库不将其重新许可。上游网站声明限制修改和公开分发，索引仓库也说明仅配置模板开源。本仓库公开不代表已取得原作者额外授权。转换来源仓库也不主张拥有模块版权。
