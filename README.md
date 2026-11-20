@@ -31,6 +31,8 @@ HTTPS URL 重写和 Map Local 需要启用重写、MITM，并在设备信任 Sur
 
 ## 本次适配
 
+模块头遵循 [Surge 官方模块说明](https://manual.nssurge.com/profile/module.html)：文件以连续的 `#!` 元数据开始，`#!name`、`#!desc` 位于最前，普通来源注释放到元数据之后。版本 2026.11.20.2 将作者、适配版本、上游日期及使用条件写入 `#!desc`，方便在模块说明中查看。`author`、`homepage`、`version` 等额外字段供参考，官方并未保证在所有客户端界面单独展示。已有安装请手动更新远程模块；本地导入需重新下载。
+
 1. 移除仅适用于 Loon 的 `#!loon_version` 元数据；保留全部请求规则及其顺序，包括上游 DIRECT 例外。
 2. 将 HTTPDNS 描述改为 Surge 语境。
 3. 补齐 HTTPDNS HTTPS 规则所需的 MITM 主机：虎牙、喜马拉雅，以及 UC 正则覆盖的 `ucdc-upaas` 与 `ucdc0` 至 `ucdc9-upaas`。未添加整个父域的通配解密。

@@ -19,8 +19,20 @@ for name in ('HTTPDNS', 'Advertisers'):
     for line in original.splitlines():
         if line.startswith('#!loon_version='):
             continue
-        if name == 'HTTPDNS' and line.startswith('#!desc='):
-            line = '#!desc=拦截常见 HTTPDNS 服务，促使应用回退到系统/Surge DNS。基于固定版本转换产物整理，详见仓库说明。'
+        if line.startswith('#!desc='):
+            if name == 'HTTPDNS':
+                desc = '拦截常见 HTTPDNS 服务，促使支持回退的应用使用系统/Surge DNS。'
+                authors = '可莉、VirgilClyne'
+                source_date = '2026-03-01'
+            else:
+                desc = '拦截常见广告平台请求，需搭配应用专项去广告模块；建议置于模块列表靠前位置。'
+                authors = '可莉'
+                source_date = '2026-03-03'
+            line = ('#!desc=' + desc + r'\n\n原作者：' + authors
+                    + r'\nSurge 适配：EvenSix66 · 2026.11.20.2'
+                    + r'\n上游版本日期：' + source_date
+                    + r'\nHTTPS 重写需启用重写与 MITM，并信任证书。'
+                    + r'\n项目：https://github.com/EvenSix66/surge-modules')
         if line.startswith(('IP-CIDR,', 'IP-CIDR6,')):
             fields = line.split(',')
             fields[1] = str(ipaddress.ip_network(fields[1], strict=False))
@@ -35,8 +47,16 @@ for name in ('HTTPDNS', 'Advertisers'):
             hosts += [f'ucdc{i}-upaas.uc.cn' for i in range(10)]
             line = 'hostname = %APPEND% ' + ', '.join(hosts)
         output.append(line)
-    output.insert(0, f'# Adapted from QingRex/LoonKissSurge commit {COMMIT}; original authors retained below.')
+    header_end = next(i for i, line in enumerate(output) if not line.startswith('#!'))
+    output[header_end:header_end] = [
+        '#!version=2026.11.20.2',
+        '',
+        f'# Adapted from QingRex/LoonKissSurge commit {COMMIT}; original authors retained above.',
+    ]
     result = '\n'.join(output).rstrip() + '\n'
+    assert result.startswith('#!name=')
+    metadata = dict(line[2:].split('=', 1) for line in result.split('\n\n', 1)[0].splitlines())
+    assert all(metadata.get(key) for key in ('name', 'desc', 'version'))
     # No request rule may disappear or change order during adaptation.
     def rules(text):
         values = []

@@ -1,12 +1,14 @@
-# Adapted from QingRex/LoonKissSurge commit 913ec005f544221e6c56a7d0ecec81c4b3b914bb; original authors retained below.
 #!name=广告平台拦截器
-#!desc=此插件是所有去广告插件的基础，只针对广告平台处理。你依然需要安装其他去广告插件来搭配使用，并确保此插件始终排序在顶部。\n\n支持拦截腾讯、字节跳动、快手、百度、邑盟、倍孜、艾狄墨搏、袤博、极光、个推、友盟、阿里巴巴、阿里妈妈、阿里百川、超级汇川、优比客思、秒针、网易、美团、小米、京东、天目、讯飞、泛连、锐讯灵通、聚次方、美数、嗨量、维快网络、变现猫、章鱼、分秒、泰之菩、翼信、快易、数萤技术、方麟、益起、上量优选、新义互联、腾云天下、布里奇、塔酷、丽声、推啊、旺脉、新度博望、新多广告、快易科技、封狐信息、互裕科技、旺脉信息、佳量动力、享点科技、游昆信息、小川科技、旺脉科技、萃弈、泛为、米漫、易量跃动、秒针、贵士移动、星讯、倍业科技、创聚科技、硬核聚视、数因科技、芒拓网络、上海领页、神蓍科技、Google、SupersonicAds、APPSAD、Adjust、Sigmob、TradPlus、Fancy、MedPro、AppLovin、Unity3D、Tapjoy、Liftoff、Vungle、Moloco、Smadex、Tapad、Appier、InMobi、AppsFlyer、AppLovin、Moloco、RayJump、RixEngine、Amazon等广告平台的广告请求，更适合iOS平台的应用。
+#!desc=拦截常见广告平台请求，需搭配应用专项去广告模块；建议置于模块列表靠前位置。\n\n原作者：可莉\nSurge 适配：EvenSix66 · 2026.11.20.2\n上游版本日期：2026-03-03\nHTTPS 重写需启用重写与 MITM，并信任证书。\n项目：https://github.com/EvenSix66/surge-modules
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
 #!category=iKeLee
 #!tag=去广告, 依赖
 #!homepage=https://hub.kelee.one
 #!date=2026-03-03 10:07:10
+#!version=2026.11.20.2
+
+# Adapted from QingRex/LoonKissSurge commit 913ec005f544221e6c56a7d0ecec81c4b3b914bb; original authors retained above.
 
 [Rule]
 DOMAIN-KEYWORD,adstrategy,REJECT,extended-matching,pre-matching
