@@ -19,6 +19,8 @@ for name in ('HTTPDNS', 'Advertisers'):
     for line in original.splitlines():
         if line.startswith('#!loon_version='):
             continue
+        if line.startswith('#!category='):
+            line = '#!category=EvenSix66'
         if line.startswith('#!desc='):
             if name == 'HTTPDNS':
                 desc = '拦截常见 HTTPDNS 服务，促使支持回退的应用使用系统/Surge DNS。'

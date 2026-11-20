@@ -2,7 +2,7 @@
 #!desc=拦截常见广告平台请求，需搭配应用专项去广告模块；建议置于模块列表靠前位置。\n\n原作者：可莉\nSurge 适配：EvenSix66 · 2026.11.20.2\n上游版本日期：2026-03-03\nHTTPS 重写需启用重写与 MITM，并信任证书。\n项目：https://github.com/EvenSix66/surge-modules
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
-#!category=iKeLee
+#!category=EvenSix66
 #!tag=去广告, 依赖
 #!homepage=https://hub.kelee.one
 #!date=2026-03-03 10:07:10
