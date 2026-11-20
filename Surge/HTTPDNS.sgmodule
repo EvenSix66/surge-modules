@@ -1,13 +1,16 @@
 #!name=HTTPDNS拦截器
-#!desc=拦截常见 HTTPDNS 服务，促使支持回退的应用使用系统/Surge DNS。\n\n原作者：可莉、VirgilClyne\nSurge 适配：EvenSix66 · 2026.11.20.2\n上游版本日期：2026-03-01\nHTTPS 重写需启用重写与 MITM，并信任证书。\n项目：https://github.com/EvenSix66/surge-modules
+#!desc=拦截常见 HTTPDNS 服务，促使支持回退的应用使用系统/Surge DNS。\n\n原作者：可莉、VirgilClyne\n原项目：github.com/luestr/ProxyResource\n转换来源：github.com/QingRex/LoonKissSurge\n整理：evenmodule / EvenSix66 · 2026.11.20.3\n上游版本日期：2026-03-01\nHTTPS 重写需启用重写与 MITM，并信任证书。\n项目：https://github.com/EvenSix66/surge-modules
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], VirgilClyne[https://github.com/VirgilClyne]
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/HTTPDNS.png
-#!category=EvenSix66
+#!category=evenmodule
 #!tag=去广告, 依赖
 #!homepage=https://hub.kelee.one
 #!date=2026-03-01 23:16:49
-#!version=2026.11.20.2
+#!version=2026.11.20.3
 
+# 原项目：https://github.com/luestr/ProxyResource
+# 插件主页：https://hub.kelee.one/
+# 转换来源：https://github.com/QingRex/LoonKissSurge
 # Adapted from QingRex/LoonKissSurge commit 913ec005f544221e6c56a7d0ecec81c4b3b914bb; original authors retained above.
 
 [Rule]

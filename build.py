@@ -20,7 +20,7 @@ for name in ('HTTPDNS', 'Advertisers'):
         if line.startswith('#!loon_version='):
             continue
         if line.startswith('#!category='):
-            line = '#!category=EvenSix66'
+            line = '#!category=evenmodule'
         if line.startswith('#!desc='):
             if name == 'HTTPDNS':
                 desc = '拦截常见 HTTPDNS 服务，促使支持回退的应用使用系统/Surge DNS。'
@@ -31,7 +31,9 @@ for name in ('HTTPDNS', 'Advertisers'):
                 authors = '可莉'
                 source_date = '2026-03-03'
             line = ('#!desc=' + desc + r'\n\n原作者：' + authors
-                    + r'\nSurge 适配：EvenSix66 · 2026.11.20.2'
+                    + r'\n原项目：github.com/luestr/ProxyResource'
+                    + r'\n转换来源：github.com/QingRex/LoonKissSurge'
+                    + r'\n整理：evenmodule / EvenSix66 · 2026.11.20.3'
                     + r'\n上游版本日期：' + source_date
                     + r'\nHTTPS 重写需启用重写与 MITM，并信任证书。'
                     + r'\n项目：https://github.com/EvenSix66/surge-modules')
@@ -51,8 +53,11 @@ for name in ('HTTPDNS', 'Advertisers'):
         output.append(line)
     header_end = next(i for i, line in enumerate(output) if not line.startswith('#!'))
     output[header_end:header_end] = [
-        '#!version=2026.11.20.2',
+        '#!version=2026.11.20.3',
         '',
+        '# 原项目：https://github.com/luestr/ProxyResource',
+        '# 插件主页：https://hub.kelee.one/',
+        '# 转换来源：https://github.com/QingRex/LoonKissSurge',
         f'# Adapted from QingRex/LoonKissSurge commit {COMMIT}; original authors retained above.',
     ]
     result = '\n'.join(output).rstrip() + '\n'
