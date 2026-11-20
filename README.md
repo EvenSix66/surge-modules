@@ -19,11 +19,15 @@
 | --- | --- | --- |
 | HTTPDNS 拦截器 | [HTTPDNS.sgmodule](Surge/HTTPDNS.sgmodule) | 拒绝常见 HTTPDNS 请求，促使支持回退的应用使用正常 DNS |
 | 广告平台拦截器 | [Advertisers.sgmodule](Surge/Advertisers.sgmodule) | 拦截广告平台域名及部分广告资源，配合应用专项模块 |
+| Google 搜索重定向 | [GoogleRedirect.sgmodule](Surge/GoogleRedirect.sgmodule) | 将 Google 中国搜索域名跳转至 www.google.com，保留路径及搜索参数 |
 
 仓库公开，可以在 Surge 中通过以下直链添加远程模块：
 
 - HTTPDNS：https://raw.githubusercontent.com/EvenSix66/surge-modules/main/Surge/HTTPDNS.sgmodule
 - 广告平台：https://raw.githubusercontent.com/EvenSix66/surge-modules/main/Surge/Advertisers.sgmodule
+- Google 重定向：https://raw.githubusercontent.com/EvenSix66/surge-modules/main/Surge/GoogleRedirect.sgmodule
+
+Google 重定向为独立编写的模块，遵照 Surge 官方 URL Rewrite 语法，使用 307 和 `$1` 保留路径及参数，仅匹配 google.cn / g.cn 及各自的 www 域名。它不修改浏览器默认搜索引擎设置；需禁用重复的 Google 重定向模块。HTTPS 重定向需要重写与 MITM 生效，且请求经过 Surge。若浏览器允许自定义搜索引擎，也可直接将搜索模板设为 `https://www.google.com/search?q=%s`（占位符以浏览器要求为准），避免先请求 .cn。
 
 使用当前稳定版 Surge。规则中包含 `pre-matching`（官方注明 iOS 5.14.0+ / Mac 5.9.0+）；HTTPDNS 模块还包含内联 Map Local。将广告平台模块置于模块列表靠前位置，具体优先级以 Surge 合并后的配置为准。两个模块并不替代各应用专项规则。
 

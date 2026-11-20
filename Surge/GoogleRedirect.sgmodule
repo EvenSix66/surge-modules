@@ -1,0 +1,13 @@
+#!name=Google 搜索重定向
+#!desc=将 google.cn、www.google.cn、g.cn 和 www.g.cn 跳转至 https://www.google.com，保留路径与搜索参数。\n\n作者：EvenSix66\n版本：2026.11.20.1\nHTTPS 请求需启用重写与 MITM，并信任 Surge 证书。\n若出现循环跳转，请禁用其他 Google 重定向模块。\n项目：https://github.com/EvenSix66/surge-modules
+#!author=EvenSix66
+#!homepage=https://github.com/EvenSix66/surge-modules
+#!category=功能增强
+#!version=2026.11.20.1
+
+# Independently written using https://manual.nssurge.com/http/url-rewrite.html
+[URL Rewrite]
+^https?://(?:www\.)?(?:google|g)\.cn(?=[:/?]|$)(?::\d+)?(.*)$ https://www.google.com$1 307
+
+[MITM]
+hostname = %APPEND% google.cn, www.google.cn, g.cn, www.g.cn
