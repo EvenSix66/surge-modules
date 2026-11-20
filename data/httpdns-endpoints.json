@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-11-20",
+  "sources": [
+    {
+      "id": "aliyun-startup",
+      "provider": "Alibaba Cloud HTTPDNS",
+      "url": "https://help.aliyun.com/en/document_detail/2868011.html",
+      "document_updated": "2026-03-25",
+      "scope": "Publicly documented startup endpoints, not dynamically assigned resolvers.",
+      "domains": ["resolvers-cn.httpdns.aliyuncs.com", "resolvers-hk.httpdns.aliyuncs.com", "resolvers-sg.httpdns.aliyuncs.com", "resolvers-us.httpdns.aliyuncs.com", "resolvers-de.httpdns.aliyuncs.com"],
+      "ipv4": ["203.107.1.1", "203.107.1.97", "203.107.1.100", "203.119.238.240", "106.11.25.239", "59.82.99.47", "47.56.234.194", "47.56.119.115", "161.117.200.122", "47.74.222.190", "47.246.131.175", "47.246.131.141", "47.89.80.182", "47.246.146.77"],
+      "ipv6": ["2401:b180:7001::31d", "2408:4003:1f40::30a", "2401:b180:2000:20::10", "2401:b180:2000:30::1c", "240b:4000:f10::178", "240b:4000:f10::188", "2404:2280:4000::2bb", "2404:2280:4000::23e", "2404:2280:3000::176", "2404:2280:3000::188"]
+    },
+    {
+      "id": "tencent-mobile",
+      "provider": "Tencent Cloud Mobile HTTPDNS",
+      "url": "https://cloud.tencent.com/document/product/379/95497",
+      "document_updated": "2025-05-22",
+      "scope": "Official HTTP and HTTPS ingress examples; not all runtime SDK addresses.",
+      "domains": [],
+      "ipv4": ["119.29.29.98", "119.29.29.99"],
+      "ipv6": []
+    }
+  ]
+}
