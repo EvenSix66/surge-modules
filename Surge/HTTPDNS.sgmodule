@@ -1,4 +1,4 @@
-#!name=HTTPDNS拦截器
+#!name=Even HTTPDNS
 #!desc=拦截常见 HTTPDNS 服务，促使支持回退的应用使用系统/Surge DNS。\n\n原作者：可莉、VirgilClyne\n原项目：github.com/luestr/ProxyResource\n转换来源：github.com/QingRex/LoonKissSurge\n整理：Even Modules / EvenSix66 · 2026.11.20.3\n上游版本日期：2026-03-01\nHTTPS 重写需启用重写与 MITM，并信任证书。\n项目：https://github.com/EvenSix66/surge-modules
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], VirgilClyne[https://github.com/VirgilClyne]
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/HTTPDNS.png

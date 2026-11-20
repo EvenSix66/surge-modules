@@ -19,6 +19,8 @@ for name in ('HTTPDNS', 'Advertisers'):
     for line in original.splitlines():
         if line.startswith('#!loon_version='):
             continue
+        if name == 'HTTPDNS' and line.startswith('#!name='):
+            line = '#!name=Even HTTPDNS'
         if line.startswith('#!category='):
             line = '#!category=Even Modules'
         if line.startswith('#!desc='):
