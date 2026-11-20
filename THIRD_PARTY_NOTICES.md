@@ -13,7 +13,7 @@
 | `Surge/GoogleRedirect.sgmodule` | 本仓库独立编写；参考 Surge 官方语法文档 | 未复制前述两个第三方模块；仓库所有者尚未选择对外许可 |
 | `build.py`、本仓库新增说明文档 | 本仓库新增实现及说明 | 未复制 LoonKissSurge 的 `build.ts` 或 Script-Hub 实现；尚未选择对外许可 |
 
-`evenmodule` 是界面分类，不是版权归属或许可证标识。模块中的原作者署名、主页、图标地址与上游日期继续保留；本仓库所作修改见 README 的适配记录及 Git 历史。
+`Even Modules` 是界面分类，不是版权归属或许可证标识。模块中的原作者署名、主页、图标地址与上游日期继续保留；本仓库所作修改见 README 的适配记录及 Git 历史。
 
 ## 原作者项目：luestr/ProxyResource
 

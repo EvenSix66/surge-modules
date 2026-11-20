@@ -1,8 +1,8 @@
 #!name=广告平台拦截器
-#!desc=拦截常见广告平台请求，需搭配应用专项去广告模块；建议置于模块列表靠前位置。\n\n原作者：可莉\n原项目：github.com/luestr/ProxyResource\n转换来源：github.com/QingRex/LoonKissSurge\n整理：evenmodule / EvenSix66 · 2026.11.20.3\n上游版本日期：2026-03-03\nHTTPS 重写需启用重写与 MITM，并信任证书。\n项目：https://github.com/EvenSix66/surge-modules
+#!desc=拦截常见广告平台请求，需搭配应用专项去广告模块；建议置于模块列表靠前位置。\n\n原作者：可莉\n原项目：github.com/luestr/ProxyResource\n转换来源：github.com/QingRex/LoonKissSurge\n整理：Even Modules / EvenSix66 · 2026.11.20.3\n上游版本日期：2026-03-03\nHTTPS 重写需启用重写与 MITM，并信任证书。\n项目：https://github.com/EvenSix66/surge-modules
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
-#!category=evenmodule
+#!category=Even Modules
 #!tag=去广告, 依赖
 #!homepage=https://hub.kelee.one
 #!date=2026-03-03 10:07:10

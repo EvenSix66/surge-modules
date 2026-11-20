@@ -20,7 +20,7 @@ for name in ('HTTPDNS', 'Advertisers'):
         if line.startswith('#!loon_version='):
             continue
         if line.startswith('#!category='):
-            line = '#!category=evenmodule'
+            line = '#!category=Even Modules'
         if line.startswith('#!desc='):
             if name == 'HTTPDNS':
                 desc = '拦截常见 HTTPDNS 服务，促使支持回退的应用使用系统/Surge DNS。'
@@ -33,7 +33,7 @@ for name in ('HTTPDNS', 'Advertisers'):
             line = ('#!desc=' + desc + r'\n\n原作者：' + authors
                     + r'\n原项目：github.com/luestr/ProxyResource'
                     + r'\n转换来源：github.com/QingRex/LoonKissSurge'
-                    + r'\n整理：evenmodule / EvenSix66 · 2026.11.20.3'
+                    + r'\n整理：Even Modules / EvenSix66 · 2026.11.20.3'
                     + r'\n上游版本日期：' + source_date
                     + r'\nHTTPS 重写需启用重写与 MITM，并信任证书。'
                     + r'\n项目：https://github.com/EvenSix66/surge-modules')
